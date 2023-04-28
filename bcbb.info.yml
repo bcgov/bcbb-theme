@@ -4,7 +4,7 @@ description: 'BC base-build subtheme based on Bootstrap 5 theme.'
 core_version_requirement: '^9.4 || ^10'
 'base theme': bootstrap5
 libraries:
-  - bcbb/global-styling
+  - bcbb_theme/global-styling
 ckeditor_stylesheets:
   - css/style.css
 ckeditor5-stylesheets:

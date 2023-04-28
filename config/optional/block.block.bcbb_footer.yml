@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - bcbb
+    - bcbb_theme
 id: bcbb_footer
-theme: bcbb
+theme: bcbb_theme
 region: footer
 weight: -6
 provider: null

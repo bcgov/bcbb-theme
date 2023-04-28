@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - bcbb
+    - bcbb_theme
 id: bcbb_breadcrumbs
-theme: bcbb
+theme: bcbb_theme
 region: breadcrumb
 weight: 0
 provider: null

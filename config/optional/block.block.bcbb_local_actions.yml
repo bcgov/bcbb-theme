@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - bcbb
+    - bcbb_theme
 id: bcbb_local_actions
-theme: bcbb
+theme: bcbb_theme
 region: content
 weight: -2
 provider: null

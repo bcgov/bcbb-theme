@@ -4,9 +4,9 @@ dependencies:
   module:
     - help
   theme:
-    - bcbb
+    - bcbb_theme
 id: bcbb_help
-theme: bcbb
+theme: bcbb_theme
 region: content
 weight: -3
 provider: null

@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - bcbb
+    - bcbb_theme
 id: bcbb_main_navigation
-theme: bcbb
+theme: bcbb_theme
 region: nav_main
 weight: 0
 provider: null

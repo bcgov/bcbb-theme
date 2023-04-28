@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - bcbb
+    - bcbb_theme
 id: bcbb_account_menu
-theme: bcbb
+theme: bcbb_theme
 region: nav_additional
 weight: -7
 provider: null

@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - bcbb
+    - bcbb_theme
 id: bcbb_powered_by_drupal
-theme: bcbb
+theme: bcbb_theme
 region: footer
 weight: 0
 provider: null
