@@ -1,6 +1,6 @@
-name: 'BC base-build'
+name: 'BC Base Build'
 type: theme
-description: 'BC base-build subtheme based on Bootstrap 5 theme.'
+description: 'BC Base Build subtheme based on Bootstrap 5 theme.'
 core_version_requirement: ^10.1
 'base theme': bootstrap5
 libraries:
