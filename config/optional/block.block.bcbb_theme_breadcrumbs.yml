@@ -5,7 +5,7 @@ dependencies:
     - system
   theme:
     - bcbb_theme
-id: bcbb_breadcrumbs
+id: bcbb_theme_breadcrumbs
 theme: bcbb_theme
 region: breadcrumb
 weight: 0

@@ -1,19 +1,17 @@
 langcode: en
 status: true
 dependencies:
-  module:
-    - system
   theme:
     - bcbb_theme
-id: bcbb_messages
+id: bcbb_theme_page_title
 theme: bcbb_theme
 region: content
-weight: -7
+weight: -6
 provider: null
-plugin: system_messages_block
+plugin: page_title_block
 settings:
-  id: system_messages_block
-  label: Messages
-  provider: system
+  id: page_title_block
+  label: 'Page title'
+  provider: core
   label_display: '0'
 visibility: {  }

@@ -3,7 +3,7 @@ status: true
 dependencies:
   theme:
     - bcbb_theme
-id: bcbb_local_actions
+id: bcbb_theme_local_actions
 theme: bcbb_theme
 region: content
 weight: -2

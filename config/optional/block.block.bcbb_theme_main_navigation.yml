@@ -2,23 +2,23 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.account
+    - system.menu.main
   module:
     - system
   theme:
     - bcbb_theme
-id: bcbb_account_menu
+id: bcbb_theme_main_navigation
 theme: bcbb_theme
-region: nav_additional
-weight: -7
+region: nav_main
+weight: 0
 provider: null
-plugin: 'system_menu_block:account'
+plugin: 'system_menu_block:main'
 settings:
-  id: 'system_menu_block:account'
-  label: 'User account menu'
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
   provider: system
   label_display: '0'
   level: 1
   depth: 0
-  expand_all_items: false
+  expand_all_items: true
 visibility: {  }

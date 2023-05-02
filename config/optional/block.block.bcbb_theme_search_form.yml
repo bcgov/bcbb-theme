@@ -5,7 +5,7 @@ dependencies:
     - search
   theme:
     - bcbb_theme
-id: bcbb_search_form
+id: bcbb_theme_search_form
 theme: bcbb_theme
 region: nav_additional
 weight: 0
