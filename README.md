@@ -1,10 +1,14 @@
-# BC Base Build theme
+# bcbb-theme
+
+[![Lifecycle:Experimental](https://img.shields.io/badge/Lifecycle-Experimental-339999)](<Redirect-URL>)
+
+A theme for the Drupal base-build used at Ministry of Finance.
 
 [Bootstrap 5](https://www.drupal.org/project/bootstrap5) subtheme.
 
-## Development.
+## Development
 
-### CSS compilation.
+### CSS compilation
 
 Prerequisites: install [sass](https://sass-lang.com/install).
 

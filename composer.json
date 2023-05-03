@@ -2,17 +2,9 @@
     "name": "bcgov/bcbb_theme",
     "description": "BC Base Build Theme",
     "type": "drupal-theme",
-    "license": "GPL-2.0+",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    ],
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/bcgov/bcbb-theme",
     "require": {
-        "drupal/core": "10.1.*",
         "drupal/bootstrap5": "^3"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
