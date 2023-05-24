@@ -1,9 +1,49 @@
 // Sub theme styling.
-@import 'variables_drupal';
+@import './overrides/variables_drupal';
 
-// Bootstrap overriden variables.
+// Bootstrap overriden variables
 // @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
-@import 'variables_bootstrap';
+@import './overrides/variables_bootstrap';
 
 // Include bootstrap.
 @import '../../../../themes/contrib/bootstrap5/scss/style';
+
+// fontawesome
+// importing core styling file
+// to use the local copy of font-awsome, uncomment
+//@import 
+//  '../assets/fontawesome/scss/fontawesome.scss',
+//  '../assets/fontawesome/scss/solid.scss',
+//  '../assets/fontawesome/scss/regular.scss',
+//  '../assets/fontawesome/scss/brands.scss'
+//;
+
+// BC base-build theme
+// see design system https://digital.gov.bc.ca/common-components/design-system/
+@import 
+  // global
+  'variables',
+  'functions',
+  'mixins', 
+  'typography',
+  'html';
+
+  @import 
+  // components
+  './components/alerts',
+  './components/badges';
+
+  @import 
+  // overrides
+  // use these only for overriding existing
+  // css provided by core or contrib
+  './overrides/bootstrap',
+  './overrides/drupal';
+
+
+// #################################
+// DEV STYLES: disable in production
+// #################################
+
+
+// ######## END DEV STYLES #########
