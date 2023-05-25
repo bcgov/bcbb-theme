@@ -1,11 +1,12 @@
-// Bootstrap variables (overrides).
+// This has to load after scss/_variables.scss
+// Add variables to scss/_variables.scss, this file
+// is only for BS5 overrides
 
 // override default bootstrap colors for accessibility
-//$white: #fff !default;
+$white: $colorWhite;
 //$black: #000 !default;
 //$gray-700: #495057 !default;
-
-$blue: #003CC5 !default;
+//$blue: #003CC5 !default;
 
 //$cyan: #006170 !default;
 //$pink: #e21181 !default;
@@ -21,3 +22,13 @@ $blue: #003CC5 !default;
 $form-text-margin-top: 0 !default;
 $legend-font-size: 1rem !default;
 $table-cell-padding-x: .75rem !default;
+
+// scss-docs-start theme-color-variables
+$primary:       $colorBrand-primary;
+$secondary:     $colorBrand-secondary;
+$success:       $colorAlert-success;
+$info:          $colorAlert-info;
+$warning:       $colorAlert-warning;
+$danger:        $colorAlert-error;
+
+

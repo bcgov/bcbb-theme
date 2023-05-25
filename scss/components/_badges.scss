@@ -21,11 +21,6 @@
   color: $badgeColor;
   border-left-color: mix($colorBlack, $badgeColor, 80%);
   background-color: mix($colorBlack, $badgeColor, 70%);
-  @media (prefers-color-scheme: dark) {
-    background: mix($colorBlack, $badgeColor, 35%);
-    border-left-color: mix($colorWhite, $badgeColor, 20%);
-    color: mix($colorWhite, $badgeColor, 90%);
-  }
 }
 
 .badge-error {
@@ -34,11 +29,6 @@
   color: $badgeColor;
   background-color: mix($colorWhite, $badgeColor, 90%);
   border-left-color: mix($colorBlack, $badgeColor, 25%);
-  @media (prefers-color-scheme: dark) {
-    background: mix($colorBlack, $badgeColor, 25%);
-    border-left-color: mix($colorWhite, $badgeColor, 20%);
-    color: mix($colorWhite, $badgeColor, 90%);
-  }
 }
 
 .badge-info {
@@ -47,11 +37,6 @@
   color: $badgeColor;
   background-color: mix($colorWhite, $badgeColor, 90%);
   border-left-color: mix($colorBlack, $badgeColor, 25%);
-  @media (prefers-color-scheme: dark) {
-    background: mix($colorBlack, $badgeColor, 25%);
-    border-left-color: mix($colorWhite, $badgeColor, 20%);
-    color: mix($colorWhite, $badgeColor, 90%);
-  }
 }
 .badge-warning {
   $badgeColor:$colorAlert-warning;
@@ -59,11 +44,6 @@
   color: $badgeColor;
   background-color: mix($colorWhite, $badgeColor, 90%);
   border-left-color: mix($colorBlack, $badgeColor, 25%);
-  @media (prefers-color-scheme: dark) {
-    background: mix($colorBlack, $badgeColor, 25%);
-    border-left-color: mix($colorWhite, $badgeColor, 20%);
-    color: mix($colorWhite, $badgeColor, 90%);
-  }
 }
 
 .badge-success {
@@ -72,9 +52,4 @@
   color: $badgeColor;
   background-color: mix($colorWhite, $badgeColor, 90%);
    border-left-color: mix($colorBlack, $badgeColor, 25%);
-   @media (prefers-color-scheme: dark) {
-    background: mix($colorBlack, $badgeColor, 25%);
-    border-left-color: mix($colorWhite, $badgeColor, 20%);
-    color: mix($colorWhite, $badgeColor, 90%);
-  }
 }

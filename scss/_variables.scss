@@ -18,20 +18,26 @@ $colorWhite: #fff;
 $colorBlack: #000;
 
 
-// text
+// text #10365a
 $colorText-primary: #313132;
+
 // transparency on text for easier readability
 $colorText-primary-alpha: rgba($colorText-primary, 0.9);
 $colorText-primary-darkmode: $colorWhite;
 
 $colorText-primary-darkmode-alpha: rgba($colorText-primary-darkmode, 0.65);
 $colorTextLink: #1a5a96;
+$colorTextLink-hover: #10365a;
 $colorTextLink-variant: #9b06aa;
 $colorTextLink-darkmode: #70B1ED;
 $colorTextLink-darkmode-variant: #9982ff;
 
+// helper colours
+
+$colorCurrent: currentColor;
+
 // components
-$colorFormInput: #606060;
+$colorInputBorder: #959595;
 
 // semantic colors
 $colorAlert-error: #a12622;

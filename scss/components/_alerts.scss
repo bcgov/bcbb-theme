@@ -15,7 +15,7 @@
   }
   h1, h2, h3, h4, h5, h6 {
     font-size: px-em(18px);
-    font-weight: 700;
+    font-weight: 600;
     &~p {
       font-weight: normal;
     }
@@ -41,18 +41,6 @@
     }
   }
   @include icon-error;
-  @media (prefers-color-scheme: dark) {
-    color: mix($colorWhite, $alertColor, 90%);
-    background-color: mix($colorBlack, $alertColor, 50%);
-    @include icon-error(mix($colorWhite, $alertColor, 90%));
-    a {
-      color: mix($colorWhite, $alertColor, 93%);
-      &:hover,
-      &:focus {
-        color: mix($colorWhite, $alertColor, 98%);
-      }
-    }
-  }
 }
 
 .bc-gov-alertbanner-info {
@@ -68,18 +56,6 @@
     }
   }
   @include icon-info($alertColor);
-  @media (prefers-color-scheme: dark) {
-    color: mix($colorWhite, $alertColor, 90%);
-    background-color: mix($colorBlack, $alertColor, 50%);
-    @include icon-info(mix($colorWhite, $alertColor, 90%));
-    a {
-      color: mix($colorWhite, $alertColor, 93%);
-      &:hover,
-      &:focus {
-        color: mix($colorWhite, $alertColor, 98%);
-      }
-    }
-  }
 }
 
 .bc-gov-alertbanner-success {
@@ -95,18 +71,6 @@
     }
   }
   @include icon-success;
-  @media (prefers-color-scheme: dark) {
-    color: mix($colorWhite, $alertColor, 90%);
-    background-color: mix($colorBlack, $alertColor, 65%);
-    @include icon-success(mix($colorWhite, $alertColor, 90%));
-    a {
-      color: mix($colorWhite, $alertColor, 93%);
-      &:hover,
-      &:focus {
-        color: mix($colorWhite, $alertColor, 98%);
-      }
-    }
-  }
 }
 
 .bc-gov-alertbanner-warning {
@@ -122,16 +86,4 @@
     }
   }
   @include icon-warning;
-  @media (prefers-color-scheme: dark) {
-    color: mix($colorWhite, $alertColor, 90%);
-    background-color: mix($colorBlack, $alertColor, 35%);
-    @include icon-warning(mix($colorWhite, $alertColor, 90%));
-    a {
-      color: mix($colorWhite, $alertColor, 93%);
-      &:hover,
-      &:focus {
-        color: mix($colorWhite, $alertColor, 98%);
-      }
-    }
-  }
 }

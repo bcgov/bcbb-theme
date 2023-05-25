@@ -1,22 +1,12 @@
-// Sub theme styling.
-@import './overrides/variables_drupal';
-
-// Bootstrap overriden variables
-// @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
-@import './overrides/variables_bootstrap';
-
-// Include bootstrap.
-@import '../../../../themes/contrib/bootstrap5/scss/style';
-
 // fontawesome
 // importing core styling file
-// to use the local copy of font-awsome, uncomment
-//@import 
-//  '../assets/fontawesome/scss/fontawesome.scss',
-//  '../assets/fontawesome/scss/solid.scss',
-//  '../assets/fontawesome/scss/regular.scss',
-//  '../assets/fontawesome/scss/brands.scss'
-//;
+// to use the local copy of font-awsome, uncomment:
+@import 
+  '../assets/fontawesome/scss/fontawesome.scss',
+  '../assets/fontawesome/scss/solid.scss',
+  '../assets/fontawesome/scss/regular.scss',
+  '../assets/fontawesome/scss/brands.scss';
+
 
 // BC base-build theme
 // see design system https://digital.gov.bc.ca/common-components/design-system/
@@ -24,26 +14,33 @@
   // global
   'variables',
   'functions',
-  'mixins', 
-  'typography',
-  'html';
+  'mixins';
 
-  @import 
-  // components
-  './components/alerts',
-  './components/badges';
 
-  @import 
+@import 
   // overrides
-  // use these only for overriding existing
-  // css provided by core or contrib
+  './overrides/variables_drupal',
+  './overrides/variables_bootstrap',
+  // Include bootstrap.
+ '../../../../themes/contrib/bootstrap5/scss/style',
   './overrides/bootstrap',
   './overrides/drupal';
 
 
+  @import
+  // theme
+  'typography',
+  'html',
+  './components/icons',
+  './components/alerts',
+  './components/badges',
+  './components/search',
+  './components/lists';
+
 // #################################
 // DEV STYLES: disable in production
 // #################################
-
+@import 
+'devel';
 
 // ######## END DEV STYLES #########

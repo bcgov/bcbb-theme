@@ -1,0 +1,34 @@
+// Search
+
+// search block on search page
+.block-views-exposed-filter-blocksite-search-block-1 {
+  >form {
+    .form--inline {
+      display: flex;
+      .button:first-child {
+        margin-right: .125em;
+      }
+      .button:last-child {
+        margin-left: .125em;
+      }
+    }
+  }
+}
+
+.block-facets-summary {
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+    }
+    a {
+      text-decoration: none;
+      &::after {
+      font-family: 'Font Awesome 6 Free';
+      content: "\f057";
+      font-weight: 900;
+      width: 1em;
+      }
+    }
+  }
+}

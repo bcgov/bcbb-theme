@@ -1,4 +1,4 @@
-html {
+html.bcbb-theme {
   font-size: $defaultFont-size;
   // make base text size scale with screen width
   @include responsive($sm-min) {
@@ -6,147 +6,120 @@ html {
   }
   // prevent text from getting huge on large screens
   @include responsive($lg-min) {
-    font-size: 22px;
-  }
-}
-
-html,
-body {
-  background: $colorWhite;
-  @media (prefers-color-scheme: dark) {
-    background: $colorBg-darkmode;
-  }
-}
-
-body {
-  font-family: 'BCSans', 'Noto Sans', Verdana, Arial, sans-serif;
-  color: $colorText-primary-alpha;
-  @media (prefers-color-scheme: dark) {
-    color: $colorText-primary-darkmode-alpha;
-  }
-}
-
-header,
-.header {
-  background-color: $colorBrand-primary;
-  border-bottom: px-em(2px) solid $colorBrand-secondary;
-  color: rgba($colorWhite, 0.9);
-}
-
-footer,
-.footer {
-  background-color: $colorBrand-primary;
-  border-top: px-em(2px) solid $colorBrand-secondary;
-  color: rgba($colorWhite, 0.9);
-  a {
-    color: $colorTextLink-darkmode;
-    &:hover,
-    &:focus {
-      color: mix($colorWhite, $colorTextLink-darkmode, 40%);
-    }
-    &:active,
-    &:visited {
-      color: $colorTextLink-darkmode-variant;
-    }
+    font-size: 20px;
   }
 
-}
-
-
-
-img {
-  max-width: 100%;
-  max-height: auto;
-}
-
-a {
-  color: $colorTextLink;
-  transition: color 0.25s ease;
-  &:hover,
-  &:focus {
-    color: mix($colorBlack, $colorTextLink, 40%);
-  }
-  &:active,
-  &:visited {
-    color: $colorTextLink-variant;
+  body {
+    font-family: 'BCSans', 'Noto Sans', Verdana, Arial, sans-serif;
   }
 
-  @media (prefers-color-scheme: dark) {
-    color: $colorTextLink-darkmode;
-    &:hover,
-    &:focus {
-      color: mix($colorWhite, $colorTextLink-darkmode, 40%);
-    }
-    &:active,
-    &:visited {
-      color: $colorTextLink-darkmode-variant;
-    }
+  img {
+    max-width: 100%;
+    max-height: auto;
   }
-}
-p {
-  line-height: 1.6;
-}
 
-h1,
-.h1 {
-  font-size: $fontSize-h1;
-}
-
-h2,
-.h2 {
-  font-size: $fontSize-h2;
-}
-
-h3,
-.h3 {
-  font-size: $fontSize-h3;
-}
-
-h4,
-.h4 {
-  font-size: $fontSize-h4;
-}
-
-h5,
-.h5 {
-  font-size: $fontSize-h5;
-}
-
-h6,
-.h6 {
-  font-size: $fontSize-h6;
-}
-
-// forms
-input[list],
-input[type='date'],
-input[type='datetime-local'],
-input[type='email'],
-input[type='password'],
-input[type='number'],
-input[type='month'],
-input[type='search'],
-input[type='tel'],
-input[type='text'],
-input[type='time'],
-input[type='url'],
-input[type='week'],
-textarea,
-select {
-  font-size: px-em(calc($defaultFont-size*.9));
-  padding: .33em .66em;
-  @media (prefers-color-scheme: dark) {
+  .bcbb-header {
+    background-color: $colorBrand-primary;
+    border-bottom: px-em(2px) solid $colorBrand-secondary;
     color: rgba($colorWhite, 0.9);
-    border: px-em(2px) solid mix($colorWhite, $colorBg-darkmode, 30%);
-    background-color: mix($colorWhite, $colorBg-darkmode, 25%);
   }
-}
 
-table {
-  width: 100%;
-  caption {
-    @media (prefers-color-scheme: dark) {
-      color: mix($colorWhite, $colorBlack, 70%);
+  main {
+    color: $colorText-primary-alpha;
+
+   
+
+    p {
+      line-height: 1.6;
+      a {
+        color: $colorTextLink;
+        transition: color 0.25s ease;
+        &:hover,
+        &:focus {
+          color: $colorTextLink-hover;
+        }
+        &:active,
+        &:visited {
+          color: $colorTextLink-variant;
+        }
+      }
     }
+
+    h1,
+    .h1 {
+      font-size: $fontSize-h1;
+    }
+  
+    h2,
+    .h2 {
+      font-size: $fontSize-h2;
+    }
+  
+    h3,
+    .h3 {
+      font-size: $fontSize-h3;
+    }
+  
+    h4,
+    .h4 {
+      font-size: $fontSize-h4;
+    }
+  
+    h5,
+    .h5 {
+      font-size: $fontSize-h5;
+    }
+  
+    h6,
+    .h6 {
+      font-size: $fontSize-h6;
+    }
+
+    table {
+      width: 100%;
+    }
+  
   }
+
+  footer,
+  .footer {
+    background-color: $colorBrand-primary;
+    border-top: px-em(2px) solid $colorBrand-secondary;
+    color: rgba($colorWhite, 0.9);
+    a {
+      color: $colorTextLink-darkmode;
+      &:hover,
+      &:focus {
+        color: mix($colorWhite, $colorTextLink-darkmode, 40%);
+      }
+      &:active,
+      &:visited {
+        color: $colorTextLink-darkmode-variant;
+      }
+    }
+
+  }
+
+
+  /*
+  input[list],
+  input[type='date'],
+  input[type='datetime-local'],
+  input[type='email'],
+  input[type='password'],
+  input[type='number'],
+  input[type='month'],
+  input[type='search'],
+  input[type='tel'],
+  input[type='text'],
+  input[type='time'],
+  input[type='url'],
+  input[type='week'],
+  textarea,
+  select {
+    font-size: px-em(calc($defaultFont-size*.9));
+    padding: .33em .66em;
+  }
+  */
+
 }
