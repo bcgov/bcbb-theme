@@ -18,6 +18,8 @@
  *   - is_collapsed: TRUE if the link has children within the current book tree
  *     that are not currently visible.
  *   - in_active_trail: TRUE if the link is in the active trail.
+ *   - prefix: Display before the item.
+ *   - suffix: Display after the item.
  *
  * @ingroup themeable
  */
@@ -40,10 +42,12 @@
     {% endif %}
     {% for item in items %}
       <li{{ item.attributes }}>
+        {{ item.prefix }}
         {{ link(item.title, item.url) }}
         {% if item.below %}
           {{ book_tree.book_links(item.below, attributes, menu_level + 1) }}
         {% endif %}
+        {{ item.suffix }}
       </li>
     {% endfor %}
     </ul>
