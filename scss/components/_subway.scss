@@ -1,0 +1,20 @@
+// Subway navigation
+
+
+// use a sass variable in the svg data uri
+// it strips '#' and replaces with %23
+@function my-color($color) {
+  @return '%23' + str-slice('#{$color}', 2, -1)
+};
+
+$bb-stroke-width: 3px;
+$bb-stroke-color: #00ff00;
+$bb-color: #0000ff;
+$bb-radius: 100;
+$bb-height: 100;
+$bb-width: 100;
+$bb-ellipse: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='#{$bb-width}' height='#{$bb-height}'%3E%3Ccircle cx='#{$bb-width/2}' cy='#{$bb-height/2}' r='#{$bb-width/2 - 1}' stroke='#{my-color($bb-stroke-color)}' stroke-width='#{$bb-stroke-width}' fill='#{my-color($bb-color)}' /%3E%3C/svg%3E");
+
+.bb-subway {
+  background-image: $bb-ellipse;
+}
