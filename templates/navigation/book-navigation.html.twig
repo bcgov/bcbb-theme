@@ -36,8 +36,7 @@
   <nav role="navigation" aria-labelledby="book-label-{{ book_id }}">
     {{ tree }}
     {% if has_links %}
-      <h2>{{ 'Book traversal links for'|t }} {{ book_title }}</h2>
-      <ul>
+      <ul aria-label="{{ 'Document navigation'|t }}">
       {% if prev_url %}
         <li>
           <a href="{{ prev_url }}" rel="prev" title="{{ 'Go to previous page'|t }}"><b>{{ '‹'|t }}</b> {{ prev_title }}</a>
