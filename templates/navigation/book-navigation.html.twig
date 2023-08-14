@@ -33,7 +33,7 @@
  */
 #}
 {% if tree or has_links %}
-  <nav role="navigation" aria-labelledby="book-label-{{ book_id }}">
+  <nav role="navigation" class="book-navigation">
     {{ tree }}
     {% if has_links %}
       <ul aria-label="{{ 'Document navigation'|t }}">
