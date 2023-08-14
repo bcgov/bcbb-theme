@@ -1,20 +1,62 @@
 // Subway navigation
 
+$color-dev: rgba(232, 123, 232, 0.3);
 
-// use a sass variable in the svg data uri
-// it strips '#' and replaces with %23
-@function my-color($color) {
-  @return '%23' + str-slice('#{$color}', 2, -1)
-};
+// setup svg for borders
 
-$bb-stroke-width: 3px;
-$bb-stroke-color: #00ff00;
-$bb-color: #0000ff;
-$bb-radius: 100;
-$bb-height: 100;
-$bb-width: 100;
-$bb-ellipse: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='#{$bb-width}' height='#{$bb-height}'%3E%3Ccircle cx='#{$bb-width/2}' cy='#{$bb-height/2}' r='#{$bb-width/2 - 1}' stroke='#{my-color($bb-stroke-color)}' stroke-width='#{$bb-stroke-width}' fill='#{my-color($bb-color)}' /%3E%3C/svg%3E");
+@function svg-color($color) {
+  @return '%23' + str-slice('#{$color}', 2);
+}
 
-.bb-subway {
-  background-image: $bb-ellipse;
+$stroke_width: 10;
+$stroke_color: #ff0000;
+
+$border-x:"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_2' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cg id='corner'%3E%3Cline id='line-h' x1='10' y1='1' y2='1' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/g%3E%3C/svg%3E";
+
+$border-y: "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_2' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' width='10' height='10000' viewBox='0 0 10 10000 '%3E%3Cg id='corner'%3E%3Cline id='line-v' x1='1' x2='1' y2='10000' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/g%3E%3C/svg%3E";
+
+$border-corner-tl: "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_2' data-name='corner-tl' xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cg id='corner'%3E%3Cpath id='corner-tl' d='m1,11V3.67c0-1.48,1.19-2.67,2.67-2.67h7.33' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/g%3E%3C/svg%3E";
+
+$border-corner-bl: "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='corner-bl' data-name='corner-bl' xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cg id='corner'%3E%3Cpath id='corner-bl' d='m1,0v7.33c0,1.48,1.19,2.67,2.67,2.67h7.33' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/g%3E%3C/svg%3E";
+
+ul.bb-subway {
+  padding-left: 0;
+  list-style: none;
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  li {
+    position: relative;
+    background-color: $color-dev;
+    padding-left: 1.25em;
+    a {
+      display: block;
+      padding-bottom: .5em;
+      background-color: $color-dev;
+      &::before {
+        position: absolute;
+        top: .25em;
+        margin-left: -1.25em;
+        border: 2px solid black;
+        background: yellow;
+        //content: '\25CF';
+        content: ' ';
+        border-radius: 50%;
+        width: 1em;
+        height: 1em;
+      }
+    }
+  }
+  &>li {
+    padding-left: 2em;
+  }
+}
+
+
+
+li {
+  background-image: url($border-y);
+  background-repeat: no-repeat;
+ // background-position: 0em 10px; /* Adjust the vertical starting position */
 }
