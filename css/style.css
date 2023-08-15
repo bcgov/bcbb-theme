@@ -25246,6 +25246,33 @@ ul.bb-subway li > ul > li li a::before {
   height: 0.5em;
 }
 
+.book-navigation {
+  border-top: 1px solid #fcba19;
+  margin: 1.5em 0 0;
+  padding: 1.5em 0;
+}
+
+ul.bb-nav-book {
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (min-width: 576px) {
+  .block-book-navigation {
+    margin-top: 3.5em;
+  }
+}
+
 html.bcbb-theme .navbar-brand a.site-title {
   color: #fff;
   text-decoration: none;
