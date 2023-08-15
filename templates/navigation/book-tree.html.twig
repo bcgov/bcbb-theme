@@ -36,12 +36,12 @@
   {% import _self as book_tree %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes }}>
+      <ul class="bb-subway small" {{ attributes }}>
     {% else %}
       <ul>
     {% endif %}
     {% for item in items %}
-      <li{{ item.attributes }}>
+      <li {{ item.attributes }}>
         {{ item.prefix }}
         {{ link(item.title, item.url) }}
         {% if item.below %}
