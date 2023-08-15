@@ -1,0 +1,19 @@
+.book-navigation {
+  border-top: 1px solid $colorBrand-secondary;
+  margin: 1.5em 0 0;
+  padding: 1.5em 0;
+}
+
+ul.bb-nav-book {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-book-navigation {
+  @include responsive() {
+    margin-top: 3.5em;
+  }
+}

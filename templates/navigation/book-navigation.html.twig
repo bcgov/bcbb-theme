@@ -36,20 +36,16 @@
   <nav role="navigation" class="book-navigation">
     {{ tree }}
     {% if has_links %}
-      <ul aria-label="{{ 'Document navigation'|t }}">
+      <ul class="bb-nav-book" aria-label="{{ 'Document navigation'|t }}">
       {% if prev_url %}
         <li>
-          <a href="{{ prev_url }}" rel="prev" title="{{ 'Go to previous page'|t }}"><b>{{ '‹'|t }}</b> {{ prev_title }}</a>
+          <a class="btn btn-light" href="{{ prev_url }}" rel="prev" title="{{ 'Go to previous page'|t }}"><i class="fa-solid fa-caret-left"> </i> {{ prev_title }}</a>
         </li>
       {% endif %}
-      {% if parent_url %}
-        <li>
-          <a href="{{ parent_url }}" title="{{ 'Go to parent page'|t }}">{{ 'Up'|t }}</a>
-        </li>
-      {% endif %}
+
       {% if next_url %}
         <li>
-          <a href="{{ next_url }}" rel="next" title="{{ 'Go to next page'|t }}">{{ next_title }} <b>{{ '›'|t }}</b></a>
+          <a class="btn btn-light" href="{{ next_url }}" rel="next" title="{{ 'Go to next page'|t }}">{{ next_title }} <i class="fa-solid fa-caret-right"></i></a>
         </li>
       {% endif %}
     </ul>
