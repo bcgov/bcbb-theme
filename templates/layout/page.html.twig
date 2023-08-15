@@ -63,7 +63,6 @@ set footer_classes = ' ' ~
 
 <header class="{{ header_classes }}">
   {{ page.header }}
-
   {% if page.nav_branding or page.nav_main or page.nav_additional %}
   <nav class="{{ nav_classes }}">
     <div class="{{ b5_top_container }} d-flex">
@@ -80,6 +79,9 @@ set footer_classes = ' ' ~
         {{ page.nav_additional }}
       </div>
     </div>
+    {% if page.search %}
+      {{ page.search }}
+    {% endif %}
   </nav>
   {% endif %}
 

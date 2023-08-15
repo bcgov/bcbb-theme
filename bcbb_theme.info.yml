@@ -12,6 +12,7 @@ ckeditor5-stylesheets:
 regions:
   header: Header
   nav_branding: 'Navigation branding region'
+  search: 'Search'
   nav_main: 'Main navigation region'
   nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
   breadcrumb: Breadcrumbs
