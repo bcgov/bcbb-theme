@@ -31,22 +31,10 @@ ul.bb-subway {
   }
   li {
     position: relative;
-    background-color: $color-dev;
-
-    background-image: url($border-y), url($border-x);
-    background-repeat: no-repeat;
-    background-position: 0, 0 .7em;
-    &:only-child {
-      background-image: url($border-x);
-      background-repeat: no-repeat;
-      background-position: 0 .73em !important;
-
-    }
+    padding-left: .75em;
     a {
       display: block;
       padding-bottom: .5em;
-      //position: relative;
-      background-color: $color-dev;
       &::before {
         position: absolute;
         top: .25em;
@@ -54,12 +42,12 @@ ul.bb-subway {
         border: $stroke_width solid $stroke_color;
         background: $fill_color;
         //content: '\25CF';
+        overflow: hidden;
         content: ' ';
         border-radius: 50%;
         width: 1em;
         height: 1em;
         //transition: width .2s ease-in-out, height .2s ease-in-out, margin-left .2s ease-in-out, top .2s ease-in-out, color .2s ease-in-out;
-        transition: all .3s ease-in-out;
       }
       &:hover,
       &:focus,
@@ -68,34 +56,22 @@ ul.bb-subway {
         &::before {
           //width: 1.1em;
          // height: 1.1em;
+         transition: all .3s ease-in-out;
          transform: scale(1.15,1.15);
-          background: $stroke_color;
+         border-radius: 50%;
+        background: $stroke_color;
         }       
       }
     }
-    ul {position: relative;
-      &::before {
-        width: .75em;
-        height: 2em;
-        content: ' ';
-        position: absolute;
-        background: url($border-corner-bl), url($border-y);
-        background-repeat: no-repeat;
-        background-position: top 1.3em left 0em, bottom .5em left 0em;
-        top: -1em;
-        z-index: -1;
-        left: -.75em;
-      }
-      li {
-        &:first-child {
-          background-position: 0 .76em, 0 .7em;
-        }
-        padding-left: 1.65em;
-      }
+    &>ul {
+      padding-bottom: 1.5em;
     }
   }
 
   &>li {
+    background-image: url($border-y), url($border-x);
+    background-repeat: no-repeat;
+    background-position: 0, 0 .7em;
     padding-left: 1.75em;
     &:first-child {
       background-image: url($border-corner-tl), url($border-y);
@@ -105,6 +81,23 @@ ul.bb-subway {
     &:last-child {
       background-image: url($border-corner-bl), url($border-y);
       background-position: bottom .95em left 0, bottom 1.5em left 0;
+    }
+  }
+
+  li > ul > li {
+    a {
+      &::before {
+        width: .75em;
+        height: .75em;
+      }
+    }
+    li {
+      a {
+        &::before {
+          width: .5em;
+          height: .5em;
+        }
+      }
     }
   }
 }
