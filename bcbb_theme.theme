@@ -26,3 +26,14 @@ function bcbb_theme_preprocess_links__node(array &$variables): void {
     $variables['links']['book_printer']['link']['#title'] = Markup::create($variables['links']['book_printer']['link']['#title'] . ' <i class="fa-solid fa-print"></i>');
   }
 }
+
+/**
+ * Implements hook_theme_suggestions_form_alter().
+ */
+function bcbb_theme_theme_suggestions_form_alter(array &$suggestions, array $variables) {
+    // Get the form ID from the variables.
+    $form_id = $variables['element']['#form_id'];
+
+    // Add a theme suggestion based on the form ID.
+    $suggestions[] = 'form__' . str_replace('-', '_', $form_id);
+  }
