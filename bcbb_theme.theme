@@ -31,9 +31,9 @@ function bcbb_theme_preprocess_links__node(array &$variables): void {
  * Implements hook_theme_suggestions_form_alter().
  */
 function bcbb_theme_theme_suggestions_form_alter(array &$suggestions, array $variables) {
-    // Get the form ID from the variables.
-    $form_id = $variables['element']['#form_id'];
+  // Get the form ID from the variables.
+  $form_id = $variables['element']['#form_id'];
 
-    // Add a theme suggestion based on the form ID.
-    $suggestions[] = 'form__' . str_replace('-', '_', $form_id);
-  }
+  // Add a theme suggestion based on the form ID.
+  $suggestions[] = 'form__' . str_replace('-', '_', $form_id);
+}
