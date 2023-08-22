@@ -40,5 +40,10 @@
   input[type=checkbox] {
     border-color: $colorInputBorder;
   }
-
+  // force title to wrap if it's too long
+  .region-nav-branding,
+  .region-nav-additional {
+    flex-shrink: unset;
+  }
 }
+

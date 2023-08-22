@@ -24893,6 +24893,11 @@ code {
 .bcbb-theme input[type=checkbox] {
   border-color: #959595;
 }
+.bcbb-theme .region-nav-branding,
+.bcbb-theme .region-nav-additional {
+  -ms-flex-negative: unset;
+      flex-shrink: unset;
+}
 
 @font-face {
   font-family: "BCSans";
