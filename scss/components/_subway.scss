@@ -1,26 +1,35 @@
 // Subway navigation
+// the styles assumes the list items are a set of links
 
-$color-dev: rgba(232, 123, 232, 0.3);
 
-// setup svg for borders
-
+// use this to replace the '#' on hex values in svg
 @function svg-color($color) {
   @return '%23' + str-slice('#{$color}', 2);
 }
 
-$stroke_width: 2px;
+// stroke_width controls size and position of lines. 
+// everything is relative of the value you set here 
+$stroke_width: 1px;
+$svg_stroke_offset: calc($stroke_width/2);
+$svg_stroke_double: calc($stroke_width*2);
+// stroke_color controls color of lines,
+// circle outline and the end of a line in a sub-list.
+// and the hover on circles
 $stroke_color: $colorAccent-primary;
+// this should be set to match whatever the background
+// colour of the container is
 $fill_color: $colorWhite;
+$circle_size: calc($stroke_width*3);
+$circle_size_offset: calc($circle_size/2);
 
-//$border-x:"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='border_x data-name='Border x' xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 10 10'%3E%3Cg id='corner'%3E%3Cline id='line-h' x1='10' y1='1' y2='1' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/g%3E%3C/svg%3E";
+$tl: "data:image/svg+xml,%3Csvg width='300' height='300' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='#{$svg_stroke_offset}'   y1='#{$svg_stroke_offset}' x2='#{$svg_stroke_offset}' y2='300' stroke='#{svg-color($stroke_color)}' stroke-width='#{$stroke_width}' /%3E%3Cline x1='#{$svg_stroke_offset}' y1='#{$svg_stroke_offset}' x2='300' y2='#{$svg_stroke_offset}' stroke='#{svg-color($stroke_color)}' stroke-width='#{$stroke_width}' /%3E%3C/svg%3E";
 
-$border-x: "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='border_x' data-name='border_x' xmlns='http://www.w3.org/2000/svg' width='20' height='10' viewBox='0 0 20 10'%3E%3Cline id='border_h' x1='20' y1='1' y2='1' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/svg%3E";
+$bl: "data:image/svg+xml,%3Csvg width='300' height='300' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='#{$svg_stroke_offset}' y1='300' x2='#{$svg_stroke_offset}' y2='#{$svg_stroke_offset}' stroke='#{svg-color($stroke_color)}' stroke-width='#{$stroke_width}' /%3E%3Cline x1='#{$svg_stroke_offset}' y1='300' x2='300' y2='300' stroke='#{svg-color($stroke_color)}' stroke-width='#{$svg_stroke_double}' /%3E%3C/svg%3E";
 
-$border-y: "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='border_y' data-name='border y' xmlns='http://www.w3.org/2000/svg' width='10' height='10000' viewBox='0 0 10 10000'%3E%3Cg id='border_y'%3E%3Cline id='line-v' x1='1' x2='1' y2='10000' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/g%3E%3C/svg%3E";
+$x: "data:image/svg+xml,%3Csvg width='3000' height='#{$stroke_width}' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='0' y1='#{$svg_stroke_offset}' x2='3000' y2='#{$svg_stroke_offset}' stroke='#{svg-color($stroke_color)}'  stroke-width='#{$stroke_width}' /%3E%3C/svg%3E";
+$y: "data:image/svg+xml,%3Csvg width='#{$stroke_width}' height='3000' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='#{$svg_stroke_offset}' y1='0' x2='#{$svg_stroke_offset}' y2='3000' stroke='#{svg-color($stroke_color)}' stroke-width='#{$stroke_width}' /%3E%3C/svg%3E";
 
-$border-corner-tl: "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='corner_tl' data-name='corner-tl' xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 1em 1m'%3E%3Cg id='corner'%3E%3Cpath id='corner-tl' d='m1,11V3.67c0-1.48,1.19-2.67,2.67-2.67h7.33' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/g%3E%3C/svg%3E";
-
-$border-corner-bl: "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='corner-bl' data-name='corner-bl' xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 1em 1em'%3E%3Cg id='corner'%3E%3Cpath id='corner-bl' d='m1,0v7.33c0,1.48,1.19,2.67,2.67,2.67h7.33' fill='none' stroke='#{svg-color($stroke_color)}' stroke-miterlimit='10' stroke-width='#{$stroke_width}'/%3E%3C/g%3E%3C/svg%3E";
+$circle: "data:image/svg+xml,%3Csvg width='#{$circle_size}' height='#{$circle_size}' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='#{$circle_size_offset}' cy='#{$circle_size_offset}' r='#{$circle_size_offset}' fill='#{svg-color($stroke_color)}' /%3E%3C/svg%3E";
 
 ul.bb-subway {
   padding-left: 0;
@@ -28,34 +37,50 @@ ul.bb-subway {
   ul {
     list-style: none;
     padding-left: 0;
+    li {
+      padding-left: .75em;
+      &::before {
+        left: .75em;
+      }
+      
+    }
   }
   li {
     position: relative;
-    padding-left: .75em;
+    &::before {
+      position: absolute;
+      content: ' ';
+      width: .75em;
+      height: 100%;
+      background-image: url($x);
+      background-repeat: no-repeat;
+      background-position: right 0 top calc(.5em - $svg_stroke_offset);
+    }
     a {
       display: block;
-      padding-bottom: .5em;
+      margin-left: 1.5em;
+      padding-bottom: .65em;
+      z-index: inherit;
+      line-height: 1;
+      text-decoration: none;
+
       &::before {
         position: absolute;
-        top: .25em;
         margin-left: -1.25em;
         border: $stroke_width solid $stroke_color;
         background: $fill_color;
-        //content: '\25CF';
         overflow: hidden;
-        content: ' ';
+        content: '';
         border-radius: 50%;
         width: 1em;
         height: 1em;
-        //transition: width .2s ease-in-out, height .2s ease-in-out, margin-left .2s ease-in-out, top .2s ease-in-out, color .2s ease-in-out;
       }
       &:hover,
       &:focus,
       &:active,
       .active {
+        font-weight: 600;
         &::before {
-          //width: 1.1em;
-         // height: 1.1em;
          transition: all .3s ease-in-out;
          transform: scale(1.15,1.15);
          border-radius: 50%;
@@ -64,41 +89,40 @@ ul.bb-subway {
       }
     }
     &>ul {
-      padding-bottom: 1.5em;
+      &::before {
+        z-index: -999;
+        background-repeat: no-repeat;
+       background-image: url($y), url($circle);
+        background-position: left 50% bottom .5em, left 50% bottom .5em;
+        content: ' ';
+        width: 1.5em;
+        height: 100%;
+        position: absolute;
+        top: 0;
+      }
     }
   }
 
   &>li {
-    background-image: url($border-y), url($border-x);
+    
+   &::before {
     background-repeat: no-repeat;
-    background-position: 0, 0 .7em;
-    padding-left: 1.75em;
-    &:first-child {
-      background-image: url($border-corner-tl), url($border-y);
-      background-position: 0 .67em, 0 1em;
-
-    }
-    &:last-child {
-      background-image: url($border-corner-bl), url($border-y);
-      background-position: bottom .95em left 0, bottom 1.5em left 0;
-    }
+    background-image: url($y), url($x);
+    background-position: 0 0, right 0 top calc(.5em - $svg_stroke_offset);
   }
+   &:first-child::before {
+      background-image: url($tl);
+      background-position: 0 calc(.5em - $svg_stroke_offset);
+    }
+    
+    &:last-child::before {
+      background-image: url($bl);
+      background-position: 0 calc(-300px + calc(.5em + $svg_stroke_offset));
+    }
 
-  li > ul > li {
-    a {
-      &::before {
-        width: .75em;
-        height: .75em;
-      }
-    }
-    li {
-      a {
-        &::before {
-          width: .5em;
-          height: .5em;
-        }
-      }
-    }
+    &:only-child::before {
+      background-image: none;
+  }
   }
 }
 
