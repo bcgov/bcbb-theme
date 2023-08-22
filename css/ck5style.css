@@ -21409,6 +21409,11 @@ a > .ck-content code {
 .ck-content .bcbb-theme input[type=checkbox] {
   border-color: #959595;
 }
+.ck-content .bcbb-theme .region-nav-branding,
+.ck-content .bcbb-theme .region-nav-additional {
+  -ms-flex-negative: unset;
+      flex-shrink: unset;
+}
 @font-face {
   font-family: "BCSans";
   font-style: normal;
