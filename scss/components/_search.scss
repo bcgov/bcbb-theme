@@ -32,3 +32,31 @@
     }
   }
 }
+
+// search block in the header region
+
+.block-bcbb-search {
+
+  //reset spacing
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  position: relative;
+  .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 0;
+    border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
+    color: $colorWhite;
+    background-color: $colorBrand-secondary-a11y;
+    border-color: $colorBrand-secondary-a11y;
+    &:hover,
+    &:focus {
+      background-color: mix($colorBrand-secondary-a11y, $colorBlack, 75%);
+      border-color: mix($colorBrand-secondary-a11y, $colorBlack, 75%);
+    }
+  }
+
+}

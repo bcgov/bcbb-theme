@@ -21677,6 +21677,27 @@ a > .ck-content code {
   font-weight: 900;
   width: 1em;
 }
+.ck-content .block-bcbb-search {
+  position: relative;
+}
+.ck-content .block-bcbb-search * {
+  padding: 0;
+  margin: 0;
+}
+.ck-content .block-bcbb-search .btn, .ck-content .block-bcbb-search button.link, .ck-content .block-bcbb-search .button, .ck-content .block-bcbb-search .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .block-bcbb-search .node-preview-backlink {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 0;
+  border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
+  color: #fff;
+  background-color: #CA8800;
+  border-color: #CA8800;
+}
+.ck-content .block-bcbb-search .btn:hover, .ck-content .block-bcbb-search button.link:hover, .ck-content .block-bcbb-search .button:hover, .ck-content .block-bcbb-search .node-preview-container .node-preview-backlink:hover, .ck-content .node-preview-container .block-bcbb-search .node-preview-backlink:hover, .ck-content .block-bcbb-search .btn:focus, .ck-content .block-bcbb-search button.link:focus, .ck-content .block-bcbb-search .button:focus, .ck-content .block-bcbb-search .node-preview-container .node-preview-backlink:focus, .ck-content .node-preview-container .block-bcbb-search .node-preview-backlink:focus {
+  background-color: #986600;
+  border-color: #986600;
+}
 .ck-content ul.bcbb-inline-list {
   list-style: none;
 }

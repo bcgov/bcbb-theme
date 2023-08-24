@@ -25176,6 +25176,28 @@ html.bcbb-theme .footer a:visited {
   width: 1em;
 }
 
+.block-bcbb-search {
+  position: relative;
+}
+.block-bcbb-search * {
+  padding: 0;
+  margin: 0;
+}
+.block-bcbb-search .btn, .block-bcbb-search button.link, .block-bcbb-search .button, .block-bcbb-search .node-preview-container .node-preview-backlink, .node-preview-container .block-bcbb-search .node-preview-backlink {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 0;
+  border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
+  color: #fff;
+  background-color: #CA8800;
+  border-color: #CA8800;
+}
+.block-bcbb-search .btn:hover, .block-bcbb-search button.link:hover, .block-bcbb-search .button:hover, .block-bcbb-search .node-preview-container .node-preview-backlink:hover, .node-preview-container .block-bcbb-search .node-preview-backlink:hover, .block-bcbb-search .btn:focus, .block-bcbb-search button.link:focus, .block-bcbb-search .button:focus, .block-bcbb-search .node-preview-container .node-preview-backlink:focus, .node-preview-container .block-bcbb-search .node-preview-backlink:focus {
+  background-color: #986600;
+  border-color: #986600;
+}
+
 ul.bcbb-inline-list {
   list-style: none;
 }

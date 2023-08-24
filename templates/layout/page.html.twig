@@ -29,7 +29,7 @@
  * Regions:
  * - page.header: Items for the header region.
  * - page.branding: Items for the branding region.
- * - page.search: ITems for the search region.
+ * - page.search: Items for the search region.
  * - page.primary_menu: Items for the primary menu region.
  * - page.secondary_menu: Items for the secondary menu region.
  * - page.highlighted: Items for the highlighted content region.
@@ -66,20 +66,19 @@ set footer_classes = ' ' ~
 <header class="{{ header_classes }}">
   {{ page.header }}
 
-  {% if page.branding and page.search %}
-
     <div class="container">
-      <div class="d-lg-flex align-items-center justify-content-between">
-        {% if page.branding %}
-          {{ page.branding }}
-        {% endif %}
+      <div class="d-lg-flex align-items-center justify-content-between my-1 my-lg-2">
+        
+        {{ page.branding }}
       
         {% if page.search %}
+        <div class="flex-lg-grow-1 ms-lg-5">
           {{ page.search }}
+        </div>
         {% endif %}
+
     </div>
 </div>
-  {% endif %}
 
   {% if page.nav_main or page.nav_additional %}
   <nav class="{{ nav_classes }}">
