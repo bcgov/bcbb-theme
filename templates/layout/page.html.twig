@@ -28,6 +28,8 @@
  *
  * Regions:
  * - page.header: Items for the header region.
+ * - page.branding: Items for the branding region.
+ * - page.search: ITems for the search region.
  * - page.primary_menu: Items for the primary menu region.
  * - page.secondary_menu: Items for the secondary menu region.
  * - page.highlighted: Items for the highlighted content region.
@@ -63,10 +65,25 @@ set footer_classes = ' ' ~
 
 <header class="{{ header_classes }}">
   {{ page.header }}
-  {% if page.branding or page.nav_main or page.nav_additional %}
+
+  {% if page.branding and page.search %}
+
+    <div class="container">
+      <div class="d-lg-flex align-items-center justify-content-between">
+        {% if page.branding %}
+          {{ page.branding }}
+        {% endif %}
+      
+        {% if page.search %}
+          {{ page.search }}
+        {% endif %}
+    </div>
+</div>
+  {% endif %}
+
+  {% if page.nav_main or page.nav_additional %}
   <nav class="{{ nav_classes }}">
     <div class="{{ b5_top_container }} d-flex">
-      {{ page.branding }}
 
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -79,9 +96,6 @@ set footer_classes = ' ' ~
         {{ page.nav_additional }}
       </div>
     </div>
-    {% if page.search %}
-      {{ page.search }}
-    {% endif %}
   </nav>
   {% endif %}
 
