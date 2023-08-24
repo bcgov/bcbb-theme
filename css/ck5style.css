@@ -21820,16 +21820,18 @@ a > .ck-content code {
     margin-top: 3.5em;
   }
 }
-.ck-content .bb-link-login {
+.ck-content .bb-link-light {
   color: #fff;
   background-color: transparent;
   border: 0;
   font-size: 0.87em;
+  text-decoration: none;
 }
-.ck-content .bb-link-login:hover, .ck-content .bb-link-login:focus {
+.ck-content .bb-link-light:hover, .ck-content .bb-link-light:focus {
   opacity: 80%;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
+  text-decoration: underline;
 }
 .ck-content html.bcbb-theme .navbar-brand a.site-title {
   color: #fff;

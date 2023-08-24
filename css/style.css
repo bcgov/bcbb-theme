@@ -25325,16 +25325,18 @@ ul.bb-nav-book {
   }
 }
 
-.bb-link-login {
+.bb-link-light {
   color: #fff;
   background-color: transparent;
   border: 0;
   font-size: 0.87em;
+  text-decoration: none;
 }
-.bb-link-login:hover, .bb-link-login:focus {
+.bb-link-light:hover, .bb-link-light:focus {
   opacity: 80%;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
+  text-decoration: underline;
 }
 
 html.bcbb-theme .navbar-brand a.site-title {

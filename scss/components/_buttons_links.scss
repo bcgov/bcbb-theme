@@ -1,13 +1,14 @@
-// IDIR login in header
-
-.bb-link-login {
+// light text for use over dark backgrounds
+.bb-link-light {
   color: $colorWhite;
   background-color: transparent;
   border: 0;
   font-size: .87em;
+  text-decoration: none;
   &:hover,
   &:focus {
     opacity: 80%;
     transition: all 0.15s ease-in-out;
+    text-decoration: underline;
   }
 }
