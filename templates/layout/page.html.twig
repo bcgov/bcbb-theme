@@ -64,10 +64,11 @@ set footer_classes = ' ' ~
 %}
 
 <header class="{{ header_classes }}">
-  {{ page.header }}
+  
 
-    <div class="container">
-      <div class="d-lg-flex align-items-center justify-content-between my-1 my-lg-2">
+    <div class="container my-1 my-lg-2">
+      {{ page.header }}
+      <div class="d-lg-flex align-items-center justify-content-between">
         
         {{ page.branding }}
       

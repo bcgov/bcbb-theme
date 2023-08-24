@@ -21820,6 +21820,17 @@ a > .ck-content code {
     margin-top: 3.5em;
   }
 }
+.ck-content .bb-link-login {
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  font-size: 0.87em;
+}
+.ck-content .bb-link-login:hover, .ck-content .bb-link-login:focus {
+  opacity: 80%;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
 .ck-content html.bcbb-theme .navbar-brand a.site-title {
   color: #fff;
   text-decoration: none;

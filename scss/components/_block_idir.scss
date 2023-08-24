@@ -1,0 +1,13 @@
+// IDIR login in header
+
+.bb-link-login {
+  color: $colorWhite;
+  background-color: transparent;
+  border: 0;
+  font-size: .87em;
+  &:hover,
+  &:focus {
+    opacity: 80%;
+    transition: all 0.15s ease-in-out;
+  }
+}
