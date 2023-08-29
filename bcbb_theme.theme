@@ -37,3 +37,17 @@ function bcbb_theme_theme_suggestions_form_alter(array &$suggestions, array $var
   // Add a theme suggestion based on the form ID.
   $suggestions[] = 'form__' . str_replace('-', '_', $form_id);
 }
+
+/**
+ * Implements template_preprocess_input().
+ */
+function bcbb_theme_preprocess_input(array &$variables): void {
+  // For certain values of #id, set the 'icon' variable.
+  $icons = [
+    'edit-reset' => 'fa-trash-can',
+    'edit-submit-site-search' => 'fa-magnifying-glass',
+  ];
+  if (isset($variables['element']['#id']) && is_string($variables['element']['#id']) && isset($icons[$variables['element']['#id']])) {
+    $variables['icon'] = $icons[$variables['element']['#id']];
+  }
+}
