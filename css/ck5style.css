@@ -21544,6 +21544,10 @@ a > .ck-content code {
 .ck-content html.bcbb-theme .footer a:visited {
   color: #9982ff;
 }
+.ck-content .bb-fa-glyph {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+}
 .ck-content .bc-gov-alertbanner {
   border: 0.0625em solid transparent;
   border-radius: 0.25em;
