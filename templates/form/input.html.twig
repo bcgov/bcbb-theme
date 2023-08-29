@@ -19,8 +19,7 @@
       (not attributes.hasClass('media-library-item__remove') and not attributes.hasClass('button--danger')) ? 'btn-primary' : ''
     ]
   %}
-  <input{{ attributes.addClass(classes) }} />
-{% else %}
-  <input{{ attributes }} />
+  {% set attributes = attributes.addClass(classes) %}
 {% endif %}
+<input{{ attributes }} />
 {{ children }}
