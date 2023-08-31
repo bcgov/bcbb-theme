@@ -42,6 +42,14 @@ function bcbb_theme_theme_suggestions_form_alter(array &$suggestions, array $var
  * Implements template_preprocess_input().
  */
 function bcbb_theme_preprocess_input(array &$variables): void {
+  // Except on the login page, adjust the classes of the login button.
+  if (($variables['element']['#id'] ?? NULL) === 'edit-openid-connect-client-keycloak-login' && \Drupal::routeMatch()->getRouteName() !== 'user.login') {
+    // Remove 'button' value from classes.
+    unset($variables['attributes']['class'][array_search('button', $variables['attributes']['class'], TRUE)]);
+    // Add class that gives appearance of a link.
+    $variables['attributes']['class'][] = 'bb-link-light';
+  }
+
   // For certain values of #id, set the 'icon' variable.
   $icons = [
     'edit-reset' => 'fa-trash-can',
