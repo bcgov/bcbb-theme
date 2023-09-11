@@ -25268,12 +25268,11 @@ ul.bb-subway li a:hover::before, ul.bb-subway li a:focus::before, ul.bb-subway l
 ul.bb-subway li a .active::before,
 ul.bb-subway li a .media-library-view--widget .view-header a.is-active::before,
 .media-library-view--widget .view-header ul.bb-subway li a a.is-active::before {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   -webkit-transform: scale(1.15, 1.15);
           transform: scale(1.15, 1.15);
-  border-radius: 50%;
-  background: #38598a;
+  background-color: #38598a;
 }
 ul.bb-subway li > ul::before {
   z-index: -999;
@@ -25301,6 +25300,11 @@ ul.bb-subway > li:last-child::before {
 }
 ul.bb-subway > li:only-child::before {
   background-image: none;
+}
+ul.bb-subway .summary {
+  margin-left: 1.5em;
+  margin-top: -0.5em;
+  padding-bottom: 1em;
 }
 
 .book-navigation {
