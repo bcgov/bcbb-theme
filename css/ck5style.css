@@ -23,7 +23,7 @@
    * Copyright 2023 Fonticons, Inc.
    */
   /*!
-   * Bootstrap  v5.3.1 (https://getbootstrap.com/)
+   * Bootstrap  v5.3.2 (https://getbootstrap.com/)
    * Copyright 2011-2023 The Bootstrap Authors
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
@@ -8019,7 +8019,7 @@
 }
 .ck-content :root,
 .ck-content [data-bs-theme=light] {
-  --bs-blue: #003CC5;
+  --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -8112,6 +8112,7 @@
   --bs-link-hover-color: #002952;
   --bs-link-hover-color-rgb: 0, 41, 82;
   --bs-code-color: #d63384;
+  --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -8182,6 +8183,8 @@
   --bs-link-color-rgb: 102, 133, 163;
   --bs-link-hover-color-rgb: 133, 157, 181;
   --bs-code-color: #e685b5;
+  --bs-highlight-color: #dee2e6;
+  --bs-highlight-bg: #664d03;
   --bs-border-color: #495057;
   --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
   --bs-form-valid-color: #75b798;
@@ -8315,6 +8318,7 @@
 }
 .ck-content mark, .ck-content .mark {
   padding: 0.1875em;
+  color: var(--bs-highlight-color);
   background-color: var(--bs-highlight-bg);
 }
 .ck-content sub,
@@ -8744,7 +8748,7 @@ a > .ck-content code {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  width: 33.3333333333%;
+  width: 33.33333333%;
 }
 .ck-content .row-cols-4 > * {
   -webkit-box-flex: 0;
@@ -8762,7 +8766,7 @@ a > .ck-content code {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  width: 16.6666666667%;
+  width: 16.66666667%;
 }
 .ck-content .col-auto {
   -webkit-box-flex: 0;
@@ -8951,7 +8955,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
   .ck-content .row-cols-sm-4 > * {
     -webkit-box-flex: 0;
@@ -8969,7 +8973,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 16.6666666667%;
+    width: 16.66666667%;
   }
   .ck-content .col-sm-auto {
     -webkit-box-flex: 0;
@@ -9162,7 +9166,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
   .ck-content .row-cols-md-4 > * {
     -webkit-box-flex: 0;
@@ -9180,7 +9184,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 16.6666666667%;
+    width: 16.66666667%;
   }
   .ck-content .col-md-auto {
     -webkit-box-flex: 0;
@@ -9373,7 +9377,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
   .ck-content .row-cols-lg-4 > * {
     -webkit-box-flex: 0;
@@ -9391,7 +9395,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 16.6666666667%;
+    width: 16.66666667%;
   }
   .ck-content .col-lg-auto {
     -webkit-box-flex: 0;
@@ -9584,7 +9588,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
   .ck-content .row-cols-xl-4 > * {
     -webkit-box-flex: 0;
@@ -9602,7 +9606,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 16.6666666667%;
+    width: 16.66666667%;
   }
   .ck-content .col-xl-auto {
     -webkit-box-flex: 0;
@@ -9795,7 +9799,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 33.3333333333%;
+    width: 33.33333333%;
   }
   .ck-content .row-cols-xxl-4 > * {
     -webkit-box-flex: 0;
@@ -9813,7 +9817,7 @@ a > .ck-content code {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 16.6666666667%;
+    width: 16.66666667%;
   }
   .ck-content .col-xxl-auto {
     -webkit-box-flex: 0;
@@ -9983,16 +9987,16 @@ a > .ck-content code {
   --bs-table-bg-type: initial;
   --bs-table-color-state: initial;
   --bs-table-bg-state: initial;
-  --bs-table-color: var(--bs-body-color);
+  --bs-table-color: var(--bs-emphasis-color);
   --bs-table-bg: var(--bs-body-bg);
   --bs-table-border-color: var(--bs-border-color);
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: var(--bs-body-color);
+  --bs-table-striped-color: var(--bs-emphasis-color);
   --bs-table-striped-bg: #f9f9f9;
-  --bs-table-active-color: var(--bs-body-color);
-  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: var(--bs-body-color);
-  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  --bs-table-active-color: var(--bs-emphasis-color);
+  --bs-table-active-bg: rgba(var(--bs-emphasis-color-rgb), 0.1);
+  --bs-table-hover-color: var(--bs-emphasis-color);
+  --bs-table-hover-bg: rgba(var(--bs-emphasis-color-rgb), 0.075);
   width: 100%;
   margin-bottom: 1rem;
   vertical-align: top;
@@ -10052,7 +10056,7 @@ a > .ck-content code {
 .ck-content .table-primary {
   --bs-table-color: #000;
   --bs-table-bg: #ccd6e0;
-  --bs-table-border-color: #b8c1ca;
+  --bs-table-border-color: #a3abb3;
   --bs-table-striped-bg: #c2cbd5;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #b8c1ca;
@@ -10065,7 +10069,7 @@ a > .ck-content code {
 .ck-content .table-secondary {
   --bs-table-color: #000;
   --bs-table-bg: #fef1d1;
-  --bs-table-border-color: #e5d9bc;
+  --bs-table-border-color: #cbc1a7;
   --bs-table-striped-bg: #f1e5c7;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #e5d9bc;
@@ -10078,7 +10082,7 @@ a > .ck-content code {
 .ck-content .table-success {
   --bs-table-color: #000;
   --bs-table-bg: #d5e7d9;
-  --bs-table-border-color: #c0d0c3;
+  --bs-table-border-color: #aab9ae;
   --bs-table-striped-bg: #cadbce;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #c0d0c3;
@@ -10091,7 +10095,7 @@ a > .ck-content code {
 .ck-content .table-info {
   --bs-table-color: #000;
   --bs-table-bg: #d1deea;
-  --bs-table-border-color: #bcc8d3;
+  --bs-table-border-color: #a7b2bb;
   --bs-table-striped-bg: #c7d3de;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #bcc8d3;
@@ -10104,7 +10108,7 @@ a > .ck-content code {
 .ck-content .table-warning {
   --bs-table-color: #000;
   --bs-table-bg: #e2dbcc;
-  --bs-table-border-color: #cbc5b8;
+  --bs-table-border-color: #b5afa3;
   --bs-table-striped-bg: #d7d0c2;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #cbc5b8;
@@ -10117,7 +10121,7 @@ a > .ck-content code {
 .ck-content .table-danger {
   --bs-table-color: #000;
   --bs-table-bg: #ecd4d3;
-  --bs-table-border-color: #d4bfbe;
+  --bs-table-border-color: #bdaaa9;
   --bs-table-striped-bg: #e0c9c8;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #d4bfbe;
@@ -10130,7 +10134,7 @@ a > .ck-content code {
 .ck-content .table-light {
   --bs-table-color: #000;
   --bs-table-bg: #f8f9fa;
-  --bs-table-border-color: #dfe0e1;
+  --bs-table-border-color: #c6c7c8;
   --bs-table-striped-bg: #ecedee;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #dfe0e1;
@@ -10143,7 +10147,7 @@ a > .ck-content code {
 .ck-content .table-dark {
   --bs-table-color: #fff;
   --bs-table-bg: #212529;
-  --bs-table-border-color: #373b3e;
+  --bs-table-border-color: #4d5154;
   --bs-table-striped-bg: #2c3034;
   --bs-table-striped-color: #fff;
   --bs-table-active-bg: #373b3e;
@@ -10508,6 +10512,8 @@ a > .ck-content code {
 }
 .ck-content .form-check-input {
   --bs-form-check-bg: var(--bs-body-bg);
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   width: 1em;
   height: 1em;
   margin-top: 0.25em;
@@ -10667,7 +10673,7 @@ a > .ck-content code {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: var(--bs-tertiary-bg);
+  background-color: var(--bs-secondary-bg);
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -10696,7 +10702,7 @@ a > .ck-content code {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: var(--bs-tertiary-bg);
+  background-color: var(--bs-secondary-bg);
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -11569,7 +11575,7 @@ a > .ck-content code {
   --bs-dropdown-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-divider-margin-y: 0.5rem;
-  --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-dropdown-box-shadow: var(--bs-box-shadow);
   --bs-dropdown-link-color: var(--bs-body-color);
   --bs-dropdown-link-hover-color: var(--bs-body-color);
   --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
@@ -13858,7 +13864,7 @@ a > .ck-content code {
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: var(--bs-border-width);
   --bs-modal-border-radius: var(--bs-border-radius-lg);
-  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-modal-box-shadow: var(--bs-box-shadow-sm);
   --bs-modal-inner-border-radius: calc(var(--bs-border-radius-lg) - (var(--bs-border-width)));
   --bs-modal-header-padding-x: 1rem;
   --bs-modal-header-padding-y: 1rem;
@@ -14022,7 +14028,7 @@ a > .ck-content code {
 @media (min-width: 576px) {
   .ck-content .modal {
     --bs-modal-margin: 1.75rem;
-    --bs-modal-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --bs-modal-box-shadow: var(--bs-box-shadow);
   }
   .ck-content .modal-dialog {
     max-width: var(--bs-modal-width);
@@ -14263,7 +14269,7 @@ a > .ck-content code {
   --bs-popover-border-color: var(--bs-border-color-translucent);
   --bs-popover-border-radius: var(--bs-border-radius-lg);
   --bs-popover-inner-border-radius: calc(var(--bs-border-radius-lg) - var(--bs-border-width));
-  --bs-popover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-popover-box-shadow: var(--bs-box-shadow);
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 1rem;
@@ -14713,7 +14719,7 @@ a > .ck-content code {
   --bs-offcanvas-bg: var(--bs-body-bg);
   --bs-offcanvas-border-width: var(--bs-border-width);
   --bs-offcanvas-border-color: var(--bs-border-color-translucent);
-  --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-offcanvas-box-shadow: var(--bs-box-shadow-sm);
   --bs-offcanvas-transition: transform 0.3s ease-in-out;
   --bs-offcanvas-title-line-height: 1.5;
 }
@@ -15809,16 +15815,16 @@ a > .ck-content code {
   display: none !important;
 }
 .ck-content .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: var(--bs-box-shadow) !important;
+          box-shadow: var(--bs-box-shadow) !important;
 }
 .ck-content .shadow-sm {
-  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  -webkit-box-shadow: var(--bs-box-shadow-sm) !important;
+          box-shadow: var(--bs-box-shadow-sm) !important;
 }
 .ck-content .shadow-lg {
-  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  -webkit-box-shadow: var(--bs-box-shadow-lg) !important;
+          box-shadow: var(--bs-box-shadow-lg) !important;
 }
 .ck-content .shadow-none {
   -webkit-box-shadow: none !important;
@@ -20837,6 +20843,10 @@ a > .ck-content code {
 .ck-content .webform-dropbutton .dropbutton-wrapper .dropbutton-widget {
   background-color: #fff;
 }
+.ck-content .system-file-system-settings .form-item label {
+  display: table;
+  font-weight: 700;
+}
 .ck-content .form-type-datetime label {
   display: block;
 }
@@ -21543,6 +21553,9 @@ a > .ck-content code {
 .ck-content html.bcbb-theme .footer a:active,
 .ck-content html.bcbb-theme .footer a:visited {
   color: #9982ff;
+}
+.ck-content html.bcbb-theme kbd {
+  white-space: nowrap;
 }
 .ck-content .bb-fa-glyph {
   font-family: "Font Awesome 6 Free" !important;
