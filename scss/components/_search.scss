@@ -5,6 +5,26 @@
   >form {
     .form--inline {
       display: flex;
+      //needs responsive fix
+      flex-direction: column;
+      align-items: flex-end;
+      .form-item {
+        margin-right: 0;
+        width: 100%;
+      }
+      @include responsive($md-min) {
+        flex-direction: row;
+        .form-item {
+          margin-right: 0.5em;
+          width: auto;
+        }
+        .form-actions {
+          flex-basis: 15em;
+        }
+      }
+      .form-actions {
+        margin-top: 0;
+      }
       .button:first-child {
         margin-right: .125em;
       }

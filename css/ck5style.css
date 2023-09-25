@@ -21672,6 +21672,36 @@ a > .ck-content code {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline .form-item {
+  margin-right: 0;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline .form-item {
+    margin-right: 0.5em;
+    width: auto;
+  }
+  .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline .form-actions {
+    -ms-flex-preferred-size: 15em;
+        flex-basis: 15em;
+  }
+}
+.ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline .form-actions {
+  margin-top: 0;
 }
 .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline .button:first-child {
   margin-right: 0.125em;
