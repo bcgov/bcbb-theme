@@ -21496,15 +21496,15 @@ a > .ck-content code {
 .ck-content html.bcbb-theme main p {
   line-height: 1.6;
 }
-.ck-content html.bcbb-theme main p a {
+.ck-content html.bcbb-theme main a {
   color: #1a5a96;
   -webkit-transition: color 0.25s ease;
   transition: color 0.25s ease;
 }
-.ck-content html.bcbb-theme main p a:hover, .ck-content html.bcbb-theme main p a:focus {
+.ck-content html.bcbb-theme main a:hover, .ck-content html.bcbb-theme main a:focus {
   color: #10365a;
 }
-.ck-content html.bcbb-theme main p a:active, .ck-content html.bcbb-theme main p a:visited {
+.ck-content html.bcbb-theme main a:active, .ck-content html.bcbb-theme main a:visited {
   color: #9b06aa;
 }
 .ck-content html.bcbb-theme main h1,

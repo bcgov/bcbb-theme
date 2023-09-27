@@ -31,17 +31,18 @@ html.bcbb-theme {
 
     p {
       line-height: 1.6;
-      a {
-        color: $colorTextLink;
-        transition: color 0.25s ease;
-        &:hover,
-        &:focus {
-          color: $colorTextLink-hover;
-        }
-        &:active,
-        &:visited {
-          color: $colorTextLink-variant;
-        }
+    }
+
+    a {
+      color: $colorTextLink;
+      transition: color 0.25s ease;
+      &:hover,
+      &:focus {
+        color: $colorTextLink-hover;
+      }
+      &:active,
+      &:visited {
+        color: $colorTextLink-variant;
       }
     }
 
