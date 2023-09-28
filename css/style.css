@@ -24982,15 +24982,15 @@ html.bcbb-theme main {
 html.bcbb-theme main p {
   line-height: 1.6;
 }
-html.bcbb-theme main a {
+html.bcbb-theme main a:not(.btn, button.link, .button, a.button) {
   color: #1a5a96;
   -webkit-transition: color 0.25s ease;
   transition: color 0.25s ease;
 }
-html.bcbb-theme main a:hover, html.bcbb-theme main a:focus {
+html.bcbb-theme main a:not(.btn, button.link, .button, a.button):hover, html.bcbb-theme main a:not(.btn, button.link, .button, a.button):focus {
   color: #10365a;
 }
-html.bcbb-theme main a:active, html.bcbb-theme main a:visited {
+html.bcbb-theme main a:not(.btn, button.link, .button, a.button):active, html.bcbb-theme main a:not(.btn, button.link, .button, a.button):visited {
   color: #9b06aa;
 }
 html.bcbb-theme main h1,

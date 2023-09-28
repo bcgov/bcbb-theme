@@ -33,7 +33,7 @@ html.bcbb-theme {
       line-height: 1.6;
     }
 
-    a {
+    a:not(.btn, .button) {
       color: $colorTextLink;
       transition: color 0.25s ease;
       &:hover,
