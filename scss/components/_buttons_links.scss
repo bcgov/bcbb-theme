@@ -1,14 +1,30 @@
+.bcbb-theme {
 // light text for use over dark backgrounds
-.bb-link-light {
-  color: $colorWhite;
-  background-color: transparent;
-  border: 0;
-  font-size: .87em;
-  text-decoration: none;
-  &:hover,
-  &:focus {
-    opacity: 80%;
-    transition: all 0.15s ease-in-out;
-    text-decoration: underline;
+  .bb-link-light {
+    color: $colorWhite;
+    background-color: transparent;
+    border: 0;
+    font-size: .87em;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      opacity: 80%;
+      transition: all 0.15s ease-in-out;
+      text-decoration: underline;
+    }
+  }
+
+// customize button colours
+  .button {
+    @include button-color-light($colorAccent-secondary,$colorText-primary);
+  }
+
+  .button--primary,
+  .btn-primary {
+    @include button-color-dark($colorAccent-primary,$colorWhite);
+  }
+  .button--danger,
+  .btn-danger {
+    @include button-color-dark($colorAlert-error,$colorWhite);
   }
 }
