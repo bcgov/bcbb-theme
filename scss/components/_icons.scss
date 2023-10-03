@@ -4,11 +4,25 @@
 .icon-fa-bookmark-solid {@include icon-fa($fa-bookmark,false,true);}
 .icon-fa-bookmark-after {@include icon-fa($fa-bookmark,true);}
 .icon-fa-bookmark-after-solid {@include icon-fa($fa-bookmark,true,true);}
+.icon-fa-circle-xmark {@include icon-fa($fa-circle-xmark);}
+.icon-fa-circle-xmark-solid {@include icon-fa($fa-circle-xmark,false,true);}
+.icon-fa-circle-xmark-after {@include icon-fa($fa-circle-xmark,true);}
+.icon-fa-circle-xmark-after-solid {@include icon-fa($fa-circle-xmark,true,true);}
+.icon-fa-filter {@include icon-fa($fa-filter);}
+.icon-fa-filter-solid {@include icon-fa($fa-filter,false,true);}
+.icon-fa-filter-after {@include icon-fa($fa-filter,true);}
+.icon-fa-filter-after-solid {@include icon-fa($fa-filter,true,true);}
+.icon-fa-magnifying-glass {@include icon-fa($fa-magnifying-glass);}
+.icon-fa-magnifying-glass-solid {@include icon-fa($fa-magnifying-glass,false,true);}
+.icon-fa-magnifying-glass-after {@include icon-fa($fa-magnifying-glass,true);}
+.icon-fa-magnifying-glass-after-solid {@include icon-fa($fa-magnifying-glass,true,true);}
 
-.icon-fa-decoration-none {
+
+
+.focus-underline {
   &:hover, 
   &:focus, 
   &:active {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }

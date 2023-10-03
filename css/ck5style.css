@@ -21554,9 +21554,6 @@ a > .ck-content code {
           align-items: center;
   text-decoration: none;
 }
-.ck-content .icon-fa-bookmark:hover, .ck-content .icon-fa-bookmark:focus, .ck-content .icon-fa-bookmark:active {
-  text-decoration: underline;
-}
 .ck-content .icon-fa-bookmark::before, .ck-content .icon-fa-bookmark::after {
   font-weight: 400;
   text-rendering: auto;
@@ -21577,9 +21574,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-}
-.ck-content .icon-fa-bookmark-solid:hover, .ck-content .icon-fa-bookmark-solid:focus, .ck-content .icon-fa-bookmark-solid:active {
-  text-decoration: underline;
 }
 .ck-content .icon-fa-bookmark-solid::before, .ck-content .icon-fa-bookmark-solid::after {
   font-weight: 400;
@@ -21602,9 +21596,6 @@ a > .ck-content code {
           align-items: center;
   text-decoration: none;
 }
-.ck-content .icon-fa-bookmark-after:hover, .ck-content .icon-fa-bookmark-after:focus, .ck-content .icon-fa-bookmark-after:active {
-  text-decoration: underline;
-}
 .ck-content .icon-fa-bookmark-after::before, .ck-content .icon-fa-bookmark-after::after {
   font-weight: 400;
   text-rendering: auto;
@@ -21626,9 +21617,6 @@ a > .ck-content code {
           align-items: center;
   text-decoration: none;
 }
-.ck-content .icon-fa-bookmark-after-solid:hover, .ck-content .icon-fa-bookmark-after-solid:focus, .ck-content .icon-fa-bookmark-after-solid:active {
-  text-decoration: underline;
-}
 .ck-content .icon-fa-bookmark-after-solid::before, .ck-content .icon-fa-bookmark-after-solid::after {
   font-weight: 400;
   text-rendering: auto;
@@ -21640,8 +21628,260 @@ a > .ck-content code {
 .ck-content .icon-fa-bookmark-after-solid::after {
   content: "\f02e";
 }
-.ck-content .icon-fa-decoration-none:hover, .ck-content .icon-fa-decoration-none:focus, .ck-content .icon-fa-decoration-none:active {
+.ck-content .icon-fa-circle-xmark {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
+}
+.ck-content .icon-fa-circle-xmark::before, .ck-content .icon-fa-circle-xmark::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-circle-xmark::before, .ck-content .icon-fa-circle-xmark::after {
+  font: var(--fa-font-regular);
+}
+.ck-content .icon-fa-circle-xmark::before {
+  content: "\f057";
+}
+.ck-content .icon-fa-circle-xmark-solid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-circle-xmark-solid::before, .ck-content .icon-fa-circle-xmark-solid::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-circle-xmark-solid::before, .ck-content .icon-fa-circle-xmark-solid::after {
+  font: var(--fa-font-solid);
+}
+.ck-content .icon-fa-circle-xmark-solid::before {
+  content: "\f057";
+}
+.ck-content .icon-fa-circle-xmark-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-circle-xmark-after::before, .ck-content .icon-fa-circle-xmark-after::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-circle-xmark-after::before, .ck-content .icon-fa-circle-xmark-after::after {
+  font: var(--fa-font-regular);
+}
+.ck-content .icon-fa-circle-xmark-after::after {
+  content: "\f057";
+}
+.ck-content .icon-fa-circle-xmark-after-solid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-circle-xmark-after-solid::before, .ck-content .icon-fa-circle-xmark-after-solid::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-circle-xmark-after-solid::before, .ck-content .icon-fa-circle-xmark-after-solid::after {
+  font: var(--fa-font-solid);
+}
+.ck-content .icon-fa-circle-xmark-after-solid::after {
+  content: "\f057";
+}
+.ck-content .icon-fa-filter {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-filter::before, .ck-content .icon-fa-filter::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-filter::before, .ck-content .icon-fa-filter::after {
+  font: var(--fa-font-regular);
+}
+.ck-content .icon-fa-filter::before {
+  content: "\f0b0";
+}
+.ck-content .icon-fa-filter-solid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-filter-solid::before, .ck-content .icon-fa-filter-solid::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-filter-solid::before, .ck-content .icon-fa-filter-solid::after {
+  font: var(--fa-font-solid);
+}
+.ck-content .icon-fa-filter-solid::before {
+  content: "\f0b0";
+}
+.ck-content .icon-fa-filter-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-filter-after::before, .ck-content .icon-fa-filter-after::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-filter-after::before, .ck-content .icon-fa-filter-after::after {
+  font: var(--fa-font-regular);
+}
+.ck-content .icon-fa-filter-after::after {
+  content: "\f0b0";
+}
+.ck-content .icon-fa-filter-after-solid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-filter-after-solid::before, .ck-content .icon-fa-filter-after-solid::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-filter-after-solid::before, .ck-content .icon-fa-filter-after-solid::after {
+  font: var(--fa-font-solid);
+}
+.ck-content .icon-fa-filter-after-solid::after {
+  content: "\f0b0";
+}
+.ck-content .icon-fa-magnifying-glass {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-magnifying-glass::before, .ck-content .icon-fa-magnifying-glass::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-magnifying-glass::before, .ck-content .icon-fa-magnifying-glass::after {
+  font: var(--fa-font-regular);
+}
+.ck-content .icon-fa-magnifying-glass::before {
+  content: "\f002";
+}
+.ck-content .icon-fa-magnifying-glass-solid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-magnifying-glass-solid::before, .ck-content .icon-fa-magnifying-glass-solid::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-magnifying-glass-solid::before, .ck-content .icon-fa-magnifying-glass-solid::after {
+  font: var(--fa-font-solid);
+}
+.ck-content .icon-fa-magnifying-glass-solid::before {
+  content: "\f002";
+}
+.ck-content .icon-fa-magnifying-glass-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-magnifying-glass-after::before, .ck-content .icon-fa-magnifying-glass-after::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-magnifying-glass-after::before, .ck-content .icon-fa-magnifying-glass-after::after {
+  font: var(--fa-font-regular);
+}
+.ck-content .icon-fa-magnifying-glass-after::after {
+  content: "\f002";
+}
+.ck-content .icon-fa-magnifying-glass-after-solid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-fa-magnifying-glass-after-solid::before, .ck-content .icon-fa-magnifying-glass-after-solid::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ck-content .icon-fa-magnifying-glass-after-solid::before, .ck-content .icon-fa-magnifying-glass-after-solid::after {
+  font: var(--fa-font-solid);
+}
+.ck-content .icon-fa-magnifying-glass-after-solid::after {
+  content: "\f002";
+}
+.ck-content .focus-underline:hover, .ck-content .focus-underline:focus, .ck-content .focus-underline:active {
+  text-decoration: underline;
 }
 .ck-content .bc-gov-alertbanner {
   border: 0.0625em solid transparent;
