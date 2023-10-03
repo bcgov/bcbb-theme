@@ -25031,6 +25031,110 @@ html.bcbb-theme kbd {
   font-weight: 900 !important;
 }
 
+.icon-fa-bookmark {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.icon-fa-bookmark:hover, .icon-fa-bookmark:focus, .icon-fa-bookmark:active {
+  text-decoration: underline;
+}
+.icon-fa-bookmark::before, .icon-fa-bookmark::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-fa-bookmark::before, .icon-fa-bookmark::after {
+  font: var(--fa-font-regular);
+}
+.icon-fa-bookmark::before {
+  content: "\f02e";
+}
+
+.icon-fa-bookmark-solid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.icon-fa-bookmark-solid:hover, .icon-fa-bookmark-solid:focus, .icon-fa-bookmark-solid:active {
+  text-decoration: underline;
+}
+.icon-fa-bookmark-solid::before, .icon-fa-bookmark-solid::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-fa-bookmark-solid::before, .icon-fa-bookmark-solid::after {
+  font: var(--fa-font-solid);
+}
+.icon-fa-bookmark-solid::before {
+  content: "\f02e";
+}
+
+.icon-fa-bookmark-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.icon-fa-bookmark-after:hover, .icon-fa-bookmark-after:focus, .icon-fa-bookmark-after:active {
+  text-decoration: underline;
+}
+.icon-fa-bookmark-after::before, .icon-fa-bookmark-after::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-fa-bookmark-after::before, .icon-fa-bookmark-after::after {
+  font: var(--fa-font-regular);
+}
+.icon-fa-bookmark-after::after {
+  content: "\f02e";
+}
+
+.icon-fa-bookmark-after-solid {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.icon-fa-bookmark-after-solid:hover, .icon-fa-bookmark-after-solid:focus, .icon-fa-bookmark-after-solid:active {
+  text-decoration: underline;
+}
+.icon-fa-bookmark-after-solid::before, .icon-fa-bookmark-after-solid::after {
+  font-weight: 400;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-fa-bookmark-after-solid::before, .icon-fa-bookmark-after-solid::after {
+  font: var(--fa-font-solid);
+}
+.icon-fa-bookmark-after-solid::after {
+  content: "\f02e";
+}
+
+.icon-fa-decoration-none:hover, .icon-fa-decoration-none:focus, .icon-fa-decoration-none:active {
+  text-decoration: none;
+}
+
 .bc-gov-alertbanner {
   border: 0.0625em solid transparent;
   border-radius: 0.25em;

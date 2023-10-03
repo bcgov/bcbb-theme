@@ -1,29 +1,14 @@
-// SVG ICON MIXINS
-// Icon mixins take a colour argument that has to be hex or a 
-// variable that represents a hex
-// a function gets called that alters the colour encoding so
-// that it can be used as an svg fill in a data uri
+// document how this works
 
-@mixin icon-error ($iconColor: $colorAlert-error) {
-  // Embed https://fontawesome.com/v5/icons/exclamation-circle?f=classic&s=solid
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cpath d='m200,100c0,55.24-44.78,100-100,100S0,155.24,0,100,44.78,0,100,0s100,44.79,100,100Zm-100,20.16c-10.24,0-18.55,8.3-18.55,18.55s8.3,18.55,18.55,18.55,18.55-8.3,18.55-18.55-8.3-18.55-18.55-18.55Zm-17.61-66.67l2.99,54.84c.14,2.57,2.26,4.58,4.83,4.58h19.57c2.57,0,4.69-2.01,4.83-4.58l2.99-54.84c.15-2.77-2.06-5.1-4.83-5.1h-25.56c-2.78,0-4.98,2.33-4.83,5.1h0Z' fill='#{svg-color($iconColor)}'/%3E%3C/svg%3E");
-}
+.icon-fa-bookmark {@include icon-fa($fa-bookmark);}
+.icon-fa-bookmark-solid {@include icon-fa($fa-bookmark,false,true);}
+.icon-fa-bookmark-after {@include icon-fa($fa-bookmark,true);}
+.icon-fa-bookmark-after-solid {@include icon-fa($fa-bookmark,true,true);}
 
-@mixin icon-info ($iconColor: $colorAlert-info) {
-  // Embed https://fontawesome.com/icons/circle-info?f=classic&s=solid
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cpath d='m100,200c55.23,0,100-44.77,100-100S155.23,0,100,0,0,44.77,0,100s44.77,100,100,100Zm-15.62-68.75h9.38v-25h-9.38c-5.2,0-9.38-4.18-9.38-9.38s4.18-9.38,9.38-9.38h18.75c5.2,0,9.38,4.18,9.38,9.38v34.38h3.12c5.2,0,9.38,4.18,9.38,9.38s-4.18,9.38-9.38,9.38h-31.25c-5.2,0-9.38-4.18-9.38-9.38s4.18-9.38,9.38-9.38Zm15.62-81.25c6.9,0,12.5,5.6,12.5,12.5s-5.6,12.5-12.5,12.5-12.5-5.6-12.5-12.5,5.6-12.5,12.5-12.5Z' fill='#{svg-color($iconColor)}'/%3E%3C/svg%3E");
-}
-
-@mixin icon-success ($iconColor: $colorAlert-success) {
-  // Embed https://fontawesome.com/v5/icons/check-circle?f=classic&s=solid
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpath d='m200,100c0,55.23-44.77,100-100,100S0,155.23,0,100,44.77,0,100,0s100,44.77,100,100Zm-111.57,52.95l74.19-74.19c2.52-2.52,2.52-6.6,0-9.12l-9.12-9.12c-2.52-2.52-6.6-2.52-9.12,0l-60.51,60.51-28.25-28.25c-2.52-2.52-6.6-2.52-9.12,0l-9.12,9.12c-2.52,2.52-2.52,6.6,0,9.12l41.94,41.94c2.52,2.52,6.6,2.52,9.12,0h0Z' fill='#{svg-color($iconColor)}'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-@mixin icon-warning ($iconColor: $colorAlert-warning) {
-  // https://fontawesome.com/icons/triangle-exclamation?f=classic&s=solid
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='175.01' viewBox='0 0 200 175.01'%3E%3Cpath d='m99.99,0c5.55,0,10.66,2.93,13.48,7.73l84.38,143.76c2.85,4.84,2.85,10.82.08,15.67-2.77,4.84-7.97,7.85-13.56,7.85H15.61c-5.59,0-10.78-3.01-13.56-7.85-2.77-4.84-2.73-10.86.08-15.67L86.52,7.73c2.81-4.81,7.93-7.73,13.48-7.73Zm0,50c-5.2,0-9.38,4.18-9.38,9.38v43.75c0,5.2,4.18,9.38,9.38,9.38s9.38-4.18,9.38-9.38v-43.75c0-5.2-4.18-9.38-9.38-9.38Zm12.5,87.51c0-6.9-5.6-12.5-12.5-12.5s-12.5,5.6-12.5,12.5,5.6,12.5,12.5,12.5,12.5-5.6,12.5-12.5Z' fill='#{svg-color($iconColor)}'/%3E%3C/svg%3E");
-}
-
-@mixin icon-filter($iconColor: $colorCurrent) {
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='filter' xmlns='http://www.w3.org/2000/svg' width='171.43' height='100' viewBox='0 0 171.43 100'%3E%3Cpath d='m57.14,92.86c0-3.94,3.2-7.14,7.14-7.14h42.86c3.94,0,7.14,3.2,7.14,7.14s-3.2,7.14-7.14,7.14h-42.86c-3.94,0-7.14-3.2-7.14-7.14Z' fill='#{svg-color($iconColor)}'/%3E%3Cpath d='m28.57,50c0-3.94,3.2-7.14,7.14-7.14h100c3.94,0,7.14,3.2,7.14,7.14s-3.2,7.14-7.14,7.14H35.71c-3.94,0-7.14-3.2-7.14-7.14Z' fill='#{svg-color($iconColor)}'/%3E%3Cpath d='m0,7.14C0,3.2,3.2,0,7.14,0h157.14c3.94,0,7.14,3.2,7.14,7.14s-3.2,7.14-7.14,7.14H7.14c-3.94,0-7.14-3.2-7.14-7.14Z' fill='#{svg-color($iconColor)}'/%3E%3C/svg%3E");
+.icon-fa-decoration-none {
+  &:hover, 
+  &:focus, 
+  &:active {
+    text-decoration: none;
+  }
 }
