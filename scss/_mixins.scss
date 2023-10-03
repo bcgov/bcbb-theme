@@ -55,7 +55,7 @@
 // ## ICONS ##
 
 // SVG icons
-// Icon mixins take a colour argument that has to be hex or a 
+// Icon mixins take a colour argument that has to be hex or a
 // variable that represents a hex
 
 @mixin icon-error ($iconColor: $colorAlert-error) {
@@ -82,36 +82,30 @@
   background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='filter' xmlns='http://www.w3.org/2000/svg' width='171.43' height='100' viewBox='0 0 171.43 100'%3E%3Cpath d='m57.14,92.86c0-3.94,3.2-7.14,7.14-7.14h42.86c3.94,0,7.14,3.2,7.14,7.14s-3.2,7.14-7.14,7.14h-42.86c-3.94,0-7.14-3.2-7.14-7.14Z' fill='#{svg-color($iconColor)}'/%3E%3Cpath d='m28.57,50c0-3.94,3.2-7.14,7.14-7.14h100c3.94,0,7.14,3.2,7.14,7.14s-3.2,7.14-7.14,7.14H35.71c-3.94,0-7.14-3.2-7.14-7.14Z' fill='#{svg-color($iconColor)}'/%3E%3Cpath d='m0,7.14C0,3.2,3.2,0,7.14,0h157.14c3.94,0,7.14,3.2,7.14,7.14s-3.2,7.14-7.14,7.14H7.14c-3.94,0-7.14-3.2-7.14-7.14Z' fill='#{svg-color($iconColor)}'/%3E%3C/svg%3E");
 }
 
-// FontAwsome icons
-@mixin icon-fa($icon, $after:false, $solid:false) {
+// Bootstrap icons
+@mixin icon-bi($icon, $after:false) {
   display: inline-flex;
-  gap: 0.5em;
+  width: auto;
+  line-height: 1 !important;
+  gap: .25em;
   align-items: center;
   text-decoration: none;
   &::before,
   &::after {
-    font-weight: 400;
+    font-family: 'bootstrap-icons' !important;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-  }
-  @if $solid {
-    &::before,
-    &::after {
-      font: var(--fa-font-solid);
-    }
-
-  } @else {
-    &::before,
-    &::after {
-      font: var(--fa-font-regular);
-    }
+    -moz-osx-font-smoothing: grayscale;
   }
   @if $after {
     &::after {
+      margin-right: -1.25em;
       content: '#{$icon}';
     }
   } @else {
+    margin-left: 1.25em;
     &::before {
+      margin-left: -1.25em;
       content: '#{$icon}';
     }
   }
@@ -122,11 +116,11 @@
 // Extend an existing styles colour scheme
 // takes 3 arguments
 @mixin ext-color-scheme (
-  $background: $colorBrand-primary, 
-  $border: $colorAccent-primary, 
+  $background: $colorBrand-primary,
+  $border: $colorAccent-primary,
   $color: rgba($colorWhite, 0.9)
   ) {
   background-color: $background;
-  border-color: $border; 
+  border-color: $border;
   color: $color;
 }

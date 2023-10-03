@@ -1,28 +1,30 @@
 // document how this works
 
-.icon-fa-bookmark {@include icon-fa($fa-bookmark);}
-.icon-fa-bookmark-solid {@include icon-fa($fa-bookmark,false,true);}
-.icon-fa-bookmark-after {@include icon-fa($fa-bookmark,true);}
-.icon-fa-bookmark-after-solid {@include icon-fa($fa-bookmark,true,true);}
-.icon-fa-circle-xmark {@include icon-fa($fa-circle-xmark);}
-.icon-fa-circle-xmark-solid {@include icon-fa($fa-circle-xmark,false,true);}
-.icon-fa-circle-xmark-after {@include icon-fa($fa-circle-xmark,true);}
-.icon-fa-circle-xmark-after-solid {@include icon-fa($fa-circle-xmark,true,true);}
-.icon-fa-filter {@include icon-fa($fa-filter);}
-.icon-fa-filter-solid {@include icon-fa($fa-filter,false,true);}
-.icon-fa-filter-after {@include icon-fa($fa-filter,true);}
-.icon-fa-filter-after-solid {@include icon-fa($fa-filter,true,true);}
-.icon-fa-magnifying-glass {@include icon-fa($fa-magnifying-glass);}
-.icon-fa-magnifying-glass-solid {@include icon-fa($fa-magnifying-glass,false,true);}
-.icon-fa-magnifying-glass-after {@include icon-fa($fa-magnifying-glass,true);}
-.icon-fa-magnifying-glass-after-solid {@include icon-fa($fa-magnifying-glass,true,true);}
-
-
+.icon-bi-bookmark-plus {@include icon-bi($bi-bookmark-plus);}
+.icon-bi-bookmark-plus-after {@include icon-bi($bi-bookmark-plus,true);}
+.icon-bi-bookmark-dash-fill {@include icon-bi($bi-bookmark-dash-fill);}
+.icon-bi-bookmark-dash-fill-after {@include icon-bi($bi-bookmark-dash-fill,true);}
+.icon-bi-x-circle-fill {@include icon-bi($bi-x-circle-fill);}
+.icon-bi-x-circle-fill-after {@include icon-bi($bi-x-circle-fill,true);}
+.icon-bi-search {@include icon-bi($bi-search);}
+.icon-bi-search-after {@include icon-bi($bi-search,true);}
+.icon-bi-funnel {@include icon-bi($bi-funnel);}
+.icon-bi-funnel-after {@include icon-bi($bi-funnel,true);}
+.icon-bi-funnel-fill {@include icon-bi($bi-funnel-fill);}
+.icon-bi-funnel-fill-after {@include icon-bi($bi-funnel-fill,true);}
 
 .focus-underline {
   &:hover, 
   &:focus, 
   &:active {
-    text-decoration: underline;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='1'%3E%3Cline x1='0' y1='0.5' x2='10' y2='0.5' style='stroke: currentColor; stroke-width: 1;' /%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    &::before,
+    &::after {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='1'%3E%3Cline x1='0' y1='0' x2='10' y2='0' style='stroke: red; stroke-width: 4; stroke-opacity: 0' /%3E%3C/svg%3E") !important;
+      background-repeat: repeat-x;
+      background-position: bottom;
+    }
   }
 }
