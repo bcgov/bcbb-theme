@@ -13,6 +13,10 @@
 .icon-bi-funnel-fill {@include icon-bi($bi-funnel-fill);}
 .icon-bi-funnel-fill-after {@include icon-bi($bi-funnel-fill,true);}
 
+.icon-bi {
+  font-family: 'bootstrap-icons' !important;;
+}
+
 .focus-underline {
   &:hover, 
   &:focus, 
