@@ -13564,6 +13564,13 @@ a > .ck-content code {
   font-family: "Font Awesome 6 Free" !important;
   font-weight: 900 !important;
 }
+.ck-content h1.page-title::after, .ck-content .page-title.h1::after {
+  border-bottom: 0.18em solid #fcba19;
+  content: "";
+  display: block;
+  padding-bottom: 0.33em;
+  width: 3em;
+}
 .ck-content .icon-bi-bookmark-plus {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
