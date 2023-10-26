@@ -13570,6 +13570,7 @@ a > .ck-content code {
   display: block;
   padding-bottom: 0.33em;
   width: 3em;
+  margin-bottom: 2rem;
 }
 .ck-content .icon-bi-bookmark-plus {
   display: -webkit-inline-box;

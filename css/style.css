@@ -14550,6 +14550,7 @@ h1.page-title::after, .page-title.h1::after {
   display: block;
   padding-bottom: 0.33em;
   width: 3em;
+  margin-bottom: 2rem;
 }
 
 .icon-bi-bookmark-plus {
