@@ -27,4 +27,12 @@
   .btn-danger {
     @include button-color-dark($colorAlert-error,$colorWhite);
   }
+
+  .btn,
+  .button {
+    &:only-child {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
 }

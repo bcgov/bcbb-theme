@@ -13662,7 +13662,7 @@ a > .ck-content code {
   margin-right: -1.25em;
   content: "\f197";
 }
-.ck-content .icon-bi-x-circle-fill {
+.ck-content .icon-bi-info-circle {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13675,17 +13675,17 @@ a > .ck-content code {
   text-decoration: none;
   margin-left: 1.25em;
 }
-.ck-content .icon-bi-x-circle-fill::before, .ck-content .icon-bi-x-circle-fill::after {
+.ck-content .icon-bi-info-circle::before, .ck-content .icon-bi-info-circle::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-x-circle-fill::before {
+.ck-content .icon-bi-info-circle::before {
   margin-left: -1.25em;
-  content: "\f622";
+  content: "\f431";
 }
-.ck-content .icon-bi-x-circle-fill-after {
+.ck-content .icon-bi-info-circle-after {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13697,60 +13697,15 @@ a > .ck-content code {
           align-items: center;
   text-decoration: none;
 }
-.ck-content .icon-bi-x-circle-fill-after::before, .ck-content .icon-bi-x-circle-fill-after::after {
+.ck-content .icon-bi-info-circle-after::before, .ck-content .icon-bi-info-circle-after::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-x-circle-fill-after::after {
+.ck-content .icon-bi-info-circle-after::after {
   margin-right: -1.25em;
-  content: "\f622";
-}
-.ck-content .icon-bi-search {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: auto;
-  line-height: 1 !important;
-  gap: 0.25em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-decoration: none;
-  margin-left: 1.25em;
-}
-.ck-content .icon-bi-search::before, .ck-content .icon-bi-search::after {
-  font-family: "bootstrap-icons" !important;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.ck-content .icon-bi-search::before {
-  margin-left: -1.25em;
-  content: "\f52a";
-}
-.ck-content .icon-bi-search-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: auto;
-  line-height: 1 !important;
-  gap: 0.25em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-decoration: none;
-}
-.ck-content .icon-bi-search-after::before, .ck-content .icon-bi-search-after::after {
-  font-family: "bootstrap-icons" !important;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.ck-content .icon-bi-search-after::after {
-  margin-right: -1.25em;
-  content: "\f52a";
+  content: "\f431";
 }
 .ck-content .icon-bi-funnel {
   display: -webkit-inline-box;
@@ -13841,6 +13796,141 @@ a > .ck-content code {
 .ck-content .icon-bi-funnel-fill-after::after {
   margin-right: -1.25em;
   content: "\f3e0";
+}
+.ck-content .icon-bi-x-circle-fill {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-left: 1.25em;
+}
+.ck-content .icon-bi-x-circle-fill::before, .ck-content .icon-bi-x-circle-fill::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-x-circle-fill::before {
+  margin-left: -1.25em;
+  content: "\f622";
+}
+.ck-content .icon-bi-x-circle-fill-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-x-circle-fill-after::before, .ck-content .icon-bi-x-circle-fill-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-x-circle-fill-after::after {
+  margin-right: -1.25em;
+  content: "\f622";
+}
+.ck-content .icon-bi-search {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-left: 1.25em;
+}
+.ck-content .icon-bi-search::before, .ck-content .icon-bi-search::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-search::before {
+  margin-left: -1.25em;
+  content: "\f52a";
+}
+.ck-content .icon-bi-search-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-search-after::before, .ck-content .icon-bi-search-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-search-after::after {
+  margin-right: -1.25em;
+  content: "\f52a";
+}
+.ck-content .icon-bi-arrow-right-short {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-left: 1.25em;
+}
+.ck-content .icon-bi-arrow-right-short::before, .ck-content .icon-bi-arrow-right-short::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-arrow-right-short::before {
+  margin-left: -1.25em;
+  content: "\f135";
+}
+.ck-content .icon-bi-arrow-right-short-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-arrow-right-short-after::before, .ck-content .icon-bi-arrow-right-short-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-arrow-right-short-after::after {
+  margin-right: -1.25em;
+  content: "\f135";
 }
 .ck-content .icon-bi {
   font-family: "bootstrap-icons" !important;
@@ -14224,6 +14314,11 @@ a > .ck-content code {
   --bs-btn-active-shadow: inset 0 px-em(3px) px-em(5px) rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-bg: #300b0a;
   --bs-btn-disabled-border-color: #180605;
+}
+.ck-content .bcbb-theme .btn:only-child, .ck-content .bcbb-theme button.link:only-child, .ck-content .bcbb-theme .node-preview-container .node-preview-backlink:only-child, .ck-content .node-preview-container .bcbb-theme .node-preview-backlink:only-child,
+.ck-content .bcbb-theme .button:only-child {
+  margin-left: 0;
+  margin-right: 0;
 }
 .ck-content .well {
   min-height: 20px;
