@@ -13564,6 +13564,201 @@ a > .ck-content code {
   font-family: "Font Awesome 6 Free" !important;
   font-weight: 900 !important;
 }
+.ck-content .last-child-no-border > *:last-child {
+  border: 0px transparent !important;
+}
+@media only screen and (min-width: 576px) {
+  .ck-content .visually-hidden-sm-up {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .ck-content .visually-hidden-sm-up:not(caption) {
+    position: absolute !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ck-content .visually-hidden-md-up {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .ck-content .visually-hidden-md-up:not(caption) {
+    position: absolute !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ck-content .visually-hidden-lg-up {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .ck-content .visually-hidden-lg-up:not(caption) {
+    position: absolute !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ck-content .visually-hidden-xl-up {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .ck-content .visually-hidden-xl-up:not(caption) {
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .ck-content .visually-hidden-sm-down {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .ck-content .visually-hidden-sm-down:not(caption) {
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ck-content .visually-hidden-md-down {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .ck-content .visually-hidden-md-down:not(caption) {
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ck-content .visually-hidden-lg-down {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .ck-content .visually-hidden-lg-down:not(caption) {
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ck-content .visually-hidden-xl-down {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .ck-content .visually-hidden-xl-down:not(caption) {
+    position: absolute !important;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .ck-content .disable-pointer-sm-up {
+    pointer-events: none !important;
+  }
+  .ck-content .disable-pointer-sm-up:focus, .ck-content .disable-pointer-sm-up:focus-within {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ck-content .disable-pointer-md-up {
+    pointer-events: none !important;
+  }
+  .ck-content .disable-pointer-md-up:focus, .ck-content .disable-pointer-md-up:focus-within {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ck-content .disable-pointer-lg-up {
+    pointer-events: none !important;
+  }
+  .ck-content .disable-pointer-lg-up:focus, .ck-content .disable-pointer-lg-up:focus-within {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ck-content .disable-pointer-xl-up {
+    pointer-events: none !important;
+  }
+  .ck-content .disable-pointer-xl-up:focus, .ck-content .disable-pointer-xl-up:focus-within {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .ck-content .disable-pointer-sm-down {
+    pointer-events: none !important;
+  }
+  .ck-content .disable-pointer-sm-down:focus, .ck-content .disable-pointer-sm-down:focus-within {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ck-content .disable-pointer-md-down {
+    pointer-events: none !important;
+  }
+  .ck-content .disable-pointer-md-down:focus, .ck-content .disable-pointer-md-down:focus-within {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ck-content .disable-pointer-lg-down {
+    pointer-events: none !important;
+  }
+  .ck-content .disable-pointer-lg-down:focus, .ck-content .disable-pointer-lg-down:focus-within {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ck-content .disable-pointer-xl-down {
+    pointer-events: none !important;
+  }
+  .ck-content .disable-pointer-xl-down:focus, .ck-content .disable-pointer-xl-down:focus-within {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
 .ck-content h1.page-title::after, .ck-content .page-title.h1::after {
   border-bottom: 0.18em solid #fcba19;
   content: "";
@@ -13572,7 +13767,7 @@ a > .ck-content code {
   width: 3em;
   margin-bottom: 2rem;
 }
-.ck-content .icon-bi-bookmark-plus {
+.ck-content .icon-bi-arrow-right-short {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13585,17 +13780,17 @@ a > .ck-content code {
   text-decoration: none;
   margin-left: 1.25em;
 }
-.ck-content .icon-bi-bookmark-plus::before, .ck-content .icon-bi-bookmark-plus::after {
+.ck-content .icon-bi-arrow-right-short::before, .ck-content .icon-bi-arrow-right-short::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-bookmark-plus::before {
+.ck-content .icon-bi-arrow-right-short::before {
   margin-left: -1.25em;
-  content: "\f19d";
+  content: "\f135";
 }
-.ck-content .icon-bi-bookmark-plus-after {
+.ck-content .icon-bi-arrow-right-short-after {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13607,15 +13802,15 @@ a > .ck-content code {
           align-items: center;
   text-decoration: none;
 }
-.ck-content .icon-bi-bookmark-plus-after::before, .ck-content .icon-bi-bookmark-plus-after::after {
+.ck-content .icon-bi-arrow-right-short-after::before, .ck-content .icon-bi-arrow-right-short-after::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-bookmark-plus-after::after {
+.ck-content .icon-bi-arrow-right-short-after::after {
   margin-right: -1.25em;
-  content: "\f19d";
+  content: "\f135";
 }
 .ck-content .icon-bi-bookmark-dash-fill {
   display: -webkit-inline-box;
@@ -13662,7 +13857,7 @@ a > .ck-content code {
   margin-right: -1.25em;
   content: "\f197";
 }
-.ck-content .icon-bi-info-circle {
+.ck-content .icon-bi-bookmark-plus {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13675,17 +13870,17 @@ a > .ck-content code {
   text-decoration: none;
   margin-left: 1.25em;
 }
-.ck-content .icon-bi-info-circle::before, .ck-content .icon-bi-info-circle::after {
+.ck-content .icon-bi-bookmark-plus::before, .ck-content .icon-bi-bookmark-plus::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-info-circle::before {
+.ck-content .icon-bi-bookmark-plus::before {
   margin-left: -1.25em;
-  content: "\f431";
+  content: "\f19d";
 }
-.ck-content .icon-bi-info-circle-after {
+.ck-content .icon-bi-bookmark-plus-after {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13697,15 +13892,60 @@ a > .ck-content code {
           align-items: center;
   text-decoration: none;
 }
-.ck-content .icon-bi-info-circle-after::before, .ck-content .icon-bi-info-circle-after::after {
+.ck-content .icon-bi-bookmark-plus-after::before, .ck-content .icon-bi-bookmark-plus-after::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-info-circle-after::after {
+.ck-content .icon-bi-bookmark-plus-after::after {
   margin-right: -1.25em;
-  content: "\f431";
+  content: "\f19d";
+}
+.ck-content .icon-bi-bookmarks-fill {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-left: 1.25em;
+}
+.ck-content .icon-bi-bookmarks-fill::before, .ck-content .icon-bi-bookmarks-fill::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-bookmarks-fill::before {
+  margin-left: -1.25em;
+  content: "\f1a3";
+}
+.ck-content .icon-bi-bookmarks-fill-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-bookmarks-fill-after::before, .ck-content .icon-bi-bookmarks-fill-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-bookmarks-fill-after::after {
+  margin-right: -1.25em;
+  content: "\f1a3";
 }
 .ck-content .icon-bi-funnel {
   display: -webkit-inline-box;
@@ -13797,7 +14037,7 @@ a > .ck-content code {
   margin-right: -1.25em;
   content: "\f3e0";
 }
-.ck-content .icon-bi-x-circle-fill {
+.ck-content .icon-bi-info-circle {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13810,17 +14050,17 @@ a > .ck-content code {
   text-decoration: none;
   margin-left: 1.25em;
 }
-.ck-content .icon-bi-x-circle-fill::before, .ck-content .icon-bi-x-circle-fill::after {
+.ck-content .icon-bi-info-circle::before, .ck-content .icon-bi-info-circle::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-x-circle-fill::before {
+.ck-content .icon-bi-info-circle::before {
   margin-left: -1.25em;
-  content: "\f622";
+  content: "\f431";
 }
-.ck-content .icon-bi-x-circle-fill-after {
+.ck-content .icon-bi-info-circle-after {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13832,15 +14072,15 @@ a > .ck-content code {
           align-items: center;
   text-decoration: none;
 }
-.ck-content .icon-bi-x-circle-fill-after::before, .ck-content .icon-bi-x-circle-fill-after::after {
+.ck-content .icon-bi-info-circle-after::before, .ck-content .icon-bi-info-circle-after::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-x-circle-fill-after::after {
+.ck-content .icon-bi-info-circle-after::after {
   margin-right: -1.25em;
-  content: "\f622";
+  content: "\f431";
 }
 .ck-content .icon-bi-search {
   display: -webkit-inline-box;
@@ -13887,7 +14127,7 @@ a > .ck-content code {
   margin-right: -1.25em;
   content: "\f52a";
 }
-.ck-content .icon-bi-arrow-right-short {
+.ck-content .icon-bi-trash3 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13900,17 +14140,17 @@ a > .ck-content code {
   text-decoration: none;
   margin-left: 1.25em;
 }
-.ck-content .icon-bi-arrow-right-short::before, .ck-content .icon-bi-arrow-right-short::after {
+.ck-content .icon-bi-trash3::before, .ck-content .icon-bi-trash3::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-arrow-right-short::before {
+.ck-content .icon-bi-trash3::before {
   margin-left: -1.25em;
-  content: "\f135";
+  content: "\f78b";
 }
-.ck-content .icon-bi-arrow-right-short-after {
+.ck-content .icon-bi-trash3-after {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -13922,15 +14162,60 @@ a > .ck-content code {
           align-items: center;
   text-decoration: none;
 }
-.ck-content .icon-bi-arrow-right-short-after::before, .ck-content .icon-bi-arrow-right-short-after::after {
+.ck-content .icon-bi-trash3-after::before, .ck-content .icon-bi-trash3-after::after {
   font-family: "bootstrap-icons" !important;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ck-content .icon-bi-arrow-right-short-after::after {
+.ck-content .icon-bi-trash3-after::after {
   margin-right: -1.25em;
-  content: "\f135";
+  content: "\f78b";
+}
+.ck-content .icon-bi-x-circle-fill {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-left: 1.25em;
+}
+.ck-content .icon-bi-x-circle-fill::before, .ck-content .icon-bi-x-circle-fill::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-x-circle-fill::before {
+  margin-left: -1.25em;
+  content: "\f622";
+}
+.ck-content .icon-bi-x-circle-fill-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-x-circle-fill-after::before, .ck-content .icon-bi-x-circle-fill-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-x-circle-fill-after::after {
+  margin-right: -1.25em;
+  content: "\f622";
 }
 .ck-content .icon-bi {
   font-family: "bootstrap-icons" !important;
@@ -14052,6 +14337,9 @@ a > .ck-content code {
   background-color: #eaf3ec;
   border-left-color: #236430;
 }
+.ck-content .badge-facet {
+  min-width: 4em;
+}
 .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14092,21 +14380,6 @@ a > .ck-content code {
 }
 .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline .button:last-child {
   margin-left: 0.125em;
-}
-.ck-content .block-facets-summary ul {
-  list-style: none;
-}
-.ck-content .block-facets-summary ul li {
-  display: inline-block;
-}
-.ck-content .block-facets-summary ul a {
-  text-decoration: none;
-}
-.ck-content .block-facets-summary ul a::after {
-  font-family: "Font Awesome 6 Free";
-  content: "\f057";
-  font-weight: 900;
-  width: 1em;
 }
 .ck-content .block-bcbb-search {
   position: relative;
@@ -14230,6 +14503,39 @@ a > .ck-content code {
   margin-left: 1.5em;
   margin-top: -0.5em;
   padding-bottom: 1em;
+}
+.ck-content .bb-collapse .toggle {
+  width: 100%;
+  text-align: left;
+  border-width: 0 0 1px 0;
+  background: var(--bs-gray-100);
+  border-color: var(--bs-gray-300);
+  border-radius: 0;
+  position: relative;
+  padding: 1em 1em 1em 3em;
+}
+.ck-content .bb-collapse .toggle::before {
+  position: absolute;
+  margin-left: -1.5em;
+  display: inline-block;
+  font-family: "bootstrap-icons" !important;
+  content: "\f231";
+}
+.ck-content .bb-collapse .toggle:hover, .ck-content .bb-collapse .toggle:active, .ck-content .bb-collapse .toggle:focus {
+  background: var(--bs-gray-200) !important;
+  border-color: var(--bs-gray-300) !important;
+}
+.ck-content .bb-collapse .toggle[aria-expanded=true] {
+  background: var(--bs-gray-200) !important;
+  border-color: var(--bs-gray-300) !important;
+}
+.ck-content .bb-collapse .toggle[aria-expanded=true]::before {
+  content: "\f229";
+}
+@media only screen and (min-width: 768px) {
+  .ck-content .bb-collapse-responsive .collapse:not(.show) {
+    display: block !important;
+  }
 }
 .ck-content .book-navigation {
   border-top: 1px solid #fcba19;

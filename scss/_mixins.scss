@@ -124,3 +124,11 @@
   border-color: $border;
   color: $color;
 }
+
+@mixin disable-pointer() {
+  pointer-events: none !important;
+  &:focus,
+  &:focus-within {
+    box-shadow: none !important;
+  }
+}

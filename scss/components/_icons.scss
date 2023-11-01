@@ -1,24 +1,28 @@
 // document how this works
 
-.icon-bi-bookmark-plus {@include icon-bi($bi-bookmark-plus);}
-.icon-bi-bookmark-plus-after {@include icon-bi($bi-bookmark-plus,true);}
+.icon-bi-arrow-right-short {@include icon-bi($bi-arrow-right-short);}
+.icon-bi-arrow-right-short-after {@include icon-bi($bi-arrow-right-short,true);}
 .icon-bi-bookmark-dash-fill {@include icon-bi($bi-bookmark-dash-fill);}
 .icon-bi-bookmark-dash-fill-after {@include icon-bi($bi-bookmark-dash-fill,true);}
-.icon-bi-info-circle {@include icon-bi($bi-info-circle);}
-.icon-bi-info-circle-after {@include icon-bi($bi-info-circle,true);}
+.icon-bi-bookmark-plus {@include icon-bi($bi-bookmark-plus);}
+.icon-bi-bookmark-plus-after {@include icon-bi($bi-bookmark-plus,true);}
+.icon-bi-bookmarks-fill {@include icon-bi($bi-bookmarks-fill);}
+.icon-bi-bookmarks-fill-after {@include icon-bi($bi-bookmarks-fill,true);}
 .icon-bi-funnel {@include icon-bi($bi-funnel);}
 .icon-bi-funnel-after {@include icon-bi($bi-funnel,true);}
 .icon-bi-funnel-fill {@include icon-bi($bi-funnel-fill);}
 .icon-bi-funnel-fill-after {@include icon-bi($bi-funnel-fill,true);}
-.icon-bi-x-circle-fill {@include icon-bi($bi-x-circle-fill);}
-.icon-bi-x-circle-fill-after {@include icon-bi($bi-x-circle-fill,true);}
+.icon-bi-info-circle {@include icon-bi($bi-info-circle);}
+.icon-bi-info-circle-after {@include icon-bi($bi-info-circle,true);}
 .icon-bi-search {@include icon-bi($bi-search);}
 .icon-bi-search-after {@include icon-bi($bi-search,true);}
-.icon-bi-arrow-right-short {@include icon-bi($bi-arrow-right-short);}
-.icon-bi-arrow-right-short-after {@include icon-bi($bi-arrow-right-short,true);}
+.icon-bi-trash3 {@include icon-bi($bi-trash3);}
+.icon-bi-trash3-after {@include icon-bi($bi-trash3,true);}
+.icon-bi-x-circle-fill {@include icon-bi($bi-x-circle-fill);}
+.icon-bi-x-circle-fill-after {@include icon-bi($bi-x-circle-fill,true);}
 
 .icon-bi {
-  font-family: 'bootstrap-icons' !important;;
+  font-family: 'bootstrap-icons' !important;
 }
 
 .focus-underline {

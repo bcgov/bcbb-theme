@@ -1,5 +1,8 @@
 // Search
 
+.badge-facet {
+  min-width: 4em;
+}
 // search block on search page
 .block-views-exposed-filter-blocksite-search-block-1 {
   >form {
@@ -35,23 +38,6 @@
   }
 }
 
-.block-facets-summary {
-  ul {
-    list-style: none;
-    li {
-      display: inline-block;
-    }
-    a {
-      text-decoration: none;
-      &::after {
-      font-family: 'Font Awesome 6 Free';
-      content: "\f057";
-      font-weight: 900;
-      width: 1em;
-      }
-    }
-  }
-}
 
 // search block in the header region
 
