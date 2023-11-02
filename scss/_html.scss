@@ -1,13 +1,4 @@
 html.bcbb-theme {
-  font-size: $defaultFont-size;
-  // make base text size scale with screen width
-  @include responsive($sm-min) {
-    font-size: calc($defaultFont-size + 6 * ((100vw - 320px) / 680));
-  }
-  // prevent text from getting huge on large screens
-  @include responsive($lg-min) {
-    font-size: 20px;
-  }
 
   body {
     font-family: 'BCSans', 'Noto Sans', Verdana, Arial, sans-serif;

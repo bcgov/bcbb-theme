@@ -12,6 +12,9 @@
     border-radius: 0;
     position: relative;
     padding: 1em 1em 1em 3em;
+    @include responsive($md-min) {
+      padding: .5em 1em .5em 3em;
+    }
 
     &::before {
       position: absolute;

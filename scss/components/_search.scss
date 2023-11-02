@@ -3,7 +3,19 @@
 .badge-facet {
   min-width: 4em;
 }
+
+.bcbb-search-wrapper {
+  @include responsive($lg-min) {
+    position: relative;
+    .bcbb-search-sidebar {
+      position: absolute;
+      right:0;
+      top: 0;
+    }
+  }
+}
 // search block on search page
+// needs to be removed after theme update
 .block-views-exposed-filter-blocksite-search-block-1 {
   >form {
     .form--inline {
@@ -64,5 +76,4 @@
       border-color: mix($colorBrand-secondary-a11y, $colorBlack, 75%);
     }
   }
-
 }
