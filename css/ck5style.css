@@ -14383,7 +14383,7 @@ a > .ck-content code {
 .ck-content .badge-facet {
   min-width: 4em;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .ck-content .bcbb-search-wrapper {
     position: relative;
   }
@@ -14391,6 +14391,14 @@ a > .ck-content code {
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .ck-content .bcbb-search-wrapper .bcbb-search-input {
+    max-width: 58%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ck-content .bcbb-search-wrapper .bcbb-search-input {
+    max-width: 100%;
   }
 }
 .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline {

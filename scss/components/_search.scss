@@ -5,15 +5,25 @@
 }
 
 .bcbb-search-wrapper {
-  @include responsive($lg-min) {
+  @include responsive($md-min) {
     position: relative;
     .bcbb-search-sidebar {
       position: absolute;
       right:0;
       top: 0;
     }
+    .bcbb-search-input {
+      max-width: 58%;
+    }
+  }
+  @include responsive($lg-min) {
+    .bcbb-search-input {
+      max-width: 100%;
+    }
   }
 }
+
+
 // search block on search page
 // needs to be removed after theme update
 .block-views-exposed-filter-blocksite-search-block-1 {
