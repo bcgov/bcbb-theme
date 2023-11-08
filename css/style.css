@@ -7,6 +7,11 @@
 :root {
   --bs-tertiary-color: #757779 !important;
 }
+@media only screen and (min-width: 768px) {
+  :root {
+    --bs-body-font-size: 1.25rem !important;
+  }
+}
 
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)

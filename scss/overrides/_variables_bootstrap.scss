@@ -33,4 +33,7 @@ $danger:        $colorAlert-error;
 
 :root {
   --bs-tertiary-color: #757779 !important;
+  @include responsive($md-min) {
+    --bs-body-font-size: 1.25rem !important;
+  }
 }

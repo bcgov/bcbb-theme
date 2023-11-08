@@ -40,6 +40,11 @@
 .ck-content :root {
   --bs-tertiary-color: #757779 !important;
 }
+@media only screen and (min-width: 768px) {
+  .ck-content :root {
+    --bs-body-font-size: 1.25rem !important;
+  }
+}
 .ck-content :root,
 .ck-content [data-bs-theme=light] {
   --bs-blue: #0d6efd;
