@@ -59,3 +59,13 @@ function bcbb_theme_preprocess_input(array &$variables): void {
     $variables['icon'] = $icons[$variables['element']['#id']];
   }
 }
+
+
+/**
+ * hook_preprocess_HOOK()
+ * get route name
+ *
+ */
+function bcbb_theme_preprocess_bcbb_main_sidebar_right() {
+  $variables['route_name'] = \Drupal::routeMatch()->getRouteName() . 'TEST';
+}
