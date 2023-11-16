@@ -68,11 +68,12 @@ function bcbb_theme_preprocess_input(array &$variables): void {
  */
 function bcbb_theme_preprocess_bcbb_main_sidebar_right(array &$variables): void {
   $route_name = \Drupal::routeMatch()->getRouteName();
-
   $variables['route_name'] = $route_name;
-
+  // see if route matches the search results page
   if ($route_name === 'page_manager.page_view_site_search_site_search-panels_variant-0') {
+    // create a custom variable that can be defined in twig
     $variables['wrapper_attributes']['class'][] = 'bcbb-search-wrapper';
+    // drupal attribute object
     $variables['content_attributes']['class'][] = 'test0 test1';
   }
 }
