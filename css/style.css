@@ -14761,6 +14761,26 @@ html.bcbb-theme kbd {
   border-bottom: 0px solid transparent;
 }
 
+.ms-n1 {
+  margin-left: -0.25em !important;
+}
+
+.ms-n2 {
+  margin-left: -0.5em !important;
+}
+
+.ms-n3 {
+  margin-left: -0.75em !important;
+}
+
+.ms-n4 {
+  margin-left: -1em !important;
+}
+
+.ms-n5 {
+  margin-left: -1.25em !important;
+}
+
 h1.page-title::after, .page-title.h1::after {
   border-bottom: 0.18em solid #fcba19;
   content: "";
@@ -15240,6 +15260,53 @@ h1.page-title::after, .page-title.h1::after {
   content: "\f78b";
 }
 
+.icon-bi-x-circle {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-left: 1.25em;
+}
+.icon-bi-x-circle::before, .icon-bi-x-circle::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-bi-x-circle::before {
+  margin-left: -1.25em;
+  content: "\f623";
+}
+
+.icon-bi-x-circle-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.icon-bi-x-circle-after::before, .icon-bi-x-circle-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-bi-x-circle-after::after {
+  margin-right: -1.25em;
+  content: "\f623";
+}
+
 .icon-bi-x-circle-fill {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -15441,6 +15508,13 @@ h1.page-title::after, .page-title.h1::after {
   .bcbb-search-wrapper .bcbb-search-input {
     max-width: 100%;
   }
+}
+
+.bcbb-search-sidebar section[class*=facet] {
+  border-bottom: 1px solid var(--bs-light-border-subtle);
+}
+.bcbb-search-sidebar section[class*=facet]:last-child {
+  border-bottom: 0px solid transparent;
 }
 
 .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline {

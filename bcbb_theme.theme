@@ -73,7 +73,13 @@ function bcbb_theme_preprocess_bcbb_main_sidebar_right(array &$variables): void 
   if ($route_name === 'page_manager.page_view_site_search_site_search-panels_variant-0') {
     // create a custom variable that can be defined in twig
     $variables['wrapper_attributes']['class'][] = 'bcbb-search-wrapper';
-    // drupal attribute object
-    $variables['content_attributes']['class'][] = 'test0 test1';
+    $variables['sidebar_attributes']['class'][] = 'bcbb-search-sidebar';
   }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page-title.html.twig.
+ */
+function bcbb_theme_preprocess_page_title(array &$variables): void {
+  $variables['title_attributes']['class'][] = 'page-title';
 }

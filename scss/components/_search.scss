@@ -23,6 +23,15 @@
   }
 }
 
+.bcbb-search-sidebar {
+    section[class*="facet"] {
+      border-bottom: 1px solid var(--bs-light-border-subtle);
+      &:last-child {
+        border-bottom: 0px solid transparent;
+      }
+    }
+}
+
 
 // search block on search page
 // needs to be removed after theme update

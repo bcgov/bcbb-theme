@@ -13762,6 +13762,21 @@ a > .ck-content code {
 .ck-content .bcbb-dividers > *:last-child {
   border-bottom: 0px solid transparent;
 }
+.ck-content .ms-n1 {
+  margin-left: -0.25em !important;
+}
+.ck-content .ms-n2 {
+  margin-left: -0.5em !important;
+}
+.ck-content .ms-n3 {
+  margin-left: -0.75em !important;
+}
+.ck-content .ms-n4 {
+  margin-left: -1em !important;
+}
+.ck-content .ms-n5 {
+  margin-left: -1.25em !important;
+}
 .ck-content h1.page-title::after, .ck-content .page-title.h1::after {
   border-bottom: 0.18em solid #fcba19;
   content: "";
@@ -14220,6 +14235,51 @@ a > .ck-content code {
   margin-right: -1.25em;
   content: "\f78b";
 }
+.ck-content .icon-bi-x-circle {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-left: 1.25em;
+}
+.ck-content .icon-bi-x-circle::before, .ck-content .icon-bi-x-circle::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-x-circle::before {
+  margin-left: -1.25em;
+  content: "\f623";
+}
+.ck-content .icon-bi-x-circle-after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-x-circle-after::before, .ck-content .icon-bi-x-circle-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-x-circle-after::after {
+  margin-right: -1.25em;
+  content: "\f623";
+}
 .ck-content .icon-bi-x-circle-fill {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -14405,6 +14465,12 @@ a > .ck-content code {
   .ck-content .bcbb-search-wrapper .bcbb-search-input {
     max-width: 100%;
   }
+}
+.ck-content .bcbb-search-sidebar section[class*=facet] {
+  border-bottom: 1px solid var(--bs-light-border-subtle);
+}
+.ck-content .bcbb-search-sidebar section[class*=facet]:last-child {
+  border-bottom: 0px solid transparent;
 }
 .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline {
   display: -webkit-box;
