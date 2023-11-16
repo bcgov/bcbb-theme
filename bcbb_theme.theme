@@ -72,7 +72,7 @@ function bcbb_theme_preprocess_bcbb_main_sidebar_right(array &$variables): void 
   $variables['route_name'] = $route_name;
 
   if ($route_name === 'page_manager.page_view_site_search_site_search-panels_variant-0') {
-    $variables['attributes']['class'][] = 'bcbb-search-wrapper';
-    $variables['attributes']['class'][] = 'test';
+    $variables['wrapper_attributes']['class'][] = 'bcbb-search-wrapper';
+    $variables['content_attributes']['class'][] = 'test0 test1';
   }
 }
