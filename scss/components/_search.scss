@@ -5,7 +5,7 @@
 }
 
 .bcbb-search-wrapper {
-  @include responsive($lg-min) {
+  @include responsive($md-min) {
     position: relative;
     .bcbb-search-sidebar {
       position: absolute;
@@ -16,7 +16,7 @@
       max-width: 58%;
     }
   }
-  @include responsive($lg-min) {
+  @include responsive($md-min) {
     .bcbb-search-input {
       max-width: 100%;
     }

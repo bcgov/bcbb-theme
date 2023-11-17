@@ -65,8 +65,9 @@ function bcbb_theme_preprocess_input(array &$variables): void {
  * Implements hook_preprocess_HOOK().
  *
  * Get route name.
- */
-function bcbb_theme_preprocess_bcbb_main_sidebar_right(array &$variables): void {
+  */
+
+function bcbb_theme_preprocess_bcbb_search_results(array &$variables): void {
   $route_name = \Drupal::routeMatch()->getRouteName();
   $variables['route_name'] = $route_name;
   // see if route matches the search results page

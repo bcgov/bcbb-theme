@@ -15491,7 +15491,7 @@ h1.page-title::after, .page-title.h1::after {
   min-width: 4em;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .bcbb-search-wrapper {
     position: relative;
   }
@@ -15504,7 +15504,7 @@ h1.page-title::after, .page-title.h1::after {
     max-width: 58%;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .bcbb-search-wrapper .bcbb-search-input {
     max-width: 100%;
   }
