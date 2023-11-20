@@ -4,8 +4,16 @@
   min-width: 4em;
 }
 
+.bcbb-facet-result {
+  @include responsive-down($lg-max) { 
+    > * {
+      max-width: 50%;
+    }
+  }
+}
+
 .bcbb-search-wrapper {
-  @include responsive($md-min) {
+  @include responsive($lg-min) {
     position: relative;
     .bcbb-search-sidebar {
       position: absolute;
@@ -16,20 +24,11 @@
       max-width: 58%;
     }
   }
-  @include responsive($md-min) {
+  @include responsive($lg-min) {
     .bcbb-search-input {
       max-width: 100%;
     }
   }
-}
-
-.bcbb-search-sidebar {
-    section[class*="facet"] {
-      border-bottom: 1px solid var(--bs-light-border-subtle);
-      &:last-child {
-        border-bottom: 0px solid transparent;
-      }
-    }
 }
 
 
@@ -46,7 +45,7 @@
         margin-right: 0;
         width: 100%;
       }
-      @include responsive($md-min) {
+      @include responsive($lg-min) {
         flex-direction: row;
         .form-item {
           margin-right: 0.5em;

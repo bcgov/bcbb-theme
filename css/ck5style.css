@@ -14448,7 +14448,12 @@ a > .ck-content code {
 .ck-content .badge-facet {
   min-width: 4em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1199.98px) {
+  .ck-content .bcbb-facet-result > * {
+    max-width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
   .ck-content .bcbb-search-wrapper {
     position: relative;
   }
@@ -14461,16 +14466,10 @@ a > .ck-content code {
     max-width: 58%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .ck-content .bcbb-search-wrapper .bcbb-search-input {
     max-width: 100%;
   }
-}
-.ck-content .bcbb-search-sidebar section[class*=facet] {
-  border-bottom: 1px solid var(--bs-light-border-subtle);
-}
-.ck-content .bcbb-search-sidebar section[class*=facet]:last-child {
-  border-bottom: 0px solid transparent;
 }
 .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline {
   display: -webkit-box;
@@ -14488,7 +14487,7 @@ a > .ck-content code {
   margin-right: 0;
   width: 100%;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .ck-content .block-views-exposed-filter-blocksite-search-block-1 > form .form--inline {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -14646,7 +14645,7 @@ a > .ck-content code {
   position: relative;
   padding: 1em 1em 1em 3em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .ck-content .bb-collapse .toggle {
     padding: 0.5em 1em 0.5em 3em;
   }
@@ -14669,9 +14668,18 @@ a > .ck-content code {
 .ck-content .bb-collapse .toggle[aria-expanded=true]::before {
   content: "\f229";
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .ck-content .bb-collapse-responsive .collapse:not(.show) {
     display: block !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ck-content .bb-collapse-responsive .toggle::before {
+    content: "" !important;
+  }
+  .ck-content .bb-collapse-responsive .toggle[aria-expanded=true] {
+    background: var(--bs-gray-100) !important;
+    border-color: var(--bs-gray-300) !important;
   }
 }
 .ck-content .book-navigation {
