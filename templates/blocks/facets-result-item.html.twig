@@ -17,7 +17,7 @@
  */
 #}
 <div class="d-flex justify-content-between align-items-start mb-2 bcbb-facet-result">
-  
+
   {% if is_active %}
     <div class="ms-n5">
       <span class="facet-item__value js-facet-deactivate icon-bi-x-circle pe-2" aria-label="{{ 'remove facet'|t }}">{{ value }}</span>
@@ -25,9 +25,9 @@
     {% else %}
     <span class="facet-item__value pe-2">{{ value }}</span>
   {% endif %}
-    
+
   {% if show_count %}
     <span class="badge badge-facet rounded-pill text-bg-dark">{{ count }}</span>
   {% endif %}
-  
+
 </div>

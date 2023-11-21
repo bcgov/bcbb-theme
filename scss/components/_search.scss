@@ -6,7 +6,7 @@
 
 .bcbb-search-sidebar {
   .bcbb-facet-result {
-    @include responsive-down($lg-max) { 
+    @include responsive-down($lg-max) {
       > * {
         max-width: 50%;
       }
@@ -24,7 +24,7 @@
   a:focus,
   a:focus-within {
     text-decoration: underline;
-  } 
+  }
 }
 
 
