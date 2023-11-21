@@ -60,19 +60,17 @@ function bcbb_theme_preprocess_input(array &$variables): void {
   }
 }
 
-
 /**
  * Implements hook_preprocess_HOOK().
  *
  * Get route name.
-  */
-
+ */
 function bcbb_theme_preprocess_bcbb_search_results(array &$variables): void {
   $route_name = \Drupal::routeMatch()->getRouteName();
   $variables['route_name'] = $route_name;
-  // see if route matches the search results page
+  // See if route matches the search results page.
   if ($route_name === 'page_manager.page_view_site_search_site_search-panels_variant-0') {
-    // create a custom variable that can be defined in twig
+    // Create a custom variable that can be defined in twig.
     $variables['wrapper_attributes']['class'][] = 'bcbb-search-wrapper';
     $variables['sidebar_wrapper_attributes']['class'][] = 'bcbb-search-sidebar';
     $variables['facet_wrapper_attributes']['class'][] = 'bb-collapse';
