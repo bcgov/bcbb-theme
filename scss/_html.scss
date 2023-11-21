@@ -24,9 +24,8 @@ html.bcbb-theme {
       line-height: 1.6;
     }
 
-    a:not(.btn, .button) {
+    a:not(.btn, .button, .page-link) {
       color: $colorTextLink;
-      transition: color 0.25s ease;
       &:hover,
       &:focus {
         color: $colorTextLink-hover;

@@ -4,13 +4,29 @@
   min-width: 4em;
 }
 
-.bcbb-facet-result {
-  @include responsive-down($lg-max) { 
-    > * {
-      max-width: 50%;
+.bcbb-search-sidebar {
+  .bcbb-facet-result {
+    @include responsive-down($lg-max) { 
+      > * {
+        max-width: 50%;
+      }
     }
   }
 }
+.facets-widget-links {
+  a,
+  a:active,
+  a:visited {
+    text-decoration: none;
+    color: $colorTextLink !important;
+  }
+  a:hover,
+  a:focus,
+  a:focus-within {
+    text-decoration: underline;
+  } 
+}
+
 
 .bcbb-search-wrapper {
   @include responsive($lg-min) {
@@ -29,6 +45,72 @@
       max-width: 100%;
     }
   }
+ .view-site-search {
+  .form-actions {
+   @extend .d-grid;
+   @extend .gap-2;
+   @extend .d-lg-flex;
+   input {
+    @extend .btn;
+    @extend .btn-light;
+    @extend .btn-sm;
+    @extend .m-0;
+   }
+  }
+  .form-type-checkbox {
+    margin-top: .125em;
+   }
+ }
+
+ .bcbb-current-search-facets {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: .25em 1.5em;
+  align-items: flex-start;
+  justify-content: flex-start;
+    li {
+      flex-basis: content;
+    }
+  li.facet-summary-item--clear {
+    margin-left: -1.5em !important;
+    a {
+      @include icon-cancel($colorWhite);
+      background-position: .5em center;
+      background-repeat: no-repeat;
+      background-size: 1em 1em;
+      text-decoration: none;
+    }
+    a,
+    a:active,
+    a:visited {
+      background-color: $colorAlert-error;
+      transition: background-color 0.15s ease-in-out;
+      color: $colorWhite;
+      border-radius: var(--bs-border-radius-pill) !important;
+      padding: .15em .75em .15em 2em;
+      text-decoration: none;
+    }
+    a:hover,
+    a:focus,
+    a:focus-within {
+      background-color: #711b18;
+    }
+  }
+  @include responsive($lg-min){
+    flex-direction: row;
+  }
+ }
+
+.block-region-sidebar-bottom {
+  @extend .bcbb-dividers;
+}
+.vbo-info-list-wrapper {
+  h3 {
+    @extend .h5;
+  }
+}
 }
 
 
