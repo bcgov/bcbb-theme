@@ -57,7 +57,7 @@
     'pb-2'
   ]
 %}
-<div{{ attributes.addClass(classes) }}>
+<section{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
       <h2{{ title_attributes.addClass('h5','icon-bi-funnel-fill','fw-bold') }}>
@@ -71,4 +71,4 @@
       {{ content }}
     </div>
   {% endblock %}
-  </div>
+</section>
