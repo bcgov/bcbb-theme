@@ -12,7 +12,7 @@
     border-radius: 0;
     position: relative;
     padding: 1em 1em 1em 3em;
-    @include responsive($md-min) {
+    @include responsive($lg-min) {
       padding: .5em 1em .5em 3em;
     }
 
@@ -29,7 +29,7 @@
       background: var(--bs-gray-200) !important;
       border-color: var(--bs-gray-300) !important;
     }
-    &[aria-expanded="true"] 
+    &[aria-expanded="true"]
     {
       background: var(--bs-gray-200) !important;
       border-color: var(--bs-gray-300) !important;
@@ -42,8 +42,21 @@
 
 .bb-collapse-responsive {
   .collapse:not(.show) {
-    @include responsive($md-min) {
+    @include responsive($lg-min) {
       display: block !important;
     }
   }
+  @include responsive($lg-min) {
+  .toggle {
+    &::before {
+      content:"" !important;
+    }
+    &[aria-expanded=true] {
+
+      background: var(--bs-gray-100) !important;
+      border-color: var(--bs-gray-300) !important;
+
+    }
+  }
+}
 }

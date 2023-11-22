@@ -18,15 +18,14 @@ html.bcbb-theme {
   main {
     color: $colorText-primary-alpha;
 
-   
+
 
     p {
       line-height: 1.6;
     }
 
-    a:not(.btn, .button) {
+    a:not(.btn, .button, .page-link) {
       color: $colorTextLink;
-      transition: color 0.25s ease;
       &:hover,
       &:focus {
         color: $colorTextLink-hover;
@@ -41,27 +40,27 @@ html.bcbb-theme {
     .h1 {
       font-size: $fontSize-h1;
     }
-  
+
     h2,
     .h2 {
       font-size: $fontSize-h2;
     }
-  
+
     h3,
     .h3 {
       font-size: $fontSize-h3;
     }
-  
+
     h4,
     .h4 {
       font-size: $fontSize-h4;
     }
-  
+
     h5,
     .h5 {
       font-size: $fontSize-h5;
     }
-  
+
     h6,
     .h6 {
       font-size: $fontSize-h6;
@@ -70,7 +69,7 @@ html.bcbb-theme {
     table {
       width: 100%;
     }
-  
+
   }
 
   footer,

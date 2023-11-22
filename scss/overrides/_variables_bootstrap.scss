@@ -37,3 +37,11 @@ $danger:        $colorAlert-error;
     --bs-body-font-size: 1.25rem !important;
   }
 }
+
+.bcbb-theme {
+  .pagination {
+  --bs-pagination-active-bg: #1a5a96;
+  --bs-pagination-active-border-color: #1a5a96;
+
+  }
+}
