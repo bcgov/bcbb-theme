@@ -22,7 +22,7 @@
   {% set attributes = attributes.addClass(classes) %}
 {% endif %}
 {% if icon %}
-  <button{{ attributes }}><span class="fa-solid {{ icon }}"></span> {{ attributes.value }}</button>
+  <button{{ attributes }}><span class="{{ icon }}">{{ attributes.value }}</span></button>
 {% else %}
   <input{{ attributes }} />
 {% endif %}

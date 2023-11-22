@@ -48,7 +48,7 @@
     {%- endif -%}
 
     {%- if items -%}
-      <{{ list_type }}{{ attributes }}>
+      <{{ list_type }}{{ attributes.addClass('list-unstyled','ms-1') }}>
         {%- for item in items -%}
           <li{{ item.attributes }}>{{ item.value }}</li>
         {%- endfor -%}
@@ -58,7 +58,7 @@
     {%- endif -%}
   {%- endif %}
 
-{% if facet.widget.type == "dropdown" %}
-  <label id="facet_{{ facet.id }}_label">{{ 'Facet'|t }} {{ facet.label }}</label>
-{%- endif %}
+  {% if facet.widget.type == "dropdown" %}
+    <label id="facet_{{ facet.id }}_label">{{ 'Facet'|t }} {{ facet.label }}</label>
+  {%- endif %}
 </div>

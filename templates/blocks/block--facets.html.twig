@@ -50,25 +50,24 @@
     'block',
     'block-' ~ configuration.provider|clean_class,
     'block-' ~ plugin_id|clean_class,
-    'card',
-    'small',
-    'mb-3'
+    'm-4',
+    'm-lg-0',
+    'mb-4',
+    'mb-lg-4',
+    'pb-2'
   ]
 %}
 <section{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
-    <header class="card-header">
-      <h2{{ title_attributes.addClass('panel-title', 'h6') }}>
-        <i class="fa-solid fa-filter small"></i>
+      <h2{{ title_attributes.addClass('h5','icon-bi-funnel-fill','fw-bold') }}>
         {{ label }}
       </h2>
-    </header>
   {% endif %}
   {{ title_suffix }}
 
   {% block content %}
-    <div class="card-body small p-1 p-md-3 pt-md-0">
+    <div class="p-1 p-md-3 pt-md-0">
       {{ content }}
     </div>
   {% endblock %}

@@ -51,8 +51,9 @@
     <h3>{{ title }}</h3>
   {%- endif -%}
 
+  <div class="row">
   {%- if items -%}
-    <{{ list_type }}{{ attributes }}>
+    <{{ list_type }}{{ attributes.addClass('bcbb-current-search-facets', 'col-lg-7', 'ms-4') }}>
       {%- for item in items -%}
         <li{{ item.attributes.addClass(item_classes) }}>{{ item.value }}</li>
       {%- endfor -%}
@@ -60,4 +61,5 @@
   {%- else -%}
     {{- empty -}}
   {%- endif -%}
+  </div>
 {%- endif %}

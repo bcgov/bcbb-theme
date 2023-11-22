@@ -52,10 +52,34 @@ function bcbb_theme_preprocess_input(array &$variables): void {
 
   // For certain values of #id, set the 'icon' variable.
   $icons = [
-    'edit-reset' => 'fa-trash-can',
-    'edit-submit-site-search' => 'fa-magnifying-glass',
+    'edit-reset' => 'icon-bi-trash3',
+    'edit-submit-site-search' => 'icon-bi-search',
   ];
   if (isset($variables['element']['#id']) && is_string($variables['element']['#id']) && isset($icons[$variables['element']['#id']])) {
     $variables['icon'] = $icons[$variables['element']['#id']];
   }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for bcbb-search-results.html.twig.
+ */
+function bcbb_theme_preprocess_bcbb_search_results(array &$variables): void {
+  // Get route name.
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  // See if route matches the search results page.
+  if ($route_name === 'page_manager.page_view_site_search_site_search-panels_variant-0') {
+    // Create a custom variable that can be defined in twig.
+    $variables['wrapper_attributes']['class'][] = 'bcbb-search-wrapper';
+    $variables['sidebar_wrapper_attributes']['class'][] = 'bcbb-search-sidebar';
+    $variables['facet_wrapper_attributes']['class'][] = 'bb-collapse';
+    $variables['facet_wrapper_attributes']['class'][] = 'bb-collapse-responsive';
+    $variables['toggle_variable'] = 'show_hide_facets';
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page-title.html.twig.
+ */
+function bcbb_theme_preprocess_page_title(array &$variables): void {
+  $variables['title_attributes']['class'][] = 'page-title';
 }
