@@ -61,11 +61,10 @@ function bcbb_theme_preprocess_input(array &$variables): void {
 }
 
 /**
- * Implements hook_preprocess_HOOK().
- *
- * Get route name.
+ * Implements hook_preprocess_HOOK() for bcbb-search-results.html.twig.
  */
 function bcbb_theme_preprocess_bcbb_search_results(array &$variables): void {
+  // Get route name.
   $route_name = \Drupal::routeMatch()->getRouteName();
   $variables['route_name'] = $route_name;
   // See if route matches the search results page.
