@@ -66,7 +66,6 @@ function bcbb_theme_preprocess_input(array &$variables): void {
 function bcbb_theme_preprocess_bcbb_search_results(array &$variables): void {
   // Get route name.
   $route_name = \Drupal::routeMatch()->getRouteName();
-  $variables['route_name'] = $route_name;
   // See if route matches the search results page.
   if ($route_name === 'page_manager.page_view_site_search_site_search-panels_variant-0') {
     // Create a custom variable that can be defined in twig.
