@@ -13480,28 +13480,6 @@ a > .ck-content code {
   font-weight: 700;
   src: url("../assets/fonts/BCSans/BCSans-BoldItalic.woff2") format("woff2"), url("../assets/fonts/BCSans/BCSans-BoldItalic.woff") format("woff"); /* Modern Browsers */
 }
-.ck-content html.bcbb-theme {
-  /*
-  input[list],
-  input[type='date'],
-  input[type='datetime-local'],
-  input[type='email'],
-  input[type='password'],
-  input[type='number'],
-  input[type='month'],
-  input[type='search'],
-  input[type='tel'],
-  input[type='text'],
-  input[type='time'],
-  input[type='url'],
-  input[type='week'],
-  textarea,
-  select {
-    font-size: px-em(calc($defaultFont-size*.9));
-    padding: .33em .66em;
-  }
-  */
-}
 .ck-content html.bcbb-theme body {
   font-family: "BCSans", "Noto Sans", Verdana, Arial, sans-serif;
 }

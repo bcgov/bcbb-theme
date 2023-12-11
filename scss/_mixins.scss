@@ -143,3 +143,11 @@
     box-shadow: none !important;
   }
 }
+
+@mixin bg-color-print($bg-color:inherit) {
+  // force printers to use background color
+  -webkit-print-color-adjust:exact !important;
+  print-color-adjust:exact !important;
+  -webkit-print-color-adjust: exact !important;
+  background-color: $bg-color !important;
+ }
