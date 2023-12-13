@@ -14597,7 +14597,7 @@ a > .ck-content code {
 .ck-content .block-bcbb-search .btn, .ck-content .block-bcbb-search button.link, .ck-content .block-bcbb-search .button, .ck-content .block-bcbb-search .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .block-bcbb-search .node-preview-backlink, .ck-content .block-bcbb-search .bcbb-search-wrapper .view-site-search .form-actions input, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .block-bcbb-search input {
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
   margin-right: 0;
   border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
   color: #fff;

@@ -15644,7 +15644,7 @@ h1.page-title::after, .page-title.h1::after {
 .block-bcbb-search .btn, .block-bcbb-search button.link, .block-bcbb-search .button, .block-bcbb-search .node-preview-container .node-preview-backlink, .node-preview-container .block-bcbb-search .node-preview-backlink, .block-bcbb-search .bcbb-search-wrapper .view-site-search .form-actions input, .bcbb-search-wrapper .view-site-search .form-actions .block-bcbb-search input {
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
   margin-right: 0;
   border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
   color: #fff;
