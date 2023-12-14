@@ -14443,6 +14443,12 @@ code {
 .bcbb-theme a.page-link:visited {
   color: var(--bs-pagination-active-bg);
 }
+.bcbb-theme li.is-active a.page-link,
+.bcbb-theme li.is-active a.page-link:visited,
+.bcbb-theme li.active a.page-link,
+.bcbb-theme li.active a.page-link:visited {
+  color: var(--bs-pagination-active-color);
+}
 
 @font-face {
   font-family: "BCSans";

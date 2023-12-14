@@ -13463,6 +13463,12 @@ a > .ck-content code {
 .ck-content .bcbb-theme a.page-link:visited {
   color: var(--bs-pagination-active-bg);
 }
+.ck-content .bcbb-theme li.is-active a.page-link,
+.ck-content .bcbb-theme li.is-active a.page-link:visited,
+.ck-content .bcbb-theme li.active a.page-link,
+.ck-content .bcbb-theme li.active a.page-link:visited {
+  color: var(--bs-pagination-active-color);
+}
 @font-face {
   font-family: "BCSans";
   font-style: normal;
