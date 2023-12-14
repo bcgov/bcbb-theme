@@ -13791,6 +13791,9 @@ a > .ck-content code {
 .ck-content .ms-n5 {
   margin-left: -1.25em !important;
 }
+.ck-content .bcbb-fw {
+  margin: 0px calc(50% - 50vw);
+}
 .ck-content h1.page-title::after, .ck-content .page-title.h1::after {
   border-bottom: 0.18em solid #fcba19;
   content: "";

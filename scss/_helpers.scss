@@ -148,3 +148,11 @@
 .ms-n5 {
   margin-left: -1.25em !important;
 }
+
+
+// break and element out of it's container
+// goes full screen width
+
+.bcbb-fw {
+  margin: 0px calc(50% - 50vw);
+}
