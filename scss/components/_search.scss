@@ -29,22 +29,7 @@
 
 
 .bcbb-search-wrapper {
-  @include responsive($lg-min) {
-    position: relative;
-    .bcbb-search-sidebar {
-      position: absolute;
-      right:0;
-      top: 0;
-    }
-    .bcbb-search-input {
-      max-width: 58%;
-    }
-  }
-  @include responsive($lg-min) {
-    .bcbb-search-input {
-      max-width: 100%;
-    }
-  }
+
  .view-site-search {
   .form-actions {
    @extend .d-grid;
@@ -103,52 +88,64 @@
   }
  }
 
-.block-region-sidebar-bottom {
-  @extend .bcbb-dividers;
-}
-.vbo-info-list-wrapper {
-  h3 {
-    @extend .h5;
+  .block-region-sidebar-bottom {
+    @extend .bcbb-dividers;
   }
-}
-}
+  .vbo-info-list-wrapper {
+    h3 {
+      @extend .h5;
+    }
+  }
 
-
-// search block on search page
-// needs to be removed after theme update
-.block-views-exposed-filter-blocksite-search-block-1 {
-  >form {
-    .form--inline {
-      display: flex;
-      //needs responsive fix
-      flex-direction: column;
-      align-items: flex-end;
-      .form-item {
-        margin-right: 0;
-        width: 100%;
-      }
-      @include responsive($lg-min) {
-        flex-direction: row;
-        .form-item {
-          margin-right: 0.5em;
-          width: auto;
+  .search-bb-search-block {
+    .views-exposed-form {
+      .form--inline {
+        @include responsive($lg-min) {
+          display: flex;
+        }
+        .form-item-search-api-fulltext {
+          width: 100%;
         }
         .form-actions {
-          flex-basis: 15em;
+          text-align: right;
+          white-space: nowrap;
+          > button {
+            margin: 0;
+          }
         }
-      }
-      .form-actions {
-        margin-top: 0;
-      }
-      .button:first-child {
-        margin-right: .125em;
-      }
-      .button:last-child {
-        margin-left: .125em;
       }
     }
   }
+
 }
+
+// grid layout for search results
+.search-bb-container {
+
+  @include responsive($lg-min) {
+    display: grid;
+    grid-template-columns: 7fr 1fr 4fr;
+    grid-template-rows: max-content 1fr;
+    grid-template-areas:
+      "search-block . sidebar-right"
+      "results      . sidebar-right"
+      "results      . sidebar-right"
+  }
+
+}
+
+.search-bb-search-block {
+  grid-area: search-block;
+}
+
+.search-bb-results {
+  grid-area: results;
+}
+
+.search-bb-sidebar-right {
+  grid-area: sidebar-right;
+}
+
 
 
 // search block in the header region
