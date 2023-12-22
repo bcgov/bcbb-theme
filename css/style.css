@@ -14438,6 +14438,9 @@ code {
   -ms-flex-negative: unset;
       flex-shrink: unset;
 }
+.bcbb-theme .navbar-brand .site-title {
+  text-transform: none;
+}
 
 .bcbb-theme a.page-link,
 .bcbb-theme a.page-link:visited {

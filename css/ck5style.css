@@ -13459,6 +13459,9 @@ a > .ck-content code {
   -ms-flex-negative: unset;
       flex-shrink: unset;
 }
+.ck-content .bcbb-theme .navbar-brand .site-title {
+  text-transform: none;
+}
 .ck-content .bcbb-theme a.page-link,
 .ck-content .bcbb-theme a.page-link:visited {
   color: var(--bs-pagination-active-bg);

@@ -10,4 +10,10 @@
   .region-nav-additional {
     flex-shrink: unset;
   }
+
+  // remove uppercase on site title
+
+  .navbar-brand .site-title {
+    text-transform: none;
+  }
 }
