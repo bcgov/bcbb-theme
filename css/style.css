@@ -2,7 +2,7 @@
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
-  src: url("../assets/bootstrap-icons/fonts/bootstrap-icons.woff2?2820a3852bdb9a5832199cc61cec4e65") format("woff2"), url("../assets/bootstrap-icons/fonts/bootstrap-icons.woff?2820a3852bdb9a5832199cc61cec4e65") format("woff");
+  src: url("../assets/bootstrap-icons/fonts/bootstrap-icons.woff2") format("woff2"), url("../assets/bootstrap-icons/fonts/bootstrap-icons.woff") format("woff");
 }
 :root {
   --bs-tertiary-color: #757779 !important;
