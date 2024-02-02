@@ -79,7 +79,6 @@ ul.bb-subway {
       &:focus,
       &:active,
       .active {
-        font-weight: 600;
         &::before {
          transition: background-color .3s ease-in-out;
          transform: scale(1.15,1.15);

@@ -35,7 +35,7 @@
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
-  src: url("../../../../../themes/contrib/bcbb_theme/assets/bootstrap-icons/fonts/bootstrap-icons.woff2") format("woff2"), url("../../../../../themes/contrib/bcbb_theme/assets/bootstrap-icons/fonts/bootstrap-icons.woff") format("woff");
+  src: url("/themes/contrib/bcbb_theme/assets/bootstrap-icons/fonts/bootstrap-icons.woff2") format("woff2"), url("/themes/contrib/bcbb_theme/assets/bootstrap-icons/fonts/bootstrap-icons.woff") format("woff");
 }
 .ck-content :root {
   --bs-tertiary-color: #757779 !important;
@@ -14654,12 +14654,6 @@ a > .ck-content code {
   width: 1em;
   height: 1em;
 }
-.ck-content ul.bb-subway li a:hover, .ck-content ul.bb-subway li a:focus, .ck-content ul.bb-subway li a:active,
-.ck-content ul.bb-subway li a .active,
-.ck-content ul.bb-subway li a .media-library-view--widget .view-header a.is-active,
-.ck-content .media-library-view--widget .view-header ul.bb-subway li a a.is-active {
-  font-weight: 600;
-}
 .ck-content ul.bb-subway li a:hover::before, .ck-content ul.bb-subway li a:focus::before, .ck-content ul.bb-subway li a:active::before,
 .ck-content ul.bb-subway li a .active::before,
 .ck-content ul.bb-subway li a .media-library-view--widget .view-header a.is-active::before,
@@ -14701,6 +14695,17 @@ a > .ck-content code {
   margin-left: 1.5em;
   margin-top: -0.5em;
   padding-bottom: 1em;
+}
+.ck-content .node .toc-tree {
+  border: 0;
+  margin-bottom: 2.26em;
+}
+.ck-content form.toc-mobile select {
+  height: 3em;
+  border: 1px solid #fcba19;
+  background-color: #ffecbd;
+  border-radius: 0.25em;
+  padding: 0 1em;
 }
 .ck-content .bb-collapse .toggle {
   width: 100%;
