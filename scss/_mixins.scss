@@ -95,7 +95,7 @@
 
 // Bootstrap icons
 @mixin icon-bi($icon, $after:false) {
-  display: inline-flex;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: .25em;

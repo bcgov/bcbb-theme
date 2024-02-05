@@ -39,13 +39,13 @@
       <ul class="bb-nav-book" aria-label="{{ 'Document navigation'|t }}">
       {% if prev_url %}
         <li>
-          <a class="btn btn-light" href="{{ prev_url }}" rel="prev" title="{{ 'Go to previous page'|t }}"><i class="fa-solid fa-caret-left"> </i> {{ prev_title }}</a>
+          <a class="btn btn-light" href="{{ prev_url }}" rel="prev" title="{{ 'Go to previous page'|t }}"><span class="icon-bi-caret-left">{{ prev_title }}</span></a>
         </li>
       {% endif %}
 
       {% if next_url %}
         <li>
-          <a class="btn btn-light" href="{{ next_url }}" rel="next" title="{{ 'Go to next page'|t }}">{{ next_title }} <i class="fa-solid fa-caret-right"></i></a>
+          <a class="btn btn-light" href="{{ next_url }}" rel="next" title="{{ 'Go to next page'|t }}"><span class="icon-bi-caret-right-after">{{ next_title }}</span></a>
         </li>
       {% endif %}
     </ul>

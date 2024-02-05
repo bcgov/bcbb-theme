@@ -13806,9 +13806,9 @@ a > .ck-content code {
   margin-bottom: 2rem;
 }
 .ck-content .icon-bi-arrow-right-short {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13827,9 +13827,9 @@ a > .ck-content code {
   content: "\f135";
 }
 .ck-content .icon-bi-arrow-right-short-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13848,9 +13848,9 @@ a > .ck-content code {
   content: "\f135";
 }
 .ck-content .icon-bi-bookmark-dash-fill {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13869,9 +13869,9 @@ a > .ck-content code {
   content: "\f197";
 }
 .ck-content .icon-bi-bookmark-dash-fill-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13890,9 +13890,9 @@ a > .ck-content code {
   content: "\f197";
 }
 .ck-content .icon-bi-bookmark-plus {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13911,9 +13911,9 @@ a > .ck-content code {
   content: "\f19d";
 }
 .ck-content .icon-bi-bookmark-plus-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13932,9 +13932,9 @@ a > .ck-content code {
   content: "\f19d";
 }
 .ck-content .icon-bi-bookmarks-fill {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13953,9 +13953,9 @@ a > .ck-content code {
   content: "\f1a3";
 }
 .ck-content .icon-bi-bookmarks-fill-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13973,10 +13973,94 @@ a > .ck-content code {
 .ck-content .icon-bi-bookmarks-fill-after::after {
   content: "\f1a3";
 }
+.ck-content .icon-bi-caret-left {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-caret-left::before, .ck-content .icon-bi-caret-left::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-caret-left::before {
+  content: "\f230";
+}
+.ck-content .icon-bi-caret-left-after {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-caret-left-after::before, .ck-content .icon-bi-caret-left-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-caret-left-after::after {
+  content: "\f230";
+}
+.ck-content .icon-bi-caret-right {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-caret-right::before, .ck-content .icon-bi-caret-right::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-caret-right::before {
+  content: "\f234";
+}
+.ck-content .icon-bi-caret-right-after {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-caret-right-after::before, .ck-content .icon-bi-caret-right-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-caret-right-after::after {
+  content: "\f234";
+}
 .ck-content .icon-bi-funnel {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -13995,9 +14079,9 @@ a > .ck-content code {
   content: "\f3e1";
 }
 .ck-content .icon-bi-funnel-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14016,9 +14100,9 @@ a > .ck-content code {
   content: "\f3e1";
 }
 .ck-content .icon-bi-funnel-fill {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14037,9 +14121,9 @@ a > .ck-content code {
   content: "\f3e0";
 }
 .ck-content .icon-bi-funnel-fill-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14058,9 +14142,9 @@ a > .ck-content code {
   content: "\f3e0";
 }
 .ck-content .icon-bi-info-circle {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14079,9 +14163,9 @@ a > .ck-content code {
   content: "\f431";
 }
 .ck-content .icon-bi-info-circle-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14099,10 +14183,94 @@ a > .ck-content code {
 .ck-content .icon-bi-info-circle-after::after {
   content: "\f431";
 }
+.ck-content .icon-bi-plus-circle {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-plus-circle::before, .ck-content .icon-bi-plus-circle::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-plus-circle::before {
+  content: "\f4fa";
+}
+.ck-content .icon-bi-plus-circle-after {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-plus-circle-after::before, .ck-content .icon-bi-plus-circle-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-plus-circle-after::after {
+  content: "\f4fa";
+}
+.ck-content .icon-bi-printer {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-printer::before, .ck-content .icon-bi-printer::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-printer::before {
+  content: "\f501";
+}
+.ck-content .icon-bi-printer-after {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-printer-after::before, .ck-content .icon-bi-printer-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-printer-after::after {
+  content: "\f501";
+}
 .ck-content .icon-bi-save {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14121,9 +14289,9 @@ a > .ck-content code {
   content: "\f525";
 }
 .ck-content .icon-bi-save-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14142,9 +14310,9 @@ a > .ck-content code {
   content: "\f525";
 }
 .ck-content .icon-bi-search {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14163,9 +14331,9 @@ a > .ck-content code {
   content: "\f52a";
 }
 .ck-content .icon-bi-search-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14184,9 +14352,9 @@ a > .ck-content code {
   content: "\f52a";
 }
 .ck-content .icon-bi-trash3 {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14205,9 +14373,9 @@ a > .ck-content code {
   content: "\f78b";
 }
 .ck-content .icon-bi-trash3-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14226,9 +14394,9 @@ a > .ck-content code {
   content: "\f78b";
 }
 .ck-content .icon-bi-x-circle {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14247,9 +14415,9 @@ a > .ck-content code {
   content: "\f623";
 }
 .ck-content .icon-bi-x-circle-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14268,9 +14436,9 @@ a > .ck-content code {
   content: "\f623";
 }
 .ck-content .icon-bi-x-circle-fill {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;
@@ -14289,9 +14457,9 @@ a > .ck-content code {
   content: "\f622";
 }
 .ck-content .icon-bi-x-circle-fill-after {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   width: auto;
   line-height: 1 !important;
   gap: 0.25em;

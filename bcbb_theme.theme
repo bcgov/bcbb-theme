@@ -16,14 +16,15 @@ function bcbb_theme_preprocess_links__node(array &$variables): void {
     $variables['links']['book_add_child']['link']['#attributes']['class'][] = 'btn';
     $variables['links']['book_add_child']['link']['#attributes']['class'][] = 'btn-success';
     // Add icon.
-    $variables['links']['book_add_child']['link']['#title'] = Markup::create($variables['links']['book_add_child']['link']['#title'] . ' <i class="fa-solid fa-plus"></i>');
+    $variables['links']['book_add_child']['link']['#attributes']['class'][] = 'icon-bi-plus-circle';
+
   }
   if (isset($variables['links']['book_printer']['link'])) {
     // Add button classes.
     $variables['links']['book_printer']['link']['#attributes']['class'][] = 'btn';
     $variables['links']['book_printer']['link']['#attributes']['class'][] = 'btn-light';
     // Add icon.
-    $variables['links']['book_printer']['link']['#title'] = Markup::create($variables['links']['book_printer']['link']['#title'] . ' <i class="fa-solid fa-print"></i>');
+    $variables['links']['book_printer']['link']['#attributes']['class'][] = 'icon-bi-printer';
   }
 }
 
