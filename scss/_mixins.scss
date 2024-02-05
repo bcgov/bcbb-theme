@@ -110,13 +110,10 @@
   }
   @if $after {
     &::after {
-      margin-right: -1.25em;
       content: '#{$icon}';
     }
   } @else {
-    margin-left: 1.25em;
     &::before {
-      margin-left: -1.25em;
       content: '#{$icon}';
     }
   }

@@ -14824,7 +14824,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-arrow-right-short::before, .icon-bi-arrow-right-short::after {
   font-family: "bootstrap-icons" !important;
@@ -14833,7 +14832,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-arrow-right-short::before {
-  margin-left: -1.25em;
   content: "\f135";
 }
 
@@ -14856,7 +14854,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-arrow-right-short-after::after {
-  margin-right: -1.25em;
   content: "\f135";
 }
 
@@ -14871,7 +14868,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-bookmark-dash-fill::before, .icon-bi-bookmark-dash-fill::after {
   font-family: "bootstrap-icons" !important;
@@ -14880,7 +14876,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-bookmark-dash-fill::before {
-  margin-left: -1.25em;
   content: "\f197";
 }
 
@@ -14903,7 +14898,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-bookmark-dash-fill-after::after {
-  margin-right: -1.25em;
   content: "\f197";
 }
 
@@ -14918,7 +14912,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-bookmark-plus::before, .icon-bi-bookmark-plus::after {
   font-family: "bootstrap-icons" !important;
@@ -14927,7 +14920,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-bookmark-plus::before {
-  margin-left: -1.25em;
   content: "\f19d";
 }
 
@@ -14950,7 +14942,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-bookmark-plus-after::after {
-  margin-right: -1.25em;
   content: "\f19d";
 }
 
@@ -14965,7 +14956,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-bookmarks-fill::before, .icon-bi-bookmarks-fill::after {
   font-family: "bootstrap-icons" !important;
@@ -14974,7 +14964,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-bookmarks-fill::before {
-  margin-left: -1.25em;
   content: "\f1a3";
 }
 
@@ -14997,7 +14986,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-bookmarks-fill-after::after {
-  margin-right: -1.25em;
   content: "\f1a3";
 }
 
@@ -15012,7 +15000,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-funnel::before, .icon-bi-funnel::after {
   font-family: "bootstrap-icons" !important;
@@ -15021,7 +15008,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-funnel::before {
-  margin-left: -1.25em;
   content: "\f3e1";
 }
 
@@ -15044,7 +15030,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-funnel-after::after {
-  margin-right: -1.25em;
   content: "\f3e1";
 }
 
@@ -15059,7 +15044,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-funnel-fill::before, .icon-bi-funnel-fill::after {
   font-family: "bootstrap-icons" !important;
@@ -15068,7 +15052,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-funnel-fill::before {
-  margin-left: -1.25em;
   content: "\f3e0";
 }
 
@@ -15091,7 +15074,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-funnel-fill-after::after {
-  margin-right: -1.25em;
   content: "\f3e0";
 }
 
@@ -15106,7 +15088,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-info-circle::before, .icon-bi-info-circle::after {
   font-family: "bootstrap-icons" !important;
@@ -15115,7 +15096,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-info-circle::before {
-  margin-left: -1.25em;
   content: "\f431";
 }
 
@@ -15138,7 +15118,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-info-circle-after::after {
-  margin-right: -1.25em;
   content: "\f431";
 }
 
@@ -15153,7 +15132,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-save::before, .icon-bi-save::after {
   font-family: "bootstrap-icons" !important;
@@ -15162,7 +15140,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-save::before {
-  margin-left: -1.25em;
   content: "\f525";
 }
 
@@ -15185,7 +15162,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-save-after::after {
-  margin-right: -1.25em;
   content: "\f525";
 }
 
@@ -15200,7 +15176,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-search::before, .icon-bi-search::after {
   font-family: "bootstrap-icons" !important;
@@ -15209,7 +15184,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-search::before {
-  margin-left: -1.25em;
   content: "\f52a";
 }
 
@@ -15232,7 +15206,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-search-after::after {
-  margin-right: -1.25em;
   content: "\f52a";
 }
 
@@ -15247,7 +15220,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-trash3::before, .icon-bi-trash3::after {
   font-family: "bootstrap-icons" !important;
@@ -15256,7 +15228,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-trash3::before {
-  margin-left: -1.25em;
   content: "\f78b";
 }
 
@@ -15279,7 +15250,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-trash3-after::after {
-  margin-right: -1.25em;
   content: "\f78b";
 }
 
@@ -15294,7 +15264,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-x-circle::before, .icon-bi-x-circle::after {
   font-family: "bootstrap-icons" !important;
@@ -15303,7 +15272,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-x-circle::before {
-  margin-left: -1.25em;
   content: "\f623";
 }
 
@@ -15326,7 +15294,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-x-circle-after::after {
-  margin-right: -1.25em;
   content: "\f623";
 }
 
@@ -15341,7 +15308,6 @@ h1.page-title::after, .page-title.h1::after {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .icon-bi-x-circle-fill::before, .icon-bi-x-circle-fill::after {
   font-family: "bootstrap-icons" !important;
@@ -15350,7 +15316,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-x-circle-fill::before {
-  margin-left: -1.25em;
   content: "\f622";
 }
 
@@ -15373,7 +15338,6 @@ h1.page-title::after, .page-title.h1::after {
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-bi-x-circle-fill-after::after {
-  margin-right: -1.25em;
   content: "\f622";
 }
 

@@ -13816,7 +13816,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-arrow-right-short::before, .ck-content .icon-bi-arrow-right-short::after {
   font-family: "bootstrap-icons" !important;
@@ -13825,7 +13824,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-arrow-right-short::before {
-  margin-left: -1.25em;
   content: "\f135";
 }
 .ck-content .icon-bi-arrow-right-short-after {
@@ -13847,7 +13845,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-arrow-right-short-after::after {
-  margin-right: -1.25em;
   content: "\f135";
 }
 .ck-content .icon-bi-bookmark-dash-fill {
@@ -13861,7 +13858,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-bookmark-dash-fill::before, .ck-content .icon-bi-bookmark-dash-fill::after {
   font-family: "bootstrap-icons" !important;
@@ -13870,7 +13866,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-bookmark-dash-fill::before {
-  margin-left: -1.25em;
   content: "\f197";
 }
 .ck-content .icon-bi-bookmark-dash-fill-after {
@@ -13892,7 +13887,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-bookmark-dash-fill-after::after {
-  margin-right: -1.25em;
   content: "\f197";
 }
 .ck-content .icon-bi-bookmark-plus {
@@ -13906,7 +13900,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-bookmark-plus::before, .ck-content .icon-bi-bookmark-plus::after {
   font-family: "bootstrap-icons" !important;
@@ -13915,7 +13908,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-bookmark-plus::before {
-  margin-left: -1.25em;
   content: "\f19d";
 }
 .ck-content .icon-bi-bookmark-plus-after {
@@ -13937,7 +13929,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-bookmark-plus-after::after {
-  margin-right: -1.25em;
   content: "\f19d";
 }
 .ck-content .icon-bi-bookmarks-fill {
@@ -13951,7 +13942,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-bookmarks-fill::before, .ck-content .icon-bi-bookmarks-fill::after {
   font-family: "bootstrap-icons" !important;
@@ -13960,7 +13950,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-bookmarks-fill::before {
-  margin-left: -1.25em;
   content: "\f1a3";
 }
 .ck-content .icon-bi-bookmarks-fill-after {
@@ -13982,7 +13971,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-bookmarks-fill-after::after {
-  margin-right: -1.25em;
   content: "\f1a3";
 }
 .ck-content .icon-bi-funnel {
@@ -13996,7 +13984,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-funnel::before, .ck-content .icon-bi-funnel::after {
   font-family: "bootstrap-icons" !important;
@@ -14005,7 +13992,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-funnel::before {
-  margin-left: -1.25em;
   content: "\f3e1";
 }
 .ck-content .icon-bi-funnel-after {
@@ -14027,7 +14013,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-funnel-after::after {
-  margin-right: -1.25em;
   content: "\f3e1";
 }
 .ck-content .icon-bi-funnel-fill {
@@ -14041,7 +14026,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-funnel-fill::before, .ck-content .icon-bi-funnel-fill::after {
   font-family: "bootstrap-icons" !important;
@@ -14050,7 +14034,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-funnel-fill::before {
-  margin-left: -1.25em;
   content: "\f3e0";
 }
 .ck-content .icon-bi-funnel-fill-after {
@@ -14072,7 +14055,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-funnel-fill-after::after {
-  margin-right: -1.25em;
   content: "\f3e0";
 }
 .ck-content .icon-bi-info-circle {
@@ -14086,7 +14068,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-info-circle::before, .ck-content .icon-bi-info-circle::after {
   font-family: "bootstrap-icons" !important;
@@ -14095,7 +14076,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-info-circle::before {
-  margin-left: -1.25em;
   content: "\f431";
 }
 .ck-content .icon-bi-info-circle-after {
@@ -14117,7 +14097,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-info-circle-after::after {
-  margin-right: -1.25em;
   content: "\f431";
 }
 .ck-content .icon-bi-save {
@@ -14131,7 +14110,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-save::before, .ck-content .icon-bi-save::after {
   font-family: "bootstrap-icons" !important;
@@ -14140,7 +14118,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-save::before {
-  margin-left: -1.25em;
   content: "\f525";
 }
 .ck-content .icon-bi-save-after {
@@ -14162,7 +14139,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-save-after::after {
-  margin-right: -1.25em;
   content: "\f525";
 }
 .ck-content .icon-bi-search {
@@ -14176,7 +14152,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-search::before, .ck-content .icon-bi-search::after {
   font-family: "bootstrap-icons" !important;
@@ -14185,7 +14160,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-search::before {
-  margin-left: -1.25em;
   content: "\f52a";
 }
 .ck-content .icon-bi-search-after {
@@ -14207,7 +14181,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-search-after::after {
-  margin-right: -1.25em;
   content: "\f52a";
 }
 .ck-content .icon-bi-trash3 {
@@ -14221,7 +14194,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-trash3::before, .ck-content .icon-bi-trash3::after {
   font-family: "bootstrap-icons" !important;
@@ -14230,7 +14202,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-trash3::before {
-  margin-left: -1.25em;
   content: "\f78b";
 }
 .ck-content .icon-bi-trash3-after {
@@ -14252,7 +14223,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-trash3-after::after {
-  margin-right: -1.25em;
   content: "\f78b";
 }
 .ck-content .icon-bi-x-circle {
@@ -14266,7 +14236,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-x-circle::before, .ck-content .icon-bi-x-circle::after {
   font-family: "bootstrap-icons" !important;
@@ -14275,7 +14244,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-x-circle::before {
-  margin-left: -1.25em;
   content: "\f623";
 }
 .ck-content .icon-bi-x-circle-after {
@@ -14297,7 +14265,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-x-circle-after::after {
-  margin-right: -1.25em;
   content: "\f623";
 }
 .ck-content .icon-bi-x-circle-fill {
@@ -14311,7 +14278,6 @@ a > .ck-content code {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-left: 1.25em;
 }
 .ck-content .icon-bi-x-circle-fill::before, .ck-content .icon-bi-x-circle-fill::after {
   font-family: "bootstrap-icons" !important;
@@ -14320,7 +14286,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-x-circle-fill::before {
-  margin-left: -1.25em;
   content: "\f622";
 }
 .ck-content .icon-bi-x-circle-fill-after {
@@ -14342,7 +14307,6 @@ a > .ck-content code {
   -moz-osx-font-smoothing: grayscale;
 }
 .ck-content .icon-bi-x-circle-fill-after::after {
-  margin-right: -1.25em;
   content: "\f622";
 }
 .ck-content .icon-bi {
