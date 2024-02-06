@@ -5,8 +5,6 @@
  * BC base-build theme file.
  */
 
-use Drupal\Core\Render\Markup;
-
 /**
  * Implements hook_preprocess_HOOK().
  */
