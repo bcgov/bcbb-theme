@@ -13500,11 +13500,6 @@ a > .ck-content code {
   max-width: 100%;
   max-height: auto;
 }
-.ck-content html.bcbb-theme .bcbb-header {
-  background-color: #003366;
-  border-bottom: 0.125em solid #fcba19;
-  color: rgba(255, 255, 255, 0.9);
-}
 .ck-content html.bcbb-theme main {
   color: rgba(49, 49, 50, 0.9);
 }

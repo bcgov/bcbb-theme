@@ -14481,11 +14481,6 @@ html.bcbb-theme img {
   max-width: 100%;
   max-height: auto;
 }
-html.bcbb-theme .bcbb-header {
-  background-color: #003366;
-  border-bottom: 0.125em solid #fcba19;
-  color: rgba(255, 255, 255, 0.9);
-}
 html.bcbb-theme main {
   color: rgba(49, 49, 50, 0.9);
 }
@@ -16066,6 +16061,23 @@ ul.bb-nav-book {
 .well-lg {
   padding: 24px;
   border-radius: 6px;
+}
+
+html.bcbb-theme .bcbb-header {
+  background-color: #003366;
+  border-bottom: 0.125em solid #fcba19;
+  color: rgba(255, 255, 255, 0.9);
+}
+html.bcbb-theme .bcbb-header .navbar-brand a.site-title {
+  color: #fff;
+  text-decoration: none;
+}
+html.bcbb-theme .bcbb-header .navbar-brand a.site-title:hover {
+  color: #fff;
+  text-decoration: none;
+}
+html.bcbb-theme .bcbb-header .navbar-brand .site-title {
+  font-weight: normal;
 }
 
 html.bcbb-theme .navbar-brand a.site-title {
