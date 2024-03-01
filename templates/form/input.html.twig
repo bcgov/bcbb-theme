@@ -24,6 +24,6 @@
 {% if icon %}
   <button{{ attributes }}><span class="{{ icon }}">{{ attributes.value }}</span></button>
 {% else %}
-  <input{{ attributes }} />
+  <span class="bcbb-input-wrapper"><input{{ attributes }} /></span>
 {% endif %}
 {{ children }}
