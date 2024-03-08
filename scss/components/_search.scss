@@ -169,8 +169,8 @@
     border-color: $colorBrand-secondary-a11y;
     &:hover,
     &:focus {
-      background-color: mix($colorBrand-secondary-a11y, $colorBlack, 75%);
-      border-color: mix($colorBrand-secondary-a11y, $colorBlack, 75%);
+      background-color: mix($colorBrand-secondary-a11y, $colorBlack, 85%);
+      border-color: mix($colorBrand-secondary-a11y, $colorBlack, 85%);
     }
   }
 }
