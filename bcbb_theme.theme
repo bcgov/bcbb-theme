@@ -60,6 +60,14 @@ function bcbb_theme_preprocess_input(array &$variables): void {
 }
 
 /**
+ * Implements hook_preprocess_HOOK() for block--system-menu-block--account.html.twig.
+ */
+function bcbb_theme_preprocess_block__system_menu_block__account(array &$variables): void {
+  $variables['attributes']['class'][] = 'd-flex';
+  $variables['attributes']['class'][] = 'justify-content-end';
+}
+
+/**
  * Implements hook_preprocess_HOOK() for page-title.html.twig.
  */
 function bcbb_theme_preprocess_page_title(array &$variables): void {
