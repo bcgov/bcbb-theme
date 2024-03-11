@@ -60,6 +60,14 @@ function bcbb_theme_preprocess_input(array &$variables): void {
 }
 
 /**
+ * Implements hook_preprocess_HOOK() for block--system-branding-block.html.twig.
+ */
+function bcbb_theme_preprocess_block__system_branding_block(array &$variables): void {
+  $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+  $variables['#cache']['contexts'][] = 'url.path.is_front';
+}
+
+/**
  * Implements hook_preprocess_HOOK() for block--system-menu-block--account.html.twig.
  */
 function bcbb_theme_preprocess_block__system_menu_block__account(array &$variables): void {

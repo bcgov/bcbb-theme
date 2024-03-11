@@ -8,12 +8,16 @@
  * enabled in the block configuration.
  *
  * Available variables:
+ * - is_front: A flag indicating if the current page is the front page.
  * - site_logo: Logo for site as defined in Appearance or theme settings.
  * - site_name: Name for site as defined in Site information settings.
  * - site_slogan: Slogan for site as defined in Site information settings.
  */
 #}
 {% block content %}
+{% if is_front %}
+  <h1>
+{% endif  %}
 <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="navbar-brand d-lg-flex align-items-center bb-link-light">
   {% if site_logo %}
   <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" class="site-logo d-block" />
@@ -25,4 +29,7 @@
     {% endif %}
   </div>
 </a>
+{% if is_front %}
+  </h1>
+{% endif  %}
 {% endblock %}
