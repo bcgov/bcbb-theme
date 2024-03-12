@@ -41,6 +41,12 @@ function bcbb_theme_theme_suggestions_form_alter(array &$suggestions, array $var
  * Implements template_preprocess_input().
  */
 function bcbb_theme_preprocess_input(array &$variables): void {
+  // Remove `aria-describedby` attributes if there is no description.
+  // @see https://www.drupal.org/project/drupal/issues/2547063
+  if (!empty($variables['attributes']['aria-describedby']) && empty($variables['element']['#description'])) {
+    unset($variables['attributes']['aria-describedby']);
+  }
+
   // Except on the login page, adjust the classes of the login button.
   if (($variables['element']['#id'] ?? NULL) === 'edit-openid-connect-client-keycloak-login' && \Drupal::routeMatch()->getRouteName() !== 'user.login') {
     // Remove 'button' value from classes.
