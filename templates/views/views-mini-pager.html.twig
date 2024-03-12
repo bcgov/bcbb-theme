@@ -3,6 +3,11 @@
  * @file
  * Theme override for a views mini-pager.
  *
+ * This version uses @aria-label instead of hidden headers.
+ *
+ * This file is needed until resolution of:
+ * https://www.drupal.org/project/bootstrap5/issues/3427371
+ *
  * Available variables:
  * - heading_id: Pagination heading ID.
  * - items: List of pager items.
@@ -11,8 +16,7 @@
  */
 #}
 {% if items.previous or items.next %}
-  <nav class="pager" role="navigation" aria-labelledby="{{ heading_id }}">
-    <h4 id="{{ heading_id }}" class="pager__heading visually-hidden">{{ 'Pagination'|t }}</h4>
+  <nav class="pager" role="navigation" aria-label="{{ 'Pagination'|t }}">
     <ul class="pager__items js-pager__items">
       {% if items.previous %}
         <li class="pager__item pager__item--previous">
