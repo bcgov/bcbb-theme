@@ -3,6 +3,10 @@
  * @file
  * Theme override to display a block.
  *
+ * Identical to the corresponding template in bootstrap5 except that the
+ * wrapper_element can be customized and defaults to `section` when there is a
+ * label.
+ *
  * Available variables:
  * - plugin_id: The ID of the block implementation.
  * - label: The configured label of the block if visible.
@@ -26,6 +30,9 @@
  * @see template_preprocess_block()
  */
 #}
+{% if not wrapper_element %}
+  {% set wrapper_element = label ? 'section' : 'div' %}
+{% endif %}
 {%
   set classes = [
     'block',
@@ -33,7 +40,7 @@
     'block-' ~ plugin_id|clean_class,
   ]
 %}
-<div{{ attributes.addClass(classes) }}>
+<{{ wrapper_element }}{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
     <h2{{ title_attributes }}>{{ label }}</h2>
@@ -42,4 +49,4 @@
   {% block content %}
     {{ content }}
   {% endblock %}
-</div>
+</{{ wrapper_element }}>
