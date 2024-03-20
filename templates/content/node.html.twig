@@ -67,6 +67,10 @@
  *
  */
 #}
+{% set show_label = label and not page %}
+{% if not wrapper_element %}
+  {% set wrapper_element = show_label ? 'article' : 'div' %}
+{% endif %}
 {%
   set classes = [
     'node',
@@ -78,10 +82,10 @@
   ]
 %}
 {{ attach_library('bootstrap5/node') }}
-<article{{ attributes.addClass(classes) }}>
+<{{ wrapper_element }}{{ attributes.addClass(classes) }}>
 
   {{ title_prefix }}
-  {% if label and not page %}
+  {% if show_label %}
     <h2{{ title_attributes }}>
       <a href="{{ url }}" rel="bookmark">{{ label }}</a>
     </h2>
@@ -102,4 +106,4 @@
     {{ content }}
   </div>
 
-</article>
+</{{ wrapper_element }}>
