@@ -15017,6 +15017,9 @@ a > .ck-content code {
   margin-left: 0;
   margin-right: 0;
 }
+.ck-content .feed-icons {
+  margin-bottom: 1.5em;
+}
 .ck-content .well {
   min-height: 20px;
   padding: 19px;
