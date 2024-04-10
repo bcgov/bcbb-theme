@@ -13790,7 +13790,7 @@ a > .ck-content code {
   border-bottom: 0.18em solid #fcba19;
   content: "";
   display: block;
-  padding-bottom: 0.33em;
+  padding-bottom: 0.15em;
   width: 3em;
   margin-bottom: 2rem;
 }
