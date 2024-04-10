@@ -14472,6 +14472,9 @@ html.bcbb-theme .bcbb-header {
   border-bottom: 0.125em solid #fcba19;
   color: rgba(255, 255, 255, 0.9);
 }
+html.bcbb-theme .bcbb-header > div {
+  padding-bottom: 1.35em;
+}
 html.bcbb-theme main {
   color: rgba(49, 49, 50, 0.9);
 }

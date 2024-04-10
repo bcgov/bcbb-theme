@@ -13491,6 +13491,9 @@ a > .ck-content code {
   border-bottom: 0.125em solid #fcba19;
   color: rgba(255, 255, 255, 0.9);
 }
+.ck-content html.bcbb-theme .bcbb-header > div {
+  padding-bottom: 1.35em;
+}
 .ck-content html.bcbb-theme main {
   color: rgba(49, 49, 50, 0.9);
 }
