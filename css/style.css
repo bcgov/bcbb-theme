@@ -15692,6 +15692,40 @@ h1.page-title::after, .page-title.h1::after {
     max-width: 50%;
   }
 }
+.bcbb-search-sidebar > details {
+  border: none;
+  margin-top: 0;
+}
+.bcbb-search-sidebar > details > summary {
+  border-width: 0 0 1px 0;
+  background: var(--bs-gray-200);
+  border-color: var(--bs-gray-300);
+  border-radius: 0;
+  padding: 1em;
+}
+@media only screen and (min-width: 992px) {
+  .bcbb-search-sidebar > details.block-search-api-saved-searches[open] {
+    border: 1px solid var(--bs-gray-300);
+  }
+  .bcbb-search-sidebar > details.block-search-api-saved-searches[open] > summary {
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 0;
+    background-color: transparent;
+    pointer-events: none;
+  }
+  .bcbb-search-sidebar > details.block-search-api-saved-searches[open] > summary::before {
+    font-family: "bootstrap-icons";
+    content: "\f525";
+    padding-right: 0.5em;
+  }
+  .bcbb-search-sidebar > details.dc-search-filters {
+    border: none;
+  }
+  .bcbb-search-sidebar > details.dc-search-filters > summary {
+    display: none;
+  }
+}
 
 .facets-widget-links a,
 .facets-widget-links a:active,

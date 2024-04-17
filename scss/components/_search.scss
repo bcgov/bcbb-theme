@@ -12,6 +12,51 @@
       }
     }
   }
+  // Remove border and margin
+  > details {
+    border: none;
+    margin-top: 0;
+    // style summary border
+    > summary {
+      border-width: 0 0 1px 0;
+      background: var(--bs-gray-200);
+      border-color: var(--bs-gray-300);
+      border-radius: 0;
+      padding: 1em;
+    }
+  }
+
+  //wide screen
+  @include responsive($lg-min) {
+     //Remove the `details` disclosure triangle
+    > details {
+      &.block-search-api-saved-searches[open] {
+        border: 1px solid var(--bs-gray-300);
+        > summary {
+          list-style: none;
+          padding-left: 0;
+          padding-bottom: 0;
+          background-color: transparent;
+          // disable expand/collapse details element
+          pointer-events: none;
+          // add search icon
+          &::before {
+            font-family: "bootstrap-icons";
+            content: "\f525";
+            padding-right: 0.5em;
+          }
+        }
+      }
+      // remove border for search filters
+      &.dc-search-filters {
+        border: none;
+        > summary {
+          display: none;
+        }
+      }
+    }
+  }
+
 }
 .facets-widget-links {
   a,
