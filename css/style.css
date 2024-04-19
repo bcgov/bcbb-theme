@@ -15242,6 +15242,50 @@ h1.page-title::after, .page-title.h1::after {
   content: "\f431";
 }
 
+.icon-bi-list-ol {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.icon-bi-list-ol::before, .icon-bi-list-ol::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-bi-list-ol::before {
+  content: "\f475";
+}
+
+.icon-bi-list-ol-after {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.icon-bi-list-ol-after::before, .icon-bi-list-ol-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-bi-list-ol-after::after {
+  content: "\f475";
+}
+
 .icon-bi-plus-circle {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;

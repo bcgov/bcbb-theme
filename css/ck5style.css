@@ -14214,6 +14214,48 @@ a > .ck-content code {
 .ck-content .icon-bi-info-circle-after::after {
   content: "\f431";
 }
+.ck-content .icon-bi-list-ol {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-list-ol::before, .ck-content .icon-bi-list-ol::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-list-ol::before {
+  content: "\f475";
+}
+.ck-content .icon-bi-list-ol-after {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  width: auto;
+  line-height: 1 !important;
+  gap: 0.25em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.ck-content .icon-bi-list-ol-after::before, .ck-content .icon-bi-list-ol-after::after {
+  font-family: "bootstrap-icons" !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ck-content .icon-bi-list-ol-after::after {
+  content: "\f475";
+}
 .ck-content .icon-bi-plus-circle {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
