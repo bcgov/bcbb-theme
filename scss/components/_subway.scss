@@ -99,6 +99,22 @@ ul.bb-subway {
         top: 0;
       }
     }
+    &.active {
+      font-weight: bold;
+      a {
+        &::before {
+          background-color: $stroke_color;
+        }
+      }
+      ul li {
+        font-weight: normal;
+        a {
+          &::before {
+            background-color: $fill_color;
+          }
+        }
+      }
+    }
   }
 
   &>li {

@@ -14925,6 +14925,18 @@ a > .ck-content code {
   position: absolute;
   top: 0;
 }
+.ck-content ul.bb-subway li.active {
+  font-weight: bold;
+}
+.ck-content ul.bb-subway li.active a::before {
+  background-color: #38598a;
+}
+.ck-content ul.bb-subway li.active ul li {
+  font-weight: normal;
+}
+.ck-content ul.bb-subway li.active ul li a::before {
+  background-color: #fff;
+}
 .ck-content ul.bb-subway > li::before {
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml,%3Csvg width='1px' height='3000' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='0.5px' y1='0' x2='0.5px' y2='3000' stroke='%2338598a' stroke-width='1px' /%3E%3C/svg%3E"), url("data:image/svg+xml,%3Csvg width='3000' height='1px' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='0' y1='0.5px' x2='3000' y2='0.5px' stroke='%2338598a'  stroke-width='1px' /%3E%3C/svg%3E");
