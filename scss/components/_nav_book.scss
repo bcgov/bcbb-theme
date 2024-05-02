@@ -7,9 +7,28 @@
 ul.bb-nav-book {
     padding: 0;
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    li {
+      a {
+        display: flex;
+        height: 100%;
+        align-items: center;
+      }
+      &:first-child {
+        a {
+          justify-content: flex-start;
+          text-align: start;
+        }
+      }
+      &:last-child {
+        a {
+          justify-content: flex-end;
+          text-align: end;
+        }
+      }
+    }
 }
 
 .block-book-navigation {
