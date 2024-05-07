@@ -58,11 +58,11 @@ function _bcbb_theme_preprocess_book_tree_recurse(array &$items): bool {
       // If there are no in_active_trail items below this, then this is active.
       if (!$class_added) {
         $item['attributes']->addClass('active');
-        return TRUE;
       }
 
-      // Do not continue searching for in_active_trail once it has been found.
-      break;
+      // Either this or an item below must be the active one, return that the
+      // class was added.
+      return TRUE;
     }
   }
   return FALSE;
