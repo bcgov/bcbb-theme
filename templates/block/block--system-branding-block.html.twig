@@ -15,18 +15,9 @@
  */
 #}
 {% block content %}
-{% if is_front %}
-  <h1>
-{% endif  %}
 <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="navbar-brand d-lg-flex align-items-center bb-link-light">
   {% if site_logo %}
   <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" class="site-logo d-block" />
   {% endif %}
-  {% if site_name %}
-  <div class="site-title ps-lg-4">{{ site_name }}</div>
-  {% endif %}
 </a>
-{% if is_front %}
-  </h1>
-{% endif  %}
 {% endblock %}
