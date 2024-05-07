@@ -86,7 +86,7 @@ ul.bb-subway {
         }       
       }
     }
-    &.active {
+    &.active:not(:has(.active)) {
       > a {
         font-weight: bold;
         &::before {

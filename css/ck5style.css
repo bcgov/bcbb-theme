@@ -14914,10 +14914,10 @@ a > .ck-content code {
           transform: scale(1.15, 1.15);
   background-color: #38598a;
 }
-.ck-content ul.bb-subway li.active > a {
+.ck-content ul.bb-subway li.active:not(:has(.active)) > a {
   font-weight: bold;
 }
-.ck-content ul.bb-subway li.active > a::before {
+.ck-content ul.bb-subway li.active:not(:has(.active)) > a::before {
   background-color: #38598a;
 }
 .ck-content ul.bb-subway li > ul::before {
