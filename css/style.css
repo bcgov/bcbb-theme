@@ -14417,7 +14417,7 @@ code {
 }
 
 .bcbb-theme input[type=checkbox] {
-  border-color: #959595;
+  border-color: rgb(217, 217, 217);
 }
 .bcbb-theme .region-nav-branding,
 .bcbb-theme .region-nav-additional {
@@ -14469,12 +14469,7 @@ html.bcbb-theme img {
   max-height: auto;
 }
 html.bcbb-theme .bcbb-header {
-  background-color: #003366;
-  border-bottom: 0.125em solid #fcba19;
-  color: rgba(255, 255, 255, 0.9);
-}
-html.bcbb-theme .bcbb-header > div {
-  padding-bottom: 1.35em;
+  border-bottom: 0.125em solid rgb(217, 217, 217);
 }
 html.bcbb-theme main {
   color: rgba(49, 49, 50, 0.9);

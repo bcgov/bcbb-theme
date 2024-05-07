@@ -13438,7 +13438,7 @@ a > .ck-content code {
   overflow-y: auto;
 }
 .ck-content .bcbb-theme input[type=checkbox] {
-  border-color: #959595;
+  border-color: rgb(217, 217, 217);
 }
 .ck-content .bcbb-theme .region-nav-branding,
 .ck-content .bcbb-theme .region-nav-additional {
@@ -13488,12 +13488,7 @@ a > .ck-content code {
   max-height: auto;
 }
 .ck-content html.bcbb-theme .bcbb-header {
-  background-color: #003366;
-  border-bottom: 0.125em solid #fcba19;
-  color: rgba(255, 255, 255, 0.9);
-}
-.ck-content html.bcbb-theme .bcbb-header > div {
-  padding-bottom: 1.35em;
+  border-bottom: 0.125em solid rgb(217, 217, 217);
 }
 .ck-content html.bcbb-theme main {
   color: rgba(49, 49, 50, 0.9);
@@ -15078,6 +15073,9 @@ a > .ck-content code {
 .ck-content .bcbb-theme .button:only-child {
   margin-left: 0;
   margin-right: 0;
+}
+.ck-content a img.site-logo {
+  max-height: 60px;
 }
 .ck-content .feed-icons {
   margin-bottom: 1.5em;

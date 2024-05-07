@@ -10,12 +10,7 @@ html.bcbb-theme {
   }
 
   .bcbb-header {
-    background-color: $colorBrand-primary;
-    border-bottom: px-em(2px) solid $colorBrand-secondary;
-    color: rgba($colorWhite, 0.9);
-    > div {
-      padding-bottom: 1.35em;
-    }
+    border-bottom: px-em(2px) solid $colorInputBorder;
   }
 
   main {
