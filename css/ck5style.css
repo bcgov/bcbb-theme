@@ -13447,6 +13447,7 @@ a > .ck-content code {
 }
 .ck-content .bcbb-theme .navbar-brand .site-title {
   text-transform: none;
+  letter-spacing: normal;
 }
 .ck-content .bcbb-theme a.page-link,
 .ck-content .bcbb-theme a.page-link:visited {
@@ -13512,6 +13513,7 @@ a > .ck-content code {
 .ck-content html.bcbb-theme main h1,
 .ck-content html.bcbb-theme main .h1 {
   font-size: 2.074em;
+  font-weight: 700;
 }
 .ck-content html.bcbb-theme main h2,
 .ck-content html.bcbb-theme main .h2 {

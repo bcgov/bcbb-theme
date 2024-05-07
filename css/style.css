@@ -14426,6 +14426,7 @@ code {
 }
 .bcbb-theme .navbar-brand .site-title {
   text-transform: none;
+  letter-spacing: normal;
 }
 
 .bcbb-theme a.page-link,
@@ -14493,6 +14494,7 @@ html.bcbb-theme main a:not(.btn, button.link, .button, a.button, .page-link):act
 html.bcbb-theme main h1,
 html.bcbb-theme main .h1 {
   font-size: 2.074em;
+  font-weight: 700;
 }
 html.bcbb-theme main h2,
 html.bcbb-theme main .h2 {
