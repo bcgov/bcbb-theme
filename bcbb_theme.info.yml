@@ -1,7 +1,7 @@
 name: 'BC Base Build'
 type: theme
 description: 'BC Base Build subtheme based on Bootstrap 5 theme.'
-core_version_requirement: ^10.1
+core_version_requirement: ^10.2 || ^11.0
 'base theme': bootstrap5
 libraries:
   - bcbb_theme/global-styling
