@@ -16156,6 +16156,10 @@ ul.bb-nav-book li:last-child a {
   margin-right: 0;
 }
 
+a img.site-logo {
+  max-height: 60px;
+}
+
 .feed-icons {
   margin-bottom: 1.5em;
 }
