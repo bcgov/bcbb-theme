@@ -14914,6 +14914,12 @@ a > .ck-content code {
           transform: scale(1.15, 1.15);
   background-color: #38598a;
 }
+.ck-content ul.bb-subway li.active > a {
+  font-weight: bold;
+}
+.ck-content ul.bb-subway li.active > a::before {
+  background-color: #38598a;
+}
 .ck-content ul.bb-subway li > ul::before {
   z-index: -999;
   background-repeat: no-repeat;
@@ -14924,18 +14930,6 @@ a > .ck-content code {
   height: 100%;
   position: absolute;
   top: 0;
-}
-.ck-content ul.bb-subway li.active {
-  font-weight: bold;
-}
-.ck-content ul.bb-subway li.active a::before {
-  background-color: #38598a;
-}
-.ck-content ul.bb-subway li.active ul li {
-  font-weight: normal;
-}
-.ck-content ul.bb-subway li.active ul li a::before {
-  background-color: #fff;
 }
 .ck-content ul.bb-subway > li::before {
   background-repeat: no-repeat;

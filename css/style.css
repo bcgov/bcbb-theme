@@ -15982,6 +15982,12 @@ ul.bb-subway li a .media-library-view--widget .view-header a.is-active::before,
           transform: scale(1.15, 1.15);
   background-color: #38598a;
 }
+ul.bb-subway li.active > a {
+  font-weight: bold;
+}
+ul.bb-subway li.active > a::before {
+  background-color: #38598a;
+}
 ul.bb-subway li > ul::before {
   z-index: -999;
   background-repeat: no-repeat;
@@ -15992,18 +15998,6 @@ ul.bb-subway li > ul::before {
   height: 100%;
   position: absolute;
   top: 0;
-}
-ul.bb-subway li.active {
-  font-weight: bold;
-}
-ul.bb-subway li.active a::before {
-  background-color: #38598a;
-}
-ul.bb-subway li.active ul li {
-  font-weight: normal;
-}
-ul.bb-subway li.active ul li a::before {
-  background-color: #fff;
 }
 ul.bb-subway > li::before {
   background-repeat: no-repeat;

@@ -86,6 +86,14 @@ ul.bb-subway {
         }       
       }
     }
+    &.active {
+      > a {
+        font-weight: bold;
+        &::before {
+          background-color: $stroke_color;
+        }
+      }
+    }
     &>ul {
       &::before {
         z-index: -999;
@@ -97,22 +105,6 @@ ul.bb-subway {
         height: 100%;
         position: absolute;
         top: 0;
-      }
-    }
-    &.active {
-      font-weight: bold;
-      a {
-        &::before {
-          background-color: $stroke_color;
-        }
-      }
-      ul li {
-        font-weight: normal;
-        a {
-          &::before {
-            background-color: $fill_color;
-          }
-        }
       }
     }
   }
