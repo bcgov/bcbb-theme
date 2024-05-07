@@ -17,7 +17,7 @@
 
 // ## BUTTONS ##
 
-//use for buttons with a dark bacjground and light text
+//use for buttons with a dark background and light text
 @mixin button-color-dark($bgColor: $colorAlert-info,$labelColor: $colorWhite) {
   --bs-btn-color: #{$labelColor};
   --bs-btn-bg: #{$bgColor};
@@ -97,7 +97,6 @@
 @mixin icon-bi($icon, $after:false) {
   display: inline-flex !important;
   width: auto;
-  line-height: 1 !important;
   gap: .25em;
   align-items: center;
   text-decoration: none;
