@@ -14744,22 +14744,24 @@ a > .ck-content code {
             flex-direction: row;
   }
 }
-@media only screen and (min-width: 992px) {
-  .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline {
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
-.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-item-search-api-fulltext {
-  width: 100%;
+.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-item {
+  float: none;
+  margin-right: 0;
 }
-.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions {
-  text-align: right;
-  white-space: nowrap;
+.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-text {
+  border-radius: var(--bs-border-radius) 0 0 var(--bs-border-radius);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' shape-rendering='geometricPrecision' width='50' height='50' fill='%23000' viewBox='0 0 16 16' opacity='.75'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  padding-left: 2em;
+  background-position: 0.5em center;
 }
-.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions > button {
-  margin: 0;
+.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.btn, .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.button, .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions .node-preview-container input.node-preview-backlink, .ck-content .node-preview-container .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.node-preview-backlink, .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .view-site-search .form-actions input, .ck-content .bcbb-search-wrapper .view-site-search .search-bb-search-block .views-exposed-form .form--inline .form-actions input {
+  border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
 }
 @media only screen and (min-width: 992px) {
   .ck-content .search-bb-container {
