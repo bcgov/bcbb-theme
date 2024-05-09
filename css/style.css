@@ -14468,9 +14468,6 @@ html.bcbb-theme img {
   max-width: 100%;
   max-height: auto;
 }
-html.bcbb-theme .bcbb-header {
-  border-bottom: 0.125em solid rgb(217, 217, 217);
-}
 html.bcbb-theme main {
   color: rgba(49, 49, 50, 0.9);
 }
@@ -16090,19 +16087,6 @@ ul.bb-nav-book li:last-child a {
   }
 }
 
-.bcbb-theme .bb-link-light {
-  color: #fff;
-  background-color: transparent;
-  border: 0;
-  font-size: 0.87em;
-  text-decoration: none;
-}
-.bcbb-theme .bb-link-light:hover, .bcbb-theme .bb-link-light:focus {
-  opacity: 80%;
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-  text-decoration: underline;
-}
 .bcbb-theme .button {
   --bs-btn-color: #313132;
   --bs-btn-bg: #f2f2f2;
@@ -16156,12 +16140,40 @@ ul.bb-nav-book li:last-child a {
   margin-right: 0;
 }
 
-a img.site-logo {
-  max-height: 60px;
+html.bcbb-theme a img.site-logo {
+  height: 50px;
+  max-height: 70px;
+}
+@media only screen and (min-width: 576px) {
+  html.bcbb-theme a img.site-logo {
+    height: 70px;
+  }
+}
+html.bcbb-theme nav ul.navbar-nav a.nav-link, html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a, .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a {
+  color: #1a5a96;
+}
+html.bcbb-theme nav ul.navbar-nav a.nav-link:hover, html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a:hover, html.bcbb-theme nav ul.navbar-nav a.nav-link:focus, html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a:focus, .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a:focus {
+  color: #10365a;
+}
+html.bcbb-theme nav ul.navbar-nav a.nav-link:active, html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a:active, html.bcbb-theme nav ul.navbar-nav a.nav-link:visited, html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a:visited, .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a:visited {
+  color: #1a5a96;
 }
 
 .feed-icons {
   margin-bottom: 1.5em;
+}
+
+.bcbb-header {
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+.bcbb-header .bcbb-header-branding.bcbb-header-search {
+  display: grid;
+  grid-template-columns: -webkit-max-content 1fr;
+  grid-template-columns: max-content 1fr;
+  gap: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .well {

@@ -67,37 +67,37 @@ set footer_classes = ' ' ~
 
 
     <div class="container my-1 my-lg-2">
-      {{ page.header }}
-      <div class="d-lg-flex align-items-center justify-content-between">
+      {% if page.header %}
+        {{ page.header }}
+      {% endif %}
+      <div class="bcbb-header-branding bcbb-header-search">
 
         {{ page.branding }}
 
         {% if page.search %}
-        <div class="flex-lg-grow-1 ms-lg-5">
           {{ page.search }}
-        </div>
         {% endif %}
-
-    </div>
+      </div>
+      {% if page.nav_main or page.nav_additional %}
+        <nav class="{{ nav_classes }}">
+          <div class="{{ b5_top_container }} d-flex">
+      
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
+              {{ page.nav_main }}
+              {{ page.nav_additional }}
+            </div>
+          </div>
+        </nav>
+        {% endif %}
 </div>
 
-  {% if page.nav_main or page.nav_additional %}
-  <nav class="{{ nav_classes }}">
-    <div class="{{ b5_top_container }} d-flex">
 
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-              aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">
-        {{ page.nav_main }}
-        {{ page.nav_additional }}
-      </div>
-    </div>
-  </nav>
-  {% endif %}
 
 </header>
 

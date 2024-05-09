@@ -1,6 +1,25 @@
 // global navigation styles
-
+html.bcbb-theme {
 //logo link in header
-a img.site-logo {
-  max-height: 60px;
+  a img.site-logo {
+    height: 50px;
+    max-height: 70px;
+    @include responsive() {
+      height: 70px;
+    }
+  }
+
+  nav ul.navbar-nav {
+    a.nav-link {
+      color: $colorTextLink;
+        &:hover,
+        &:focus {
+          color: $colorTextLink-hover;
+        }
+        &:active,
+        &:visited {
+          color: $colorTextLink;
+        }
+    }
+  }
 }
