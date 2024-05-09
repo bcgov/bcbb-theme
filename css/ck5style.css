@@ -13534,26 +13534,6 @@ a > .ck-content code {
 .ck-content html.bcbb-theme main table {
   width: 100%;
 }
-.ck-content html.bcbb-theme footer,
-.ck-content html.bcbb-theme .footer {
-  background-color: #234075;
-  border-top: 0.125em solid #e3a82b;
-  color: rgba(255, 255, 255, 0.9);
-}
-.ck-content html.bcbb-theme footer a,
-.ck-content html.bcbb-theme .footer a {
-  color: #70B1ED;
-}
-.ck-content html.bcbb-theme footer a:hover, .ck-content html.bcbb-theme footer a:focus,
-.ck-content html.bcbb-theme .footer a:hover,
-.ck-content html.bcbb-theme .footer a:focus {
-  color: #a9d0f4;
-}
-.ck-content html.bcbb-theme footer a:active, .ck-content html.bcbb-theme footer a:visited,
-.ck-content html.bcbb-theme .footer a:active,
-.ck-content html.bcbb-theme .footer a:visited {
-  color: #9982ff;
-}
 .ck-content html.bcbb-theme kbd {
   white-space: nowrap;
 }

@@ -14515,26 +14515,6 @@ html.bcbb-theme main .h6 {
 html.bcbb-theme main table {
   width: 100%;
 }
-html.bcbb-theme footer,
-html.bcbb-theme .footer {
-  background-color: #234075;
-  border-top: 0.125em solid #e3a82b;
-  color: rgba(255, 255, 255, 0.9);
-}
-html.bcbb-theme footer a,
-html.bcbb-theme .footer a {
-  color: #70B1ED;
-}
-html.bcbb-theme footer a:hover, html.bcbb-theme footer a:focus,
-html.bcbb-theme .footer a:hover,
-html.bcbb-theme .footer a:focus {
-  color: #a9d0f4;
-}
-html.bcbb-theme footer a:active, html.bcbb-theme footer a:visited,
-html.bcbb-theme .footer a:active,
-html.bcbb-theme .footer a:visited {
-  color: #9982ff;
-}
 html.bcbb-theme kbd {
   white-space: nowrap;
 }

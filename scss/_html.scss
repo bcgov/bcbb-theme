@@ -67,25 +67,6 @@ html.bcbb-theme {
 
   }
 
-  footer,
-  .footer {
-    background-color: $colorBrand-primary;
-    border-top: px-em(2px) solid $colorBrand-secondary;
-    color: rgba($colorWhite, 0.9);
-    a {
-      color: $colorTextLink-darkmode;
-      &:hover,
-      &:focus {
-        color: mix($colorWhite, $colorTextLink-darkmode, 40%);
-      }
-      &:active,
-      &:visited {
-        color: $colorTextLink-darkmode-variant;
-      }
-    }
-
-  }
-
   kbd {
     white-space: nowrap;
   }

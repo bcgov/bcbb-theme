@@ -1,0 +1,66 @@
+// global navigation styles
+html.bcbb-theme {
+
+//logo link to home in header
+  a img.site-logo {
+    height: 50px;
+    max-height: 70px;
+    @include responsive() {
+      height: 70px;
+    }
+  }
+
+  // primary site nav
+  nav ul.navbar-nav {
+    a.nav-link {
+      color: $colorTextLink;
+        &:hover,
+        &:focus {
+          color: $colorTextLink-hover;
+        }
+        &:active,
+        &:visited {
+          color: $colorTextLink;
+        }
+    }
+  }
+
+  // book navigation
+  .book-navigation {
+    border-top: 1px solid $colorBrand-secondary;
+    margin: 1.5em 0 0;
+    padding: 1.5em 0;
+  }  
+  ul.bb-nav-book {
+      padding: 0;
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1em;
+      li {
+        a {
+          display: flex;
+          height: 100%;
+          align-items: center;
+        }
+        &:first-child {
+          a {
+            justify-content: flex-start;
+            text-align: start;
+          }
+        }
+        &:last-child {
+          a {
+            justify-content: flex-end;
+            text-align: end;
+          }
+        }
+      }
+  }
+  .block-book-navigation {
+    @include responsive() {
+      margin-top: 3.5em;
+    }
+  }
+
+}
