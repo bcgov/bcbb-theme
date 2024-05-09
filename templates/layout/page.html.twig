@@ -57,10 +57,7 @@ set nav_classes = 'navbar navbar-expand-lg' ~
 %}
 
 {%
-set footer_classes = ' ' ~
-  (b5_footer_schema != 'none' ? " footer-#{b5_footer_schema}" : ' ') ~
-  (b5_footer_schema != 'none' ? (b5_footer_schema == 'dark' ? ' text-light' : ' text-dark' ) : ' ') ~
-  (b5_footer_bg_schema != 'none' ? " bg-#{b5_footer_bg_schema}" : ' ')
+  set footer_classes = 'mt-auto bcbb-footer'
 %}
 
 <header class="{{ header_classes }}">
@@ -119,7 +116,11 @@ set footer_classes = ' ' ~
 
   <div class="{{ b5_top_container }}">
     {% if page.breadcrumb %}
-      {{ page.breadcrumb }}
+      <div class="bcbb-fw bcbb-breadcrumbs">
+        <div class="container ps-4">
+          {{ page.breadcrumb }}
+        </div>
+      </div>
     {% endif %}
     <div class="row g-0">
       {% if page.sidebar_first %}
@@ -141,7 +142,7 @@ set footer_classes = ' ' ~
 </main>
 
 {% if page.footer %}
-<footer class="mt-auto {{ footer_classes }}">
+<footer class="{{ footer_classes }}">
   <div class="{{ b5_top_container }}">
     {{ page.footer }}
   </div>

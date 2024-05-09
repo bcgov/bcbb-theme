@@ -13449,6 +13449,12 @@ a > .ck-content code {
   text-transform: none;
   letter-spacing: normal;
 }
+.ck-content .bcbb-theme .region-sidebar-first,
+.ck-content .bcbb-theme .region-sidebar-second,
+.ck-content .bcbb-theme .region-footer,
+.ck-content .bcbb-theme .region-content {
+  padding: 0;
+}
 .ck-content .bcbb-theme a.page-link,
 .ck-content .bcbb-theme a.page-link:visited {
   color: var(--bs-pagination-active-bg);
@@ -14953,44 +14959,6 @@ a > .ck-content code {
     border-color: var(--bs-gray-300) !important;
   }
 }
-.ck-content .book-navigation {
-  border-top: 1px solid #e3a82b;
-  margin: 1.5em 0 0;
-  padding: 1.5em 0;
-}
-.ck-content ul.bb-nav-book {
-  padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1em;
-}
-.ck-content ul.bb-nav-book li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.ck-content ul.bb-nav-book li:first-child a {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  text-align: start;
-}
-.ck-content ul.bb-nav-book li:last-child a {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  text-align: end;
-}
-@media only screen and (min-width: 576px) {
-  .ck-content .block-book-navigation {
-    margin-top: 3.5em;
-  }
-}
 .ck-content .bcbb-theme .button {
   --bs-btn-color: #313132;
   --bs-btn-bg: #f2f2f2;
@@ -15052,14 +15020,77 @@ a > .ck-content code {
     height: 70px;
   }
 }
-.ck-content html.bcbb-theme nav ul.navbar-nav a.nav-link, .ck-content html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a {
+.ck-content html.bcbb-theme nav.menu--main ul.navbar-nav a.nav-link, .ck-content html.bcbb-theme nav.menu--main ul.navbar-nav .media-library-view--widget .view-header a, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--main ul.navbar-nav a {
   color: #1a5a96;
 }
-.ck-content html.bcbb-theme nav ul.navbar-nav a.nav-link:hover, .ck-content html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a:hover, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a:hover, .ck-content html.bcbb-theme nav ul.navbar-nav a.nav-link:focus, .ck-content html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a:focus, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a:focus {
+.ck-content html.bcbb-theme nav.menu--main ul.navbar-nav a.nav-link:hover, .ck-content html.bcbb-theme nav.menu--main ul.navbar-nav .media-library-view--widget .view-header a:hover, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--main ul.navbar-nav a:hover, .ck-content html.bcbb-theme nav.menu--main ul.navbar-nav a.nav-link:focus, .ck-content html.bcbb-theme nav.menu--main ul.navbar-nav .media-library-view--widget .view-header a:focus, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--main ul.navbar-nav a:focus {
   color: #10365a;
 }
-.ck-content html.bcbb-theme nav ul.navbar-nav a.nav-link:active, .ck-content html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a:active, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a:active, .ck-content html.bcbb-theme nav ul.navbar-nav a.nav-link:visited, .ck-content html.bcbb-theme nav ul.navbar-nav .media-library-view--widget .view-header a:visited, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav ul.navbar-nav a:visited {
+.ck-content html.bcbb-theme nav.menu--main ul.navbar-nav a.nav-link:active, .ck-content html.bcbb-theme nav.menu--main ul.navbar-nav .media-library-view--widget .view-header a:active, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--main ul.navbar-nav a:active, .ck-content html.bcbb-theme nav.menu--main ul.navbar-nav a.nav-link:visited, .ck-content html.bcbb-theme nav.menu--main ul.navbar-nav .media-library-view--widget .view-header a:visited, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--main ul.navbar-nav a:visited {
   color: #1a5a96;
+}
+.ck-content html.bcbb-theme .bcbb-breadcrumbs {
+  border-bottom: 1px solid var(--bs-gray-200);
+  margin-bottom: 2em;
+}
+.ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav {
+  display: block;
+}
+@media only screen and (min-width: 576px) {
+  .ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav {
+    -webkit-columns: 2;
+       -moz-columns: 2;
+            columns: 2;
+    gap: 4rem;
+  }
+}
+.ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav a.nav-link, .ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav .media-library-view--widget .view-header a, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--footer ul.navbar-nav a {
+  color: var(--bs-gray-100);
+  text-decoration: underline;
+}
+.ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav a.nav-link:hover, .ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav .media-library-view--widget .view-header a:hover, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--footer ul.navbar-nav a:hover, .ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav a.nav-link:focus, .ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav .media-library-view--widget .view-header a:focus, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--footer ul.navbar-nav a:focus {
+  color: var(--bs-gray-200);
+}
+.ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav a.nav-link:active, .ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav .media-library-view--widget .view-header a:active, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--footer ul.navbar-nav a:active, .ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav a.nav-link:visited, .ck-content html.bcbb-theme nav.menu--footer ul.navbar-nav .media-library-view--widget .view-header a:visited, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav.menu--footer ul.navbar-nav a:visited {
+  color: var(--bs-gray-100);
+}
+.ck-content html.bcbb-theme .book-navigation {
+  border-top: 1px solid #e3a82b;
+  margin: 1.5em 0 0;
+  padding: 1.5em 0;
+}
+.ck-content html.bcbb-theme ul.bb-nav-book {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+.ck-content html.bcbb-theme ul.bb-nav-book li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ck-content html.bcbb-theme ul.bb-nav-book li:first-child a {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: start;
+}
+.ck-content html.bcbb-theme ul.bb-nav-book li:last-child a {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: end;
+}
+@media only screen and (min-width: 576px) {
+  .ck-content html.bcbb-theme .block-book-navigation {
+    margin-top: 3.5em;
+  }
 }
 .ck-content .feed-icons {
   margin-bottom: 1.5em;
@@ -15075,6 +15106,9 @@ a > .ck-content code {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.ck-content .bcbb-footer {
+  background-color: var(--bs-gray-700);
 }
 .ck-content .well {
   min-height: 20px;

@@ -13,7 +13,6 @@ $colorBrand-secondary-light: #ffecbd;
 // backgrounds
 $colorAccent-primary: #38598a;
 $colorAccent-secondary: #f2f2f2;
-$colorBg-darkmode: #15232d;
 
 // black and white
 // we define these as variables so they
@@ -28,14 +27,9 @@ $colorText-primary: #313132;
 
 // transparency on text for easier readability
 $colorText-primary-alpha: rgba($colorText-primary, 0.9);
-$colorText-primary-darkmode: $colorWhite;
-
-$colorText-primary-darkmode-alpha: rgba($colorText-primary-darkmode, 0.65);
 $colorTextLink: #1a5a96;
 $colorTextLink-hover: #10365a;
 $colorTextLink-variant: #9b06aa;
-$colorTextLink-darkmode: #70B1ED;
-$colorTextLink-darkmode-variant: #9982ff;
 
 // helper colours
 $colorCurrent: currentColor;
