@@ -16207,24 +16207,4 @@ html.bcbb-theme ul.bb-nav-book li:last-child a {
 .well-lg {
   padding: 24px;
   border-radius: 6px;
-}
-
-html.bcbb-theme .navbar-brand a.site-title {
-  color: #fff;
-  text-decoration: none;
-}
-html.bcbb-theme .navbar-brand a.site-title:hover {
-  color: #fff;
-  text-decoration: none;
-}
-html.bcbb-theme .navbar-brand .site-title {
-  font-weight: normal;
-}
-html.bcbb-theme nav .navbar-nav a.nav-link, html.bcbb-theme nav .navbar-nav .media-library-view--widget .view-header a, .media-library-view--widget .view-header html.bcbb-theme nav .navbar-nav a {
-  color: #f2f2f2;
-  text-decoration: none;
-}
-html.bcbb-theme nav .navbar-nav a.nav-link:hover, html.bcbb-theme nav .navbar-nav .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header html.bcbb-theme nav .navbar-nav a:hover {
-  color: #f2f2f2;
-  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

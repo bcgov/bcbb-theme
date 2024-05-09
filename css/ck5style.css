@@ -15127,23 +15127,4 @@ a > .ck-content code {
 .ck-content .well-lg {
   padding: 24px;
   border-radius: 6px;
-}
-.ck-content html.bcbb-theme .navbar-brand a.site-title {
-  color: #fff;
-  text-decoration: none;
-}
-.ck-content html.bcbb-theme .navbar-brand a.site-title:hover {
-  color: #fff;
-  text-decoration: none;
-}
-.ck-content html.bcbb-theme .navbar-brand .site-title {
-  font-weight: normal;
-}
-.ck-content html.bcbb-theme nav .navbar-nav a.nav-link, .ck-content html.bcbb-theme nav .navbar-nav .media-library-view--widget .view-header a, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav .navbar-nav a {
-  color: #f2f2f2;
-  text-decoration: none;
-}
-.ck-content html.bcbb-theme nav .navbar-nav a.nav-link:hover, .ck-content html.bcbb-theme nav .navbar-nav .media-library-view--widget .view-header a:hover, .ck-content .media-library-view--widget .view-header html.bcbb-theme nav .navbar-nav a:hover {
-  color: #f2f2f2;
-  text-decoration: underline;
 }/*# sourceMappingURL=ck5style.css.map */
