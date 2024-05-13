@@ -16068,6 +16068,26 @@ form.toc-mobile select {
   margin-right: 0;
 }
 
+.bcbb-theme input::-webkit-input-placeholder {
+  color: var(--bs-gray-600);
+}
+
+.bcbb-theme input::-moz-placeholder {
+  color: var(--bs-gray-600);
+}
+
+.bcbb-theme input:-ms-input-placeholder {
+  color: var(--bs-gray-600);
+}
+
+.bcbb-theme input::-ms-input-placeholder {
+  color: var(--bs-gray-600);
+}
+
+.bcbb-theme input::placeholder {
+  color: var(--bs-gray-600);
+}
+
 html.bcbb-theme a img.site-logo {
   height: 50px;
   max-height: 70px;
