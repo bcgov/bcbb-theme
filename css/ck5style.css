@@ -2638,7 +2638,7 @@ a > .ck-content code {
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
-.ck-content .btn-check[disabled] + .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-check[disabled] + input, .ck-content .node-preview-container .btn-check[disabled] + .node-preview-backlink, .ck-content .btn-check[disabled] + .button, .ck-content .btn-check[disabled] + button.link, .ck-content .btn-check:disabled + .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-check:disabled + input, .ck-content .node-preview-container .btn-check:disabled + .node-preview-backlink, .ck-content .btn-check:disabled + .button, .ck-content .btn-check:disabled + button.link {
+.ck-content .btn-check[disabled] + .btn, .ck-content .node-preview-container .btn-check[disabled] + .node-preview-backlink, .ck-content .btn-check[disabled] + .button, .ck-content .btn-check[disabled] + button.link, .ck-content .btn-check:disabled + .btn, .ck-content .node-preview-container .btn-check:disabled + .node-preview-backlink, .ck-content .btn-check:disabled + .button, .ck-content .btn-check:disabled + button.link {
   pointer-events: none;
   -webkit-filter: none;
           filter: none;
@@ -2907,11 +2907,11 @@ a > .ck-content code {
 .ck-content .input-group > .form-floating:focus-within {
   z-index: 5;
 }
-.ck-content .input-group .btn, .ck-content .input-group .bcbb-search-wrapper .view-site-search .form-actions input, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .input-group input, .ck-content .input-group .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .input-group .node-preview-backlink, .ck-content .input-group .button, .ck-content .input-group button.link {
+.ck-content .input-group .btn, .ck-content .input-group .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .input-group .node-preview-backlink, .ck-content .input-group .button, .ck-content .input-group button.link {
   position: relative;
   z-index: 2;
 }
-.ck-content .input-group .btn:focus, .ck-content .input-group .bcbb-search-wrapper .view-site-search .form-actions input:focus, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .input-group input:focus, .ck-content .input-group .node-preview-container .node-preview-backlink:focus, .ck-content .node-preview-container .input-group .node-preview-backlink:focus, .ck-content .input-group .button:focus, .ck-content .input-group button.link:focus {
+.ck-content .input-group .btn:focus, .ck-content .input-group .node-preview-container .node-preview-backlink:focus, .ck-content .node-preview-container .input-group .node-preview-backlink:focus, .ck-content .input-group .button:focus, .ck-content .input-group button.link:focus {
   z-index: 5;
 }
 .ck-content .input-group-text {
@@ -2936,7 +2936,6 @@ a > .ck-content code {
 .ck-content .input-group-lg > .form-select,
 .ck-content .input-group-lg > .input-group-text,
 .ck-content .input-group-lg > .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .input-group-lg > input,
 .ck-content .node-preview-container .input-group-lg > .node-preview-backlink,
 .ck-content .input-group-lg > .button,
 .ck-content .input-group-lg > button.link {
@@ -2948,7 +2947,6 @@ a > .ck-content code {
 .ck-content .input-group-sm > .form-select,
 .ck-content .input-group-sm > .input-group-text,
 .ck-content .input-group-sm > .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .input-group-sm > input,
 .ck-content .node-preview-container .input-group-sm > .node-preview-backlink,
 .ck-content .input-group-sm > .button,
 .ck-content .input-group-sm > button.link {
@@ -3148,7 +3146,7 @@ a > .ck-content code {
 .ck-content .input-group > .form-floating:not(:focus-within).is-invalid {
   z-index: 4;
 }
-.ck-content .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input, .ck-content .node-preview-container .node-preview-backlink, .ck-content a.button, .ck-content .button, .ck-content button.link {
+.ck-content .btn, .ck-content .node-preview-container .node-preview-backlink, .ck-content a.button, .ck-content .button, .ck-content button.link {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
   --bs-btn-font-family: ;
@@ -3188,22 +3186,22 @@ a > .ck-content code {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .ck-content .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input, .ck-content .node-preview-container .node-preview-backlink, .ck-content a.button, .ck-content .button, .ck-content button.link {
+  .ck-content .btn, .ck-content .node-preview-container .node-preview-backlink, .ck-content a.button, .ck-content .button, .ck-content button.link {
     -webkit-transition: none;
     transition: none;
   }
 }
-.ck-content .btn:hover, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:hover, .ck-content .node-preview-container .node-preview-backlink:hover, .ck-content .button:hover, .ck-content button.link:hover {
+.ck-content .btn:hover, .ck-content .node-preview-container .node-preview-backlink:hover, .ck-content .button:hover, .ck-content button.link:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
 }
-.btn-check + .ck-content .btn:hover, .btn-check + .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:hover, .btn-check + .ck-content .node-preview-container .node-preview-backlink:hover, .btn-check + .ck-content .button:hover, .btn-check + .ck-content button.link:hover {
+.btn-check + .ck-content .btn:hover, .btn-check + .ck-content .node-preview-container .node-preview-backlink:hover, .btn-check + .ck-content .button:hover, .btn-check + .ck-content button.link:hover {
   color: var(--bs-btn-color);
   background-color: var(--bs-btn-bg);
   border-color: var(--bs-btn-border-color);
 }
-.ck-content .btn:focus-visible, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:focus-visible, .ck-content .node-preview-container .node-preview-backlink:focus-visible, .ck-content .button:focus-visible, .ck-content button.link:focus-visible {
+.ck-content .btn:focus-visible, .ck-content .node-preview-container .node-preview-backlink:focus-visible, .ck-content .button:focus-visible, .ck-content button.link:focus-visible {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
@@ -3211,26 +3209,26 @@ a > .ck-content code {
   -webkit-box-shadow: var(--bs-btn-focus-box-shadow);
           box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:focus-visible + .ck-content .btn, .btn-check:focus-visible + .ck-content .bcbb-search-wrapper .view-site-search .form-actions input, .btn-check:focus-visible + .ck-content .node-preview-container .node-preview-backlink, .btn-check:focus-visible + .ck-content .button, .btn-check:focus-visible + .ck-content button.link {
+.btn-check:focus-visible + .ck-content .btn, .btn-check:focus-visible + .ck-content .node-preview-container .node-preview-backlink, .btn-check:focus-visible + .ck-content .button, .btn-check:focus-visible + .ck-content button.link {
   border-color: var(--bs-btn-hover-border-color);
   outline: 0;
   -webkit-box-shadow: var(--bs-btn-focus-box-shadow);
           box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:checked + .ck-content .btn, .btn-check:checked + .ck-content .bcbb-search-wrapper .view-site-search .form-actions input, .btn-check:checked + .ck-content .node-preview-container .node-preview-backlink, .btn-check:checked + .ck-content .button, .btn-check:checked + .ck-content button.link, :not(.btn-check) + .ck-content .btn:active, :not(.btn-check) + .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:active, :not(.btn-check) + .ck-content .node-preview-container .node-preview-backlink:active, :not(.btn-check) + .ck-content .button:active, :not(.btn-check) + .ck-content button.link:active, .ck-content .btn:first-child:active, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:first-child:active, .ck-content .node-preview-container .node-preview-backlink:first-child:active, .ck-content .button:first-child:active, .ck-content button.link:first-child:active, .ck-content .btn.active, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input.active, .ck-content .media-library-view--widget .view-header a.btn.is-active, .ck-content .node-preview-container .active.node-preview-backlink, .ck-content .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active, .ck-content .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active, .ck-content .active.button, .ck-content .media-library-view--widget .view-header a.button.is-active, .ck-content button.active.link, .ck-content .btn.show, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input.show, .ck-content .node-preview-container .show.node-preview-backlink, .ck-content .show.button, .ck-content button.show.link {
+.btn-check:checked + .ck-content .btn, .btn-check:checked + .ck-content .node-preview-container .node-preview-backlink, .btn-check:checked + .ck-content .button, .btn-check:checked + .ck-content button.link, :not(.btn-check) + .ck-content .btn:active, :not(.btn-check) + .ck-content .node-preview-container .node-preview-backlink:active, :not(.btn-check) + .ck-content .button:active, :not(.btn-check) + .ck-content button.link:active, .ck-content .btn:first-child:active, .ck-content .node-preview-container .node-preview-backlink:first-child:active, .ck-content .button:first-child:active, .ck-content button.link:first-child:active, .ck-content .btn.active, .ck-content .media-library-view--widget .view-header a.btn.is-active, .ck-content .node-preview-container .active.node-preview-backlink, .ck-content .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active, .ck-content .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active, .ck-content .active.button, .ck-content .media-library-view--widget .view-header a.button.is-active, .ck-content button.active.link, .ck-content .btn.show, .ck-content .node-preview-container .show.node-preview-backlink, .ck-content .show.button, .ck-content button.show.link {
   color: var(--bs-btn-active-color);
   background-color: var(--bs-btn-active-bg);
   border-color: var(--bs-btn-active-border-color);
 }
-.btn-check:checked + .ck-content .btn:focus-visible, .btn-check:checked + .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:focus-visible, .btn-check:checked + .ck-content .node-preview-container .node-preview-backlink:focus-visible, .btn-check:checked + .ck-content .button:focus-visible, .btn-check:checked + .ck-content button.link:focus-visible, :not(.btn-check) + .ck-content .btn:active:focus-visible, :not(.btn-check) + .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:active:focus-visible, :not(.btn-check) + .ck-content .node-preview-container .node-preview-backlink:active:focus-visible, :not(.btn-check) + .ck-content .button:active:focus-visible, :not(.btn-check) + .ck-content button.link:active:focus-visible, .ck-content .btn:first-child:active:focus-visible, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:first-child:active:focus-visible, .ck-content .node-preview-container .node-preview-backlink:first-child:active:focus-visible, .ck-content .button:first-child:active:focus-visible, .ck-content button.link:first-child:active:focus-visible, .ck-content .btn.active:focus-visible, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input.active:focus-visible, .ck-content .media-library-view--widget .view-header a.btn.is-active:focus-visible, .ck-content .node-preview-container .active.node-preview-backlink:focus-visible, .ck-content .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active:focus-visible, .ck-content .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active:focus-visible, .ck-content .active.button:focus-visible, .ck-content .media-library-view--widget .view-header a.button.is-active:focus-visible, .ck-content button.active.link:focus-visible, .ck-content .btn.show:focus-visible, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input.show:focus-visible, .ck-content .node-preview-container .show.node-preview-backlink:focus-visible, .ck-content .show.button:focus-visible, .ck-content button.show.link:focus-visible {
+.btn-check:checked + .ck-content .btn:focus-visible, .btn-check:checked + .ck-content .node-preview-container .node-preview-backlink:focus-visible, .btn-check:checked + .ck-content .button:focus-visible, .btn-check:checked + .ck-content button.link:focus-visible, :not(.btn-check) + .ck-content .btn:active:focus-visible, :not(.btn-check) + .ck-content .node-preview-container .node-preview-backlink:active:focus-visible, :not(.btn-check) + .ck-content .button:active:focus-visible, :not(.btn-check) + .ck-content button.link:active:focus-visible, .ck-content .btn:first-child:active:focus-visible, .ck-content .node-preview-container .node-preview-backlink:first-child:active:focus-visible, .ck-content .button:first-child:active:focus-visible, .ck-content button.link:first-child:active:focus-visible, .ck-content .btn.active:focus-visible, .ck-content .media-library-view--widget .view-header a.btn.is-active:focus-visible, .ck-content .node-preview-container .active.node-preview-backlink:focus-visible, .ck-content .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active:focus-visible, .ck-content .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active:focus-visible, .ck-content .active.button:focus-visible, .ck-content .media-library-view--widget .view-header a.button.is-active:focus-visible, .ck-content button.active.link:focus-visible, .ck-content .btn.show:focus-visible, .ck-content .node-preview-container .show.node-preview-backlink:focus-visible, .ck-content .show.button:focus-visible, .ck-content button.show.link:focus-visible {
   -webkit-box-shadow: var(--bs-btn-focus-box-shadow);
           box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:checked:focus-visible + .ck-content .btn, .btn-check:checked:focus-visible + .ck-content .bcbb-search-wrapper .view-site-search .form-actions input, .btn-check:checked:focus-visible + .ck-content .node-preview-container .node-preview-backlink, .btn-check:checked:focus-visible + .ck-content .button, .btn-check:checked:focus-visible + .ck-content button.link {
+.btn-check:checked:focus-visible + .ck-content .btn, .btn-check:checked:focus-visible + .ck-content .node-preview-container .node-preview-backlink, .btn-check:checked:focus-visible + .ck-content .button, .btn-check:checked:focus-visible + .ck-content button.link {
   -webkit-box-shadow: var(--bs-btn-focus-box-shadow);
           box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.ck-content .btn:disabled, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:disabled, .ck-content .node-preview-container .node-preview-backlink:disabled, .ck-content .button:disabled, .ck-content button.link:disabled, .ck-content .btn.disabled, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input.disabled, .ck-content .node-preview-container .disabled.node-preview-backlink, .ck-content .disabled.button, .ck-content button.disabled.link, fieldset:disabled .ck-content .btn, fieldset:disabled .ck-content .bcbb-search-wrapper .view-site-search .form-actions input, fieldset:disabled .ck-content .node-preview-container .node-preview-backlink, fieldset:disabled .ck-content .button, fieldset:disabled .ck-content button.link {
+.ck-content .btn:disabled, .ck-content .node-preview-container .node-preview-backlink:disabled, .ck-content .button:disabled, .ck-content button.link:disabled, .ck-content .btn.disabled, .ck-content .node-preview-container .disabled.node-preview-backlink, .ck-content .disabled.button, .ck-content button.disabled.link, fieldset:disabled .ck-content .btn, fieldset:disabled .ck-content .node-preview-container .node-preview-backlink, fieldset:disabled .ck-content .button, fieldset:disabled .ck-content button.link {
   color: var(--bs-btn-disabled-color);
   pointer-events: none;
   background-color: var(--bs-btn-disabled-bg);
@@ -3333,7 +3331,7 @@ a > .ck-content code {
   --bs-btn-disabled-bg: #a12622;
   --bs-btn-disabled-border-color: #a12622;
 }
-.ck-content .btn-light, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input {
+.ck-content .btn-light {
   --bs-btn-color: #000;
   --bs-btn-bg: #f8f9fa;
   --bs-btn-border-color: #f8f9fa;
@@ -3514,13 +3512,13 @@ a > .ck-content code {
 .ck-content .btn-link:hover, .ck-content button.link:hover {
   color: var(--bs-btn-hover-color);
 }
-.ck-content .btn-lg, .ck-content .btn-group-lg > .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-lg > input, .ck-content .node-preview-container .btn-group-lg > .node-preview-backlink, .ck-content .btn-group-lg > .button, .ck-content .btn-group-lg > button.link {
+.ck-content .btn-lg, .ck-content .btn-group-lg > .btn, .ck-content .node-preview-container .btn-group-lg > .node-preview-backlink, .ck-content .btn-group-lg > .button, .ck-content .btn-group-lg > button.link {
   --bs-btn-padding-y: 0.5rem;
   --bs-btn-padding-x: 1rem;
   --bs-btn-font-size: 1.25rem;
   --bs-btn-border-radius: var(--bs-border-radius-lg);
 }
-.ck-content .btn-sm, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input, .ck-content .btn-group-sm > .btn, .ck-content .node-preview-container .btn-group-sm > .node-preview-backlink, .ck-content .btn-group-sm > .button, .ck-content .btn-group-sm > button.link {
+.ck-content .btn-sm, .ck-content .btn-group-sm > .btn, .ck-content .node-preview-container .btn-group-sm > .node-preview-backlink, .ck-content .btn-group-sm > .button, .ck-content .btn-group-sm > button.link {
   --bs-btn-padding-y: 0.25rem;
   --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
@@ -3877,9 +3875,8 @@ a > .ck-content code {
   display: inline-flex;
   vertical-align: middle;
 }
-.ck-content .btn-group > .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input, .ck-content .node-preview-container .btn-group > .node-preview-backlink, .ck-content .btn-group > .button, .ck-content .btn-group > button.link,
+.ck-content .btn-group > .btn, .ck-content .node-preview-container .btn-group > .node-preview-backlink, .ck-content .btn-group > .button, .ck-content .btn-group > button.link,
 .ck-content .btn-group-vertical > .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input,
 .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink,
 .ck-content .btn-group-vertical > .button,
 .ck-content .btn-group-vertical > button.link {
@@ -3888,29 +3885,24 @@ a > .ck-content code {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
-.ck-content .btn-group > .btn-check:checked + .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > .btn-check:checked + input, .ck-content .node-preview-container .btn-group > .btn-check:checked + .node-preview-backlink, .ck-content .btn-group > .btn-check:checked + .button, .ck-content .btn-group > .btn-check:checked + button.link,
+.ck-content .btn-group > .btn-check:checked + .btn, .ck-content .node-preview-container .btn-group > .btn-check:checked + .node-preview-backlink, .ck-content .btn-group > .btn-check:checked + .button, .ck-content .btn-group > .btn-check:checked + button.link,
 .ck-content .btn-group > .btn-check:focus + .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > .btn-check:focus + input,
 .ck-content .node-preview-container .btn-group > .btn-check:focus + .node-preview-backlink,
 .ck-content .btn-group > .btn-check:focus + .button,
 .ck-content .btn-group > .btn-check:focus + button.link,
 .ck-content .btn-group > .btn:hover,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:hover,
 .ck-content .node-preview-container .btn-group > .node-preview-backlink:hover,
 .ck-content .btn-group > .button:hover,
 .ck-content .btn-group > button.link:hover,
 .ck-content .btn-group > .btn:focus,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:focus,
 .ck-content .node-preview-container .btn-group > .node-preview-backlink:focus,
 .ck-content .btn-group > .button:focus,
 .ck-content .btn-group > button.link:focus,
 .ck-content .btn-group > .btn:active,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:active,
 .ck-content .node-preview-container .btn-group > .node-preview-backlink:active,
 .ck-content .btn-group > .button:active,
 .ck-content .btn-group > button.link:active,
 .ck-content .btn-group > .btn.active,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input.active,
 .ck-content .media-library-view--widget .view-header .btn-group > a.btn.is-active,
 .ck-content .node-preview-container .btn-group > .active.node-preview-backlink,
 .ck-content .node-preview-container .media-library-view--widget .view-header .btn-group > a.node-preview-backlink.is-active,
@@ -3919,32 +3911,26 @@ a > .ck-content code {
 .ck-content .media-library-view--widget .view-header .btn-group > a.button.is-active,
 .ck-content .btn-group > button.active.link,
 .ck-content .btn-group-vertical > .btn-check:checked + .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn-check:checked + input,
 .ck-content .node-preview-container .btn-group-vertical > .btn-check:checked + .node-preview-backlink,
 .ck-content .btn-group-vertical > .btn-check:checked + .button,
 .ck-content .btn-group-vertical > .btn-check:checked + button.link,
 .ck-content .btn-group-vertical > .btn-check:focus + .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn-check:focus + input,
 .ck-content .node-preview-container .btn-group-vertical > .btn-check:focus + .node-preview-backlink,
 .ck-content .btn-group-vertical > .btn-check:focus + .button,
 .ck-content .btn-group-vertical > .btn-check:focus + button.link,
 .ck-content .btn-group-vertical > .btn:hover,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:hover,
 .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink:hover,
 .ck-content .btn-group-vertical > .button:hover,
 .ck-content .btn-group-vertical > button.link:hover,
 .ck-content .btn-group-vertical > .btn:focus,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:focus,
 .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink:focus,
 .ck-content .btn-group-vertical > .button:focus,
 .ck-content .btn-group-vertical > button.link:focus,
 .ck-content .btn-group-vertical > .btn:active,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:active,
 .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink:active,
 .ck-content .btn-group-vertical > .button:active,
 .ck-content .btn-group-vertical > button.link:active,
 .ck-content .btn-group-vertical > .btn.active,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input.active,
 .ck-content .media-library-view--widget .view-header .btn-group-vertical > a.btn.is-active,
 .ck-content .node-preview-container .btn-group-vertical > .active.node-preview-backlink,
 .ck-content .node-preview-container .media-library-view--widget .view-header .btn-group-vertical > a.node-preview-backlink.is-active,
@@ -3970,32 +3956,28 @@ a > .ck-content code {
 .ck-content .btn-group {
   border-radius: var(--bs-border-radius);
 }
-.ck-content .btn-group > :not(.btn-check:first-child) + .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > :not(.btn-check:first-child) + input, .ck-content .node-preview-container .btn-group > :not(.btn-check:first-child) + .node-preview-backlink, .ck-content .btn-group > :not(.btn-check:first-child) + .button, .ck-content .btn-group > :not(.btn-check:first-child) + button.link,
+.ck-content .btn-group > :not(.btn-check:first-child) + .btn, .ck-content .node-preview-container .btn-group > :not(.btn-check:first-child) + .node-preview-backlink, .ck-content .btn-group > :not(.btn-check:first-child) + .button, .ck-content .btn-group > :not(.btn-check:first-child) + button.link,
 .ck-content .btn-group > .btn-group:not(:first-child) {
   margin-left: calc(var(--bs-border-width) * -1);
 }
-.ck-content .btn-group > .btn:not(:last-child):not(.dropdown-toggle), .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:not(:last-child):not(.dropdown-toggle), .ck-content .node-preview-container .btn-group > .node-preview-backlink:not(:last-child):not(.dropdown-toggle), .ck-content .btn-group > .button:not(:last-child):not(.dropdown-toggle), .ck-content .btn-group > button.link:not(:last-child):not(.dropdown-toggle),
+.ck-content .btn-group > .btn:not(:last-child):not(.dropdown-toggle), .ck-content .node-preview-container .btn-group > .node-preview-backlink:not(:last-child):not(.dropdown-toggle), .ck-content .btn-group > .button:not(:last-child):not(.dropdown-toggle), .ck-content .btn-group > button.link:not(:last-child):not(.dropdown-toggle),
 .ck-content .btn-group > .btn.dropdown-toggle-split:first-child,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input.dropdown-toggle-split:first-child,
 .ck-content .node-preview-container .btn-group > .dropdown-toggle-split.node-preview-backlink:first-child,
 .ck-content .btn-group > .dropdown-toggle-split.button:first-child,
 .ck-content .btn-group > button.dropdown-toggle-split.link:first-child,
 .ck-content .btn-group > .btn-group:not(:last-child) > .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > .btn-group:not(:last-child) > input,
 .ck-content .node-preview-container .btn-group > .btn-group:not(:last-child) > .node-preview-backlink,
 .ck-content .btn-group > .btn-group:not(:last-child) > .button,
 .ck-content .btn-group > .btn-group:not(:last-child) > button.link {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.ck-content .btn-group > .btn:nth-child(n+3), .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:nth-child(n+3), .ck-content .node-preview-container .btn-group > .node-preview-backlink:nth-child(n+3), .ck-content .btn-group > .button:nth-child(n+3), .ck-content .btn-group > button.link:nth-child(n+3),
+.ck-content .btn-group > .btn:nth-child(n+3), .ck-content .node-preview-container .btn-group > .node-preview-backlink:nth-child(n+3), .ck-content .btn-group > .button:nth-child(n+3), .ck-content .btn-group > button.link:nth-child(n+3),
 .ck-content .btn-group > :not(.btn-check) + .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > :not(.btn-check) + input,
 .ck-content .node-preview-container .btn-group > :not(.btn-check) + .node-preview-backlink,
 .ck-content .btn-group > :not(.btn-check) + .button,
 .ck-content .btn-group > :not(.btn-check) + button.link,
 .ck-content .btn-group > .btn-group:not(:first-child) > .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group > .btn-group:not(:first-child) > input,
 .ck-content .node-preview-container .btn-group > .btn-group:not(:first-child) > .node-preview-backlink,
 .ck-content .btn-group > .btn-group:not(:first-child) > .button,
 .ck-content .btn-group > .btn-group:not(:first-child) > button.link {
@@ -4012,11 +3994,11 @@ a > .ck-content code {
 .dropstart .ck-content .dropdown-toggle-split::before {
   margin-right: 0;
 }
-.ck-content .btn-sm + .dropdown-toggle-split, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input + .dropdown-toggle-split, .ck-content .btn-group-sm > .btn + .dropdown-toggle-split, .ck-content .node-preview-container .btn-group-sm > .node-preview-backlink + .dropdown-toggle-split, .ck-content .btn-group-sm > .button + .dropdown-toggle-split, .ck-content .btn-group-sm > button.link + .dropdown-toggle-split {
+.ck-content .btn-sm + .dropdown-toggle-split, .ck-content .btn-group-sm > .btn + .dropdown-toggle-split, .ck-content .node-preview-container .btn-group-sm > .node-preview-backlink + .dropdown-toggle-split, .ck-content .btn-group-sm > .button + .dropdown-toggle-split, .ck-content .btn-group-sm > button.link + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
-.ck-content .btn-lg + .dropdown-toggle-split, .ck-content .btn-group-lg > .btn + .dropdown-toggle-split, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-lg > input + .dropdown-toggle-split, .ck-content .node-preview-container .btn-group-lg > .node-preview-backlink + .dropdown-toggle-split, .ck-content .btn-group-lg > .button + .dropdown-toggle-split, .ck-content .btn-group-lg > button.link + .dropdown-toggle-split {
+.ck-content .btn-lg + .dropdown-toggle-split, .ck-content .btn-group-lg > .btn + .dropdown-toggle-split, .ck-content .node-preview-container .btn-group-lg > .node-preview-backlink + .dropdown-toggle-split, .ck-content .btn-group-lg > .button + .dropdown-toggle-split, .ck-content .btn-group-lg > button.link + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -4032,26 +4014,24 @@ a > .ck-content code {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.ck-content .btn-group-vertical > .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink, .ck-content .btn-group-vertical > .button, .ck-content .btn-group-vertical > button.link,
+.ck-content .btn-group-vertical > .btn, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink, .ck-content .btn-group-vertical > .button, .ck-content .btn-group-vertical > button.link,
 .ck-content .btn-group-vertical > .btn-group {
   width: 100%;
 }
-.ck-content .btn-group-vertical > .btn:not(:first-child), .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:not(:first-child), .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink:not(:first-child), .ck-content .btn-group-vertical > .button:not(:first-child), .ck-content .btn-group-vertical > button.link:not(:first-child),
+.ck-content .btn-group-vertical > .btn:not(:first-child), .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink:not(:first-child), .ck-content .btn-group-vertical > .button:not(:first-child), .ck-content .btn-group-vertical > button.link:not(:first-child),
 .ck-content .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: calc(var(--bs-border-width) * -1);
 }
-.ck-content .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:not(:last-child):not(.dropdown-toggle), .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink:not(:last-child):not(.dropdown-toggle), .ck-content .btn-group-vertical > .button:not(:last-child):not(.dropdown-toggle), .ck-content .btn-group-vertical > button.link:not(:last-child):not(.dropdown-toggle),
+.ck-content .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink:not(:last-child):not(.dropdown-toggle), .ck-content .btn-group-vertical > .button:not(:last-child):not(.dropdown-toggle), .ck-content .btn-group-vertical > button.link:not(:last-child):not(.dropdown-toggle),
 .ck-content .btn-group-vertical > .btn-group:not(:last-child) > .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn-group:not(:last-child) > input,
 .ck-content .node-preview-container .btn-group-vertical > .btn-group:not(:last-child) > .node-preview-backlink,
 .ck-content .btn-group-vertical > .btn-group:not(:last-child) > .button,
 .ck-content .btn-group-vertical > .btn-group:not(:last-child) > button.link {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.ck-content .btn-group-vertical > .btn ~ .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn ~ input, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ input, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .btn, .ck-content .node-preview-container .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .node-preview-backlink ~ input, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .node-preview-container .btn-group-vertical > .node-preview-backlink ~ input, .ck-content .node-preview-container .btn-group-vertical > .btn ~ .node-preview-backlink, .ck-content .node-preview-container .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ .node-preview-backlink, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .node-preview-container .btn-group-vertical > input ~ .node-preview-backlink, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .node-preview-backlink, .ck-content .btn-group-vertical > .button ~ .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .button ~ input, .ck-content .node-preview-container .btn-group-vertical > .button ~ .node-preview-backlink, .ck-content .btn-group-vertical > .btn ~ .button, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ .button, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .button, .ck-content .btn-group-vertical > .button ~ .button, .ck-content .btn-group-vertical > button.link ~ .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > button.link ~ input, .ck-content .node-preview-container .btn-group-vertical > button.link ~ .node-preview-backlink, .ck-content .btn-group-vertical > button.link ~ .button, .ck-content .btn-group-vertical > .btn ~ button.link, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ button.link, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink ~ button.link, .ck-content .btn-group-vertical > .button ~ button.link, .ck-content .btn-group-vertical > button.link ~ button.link,
+.ck-content .btn-group-vertical > .btn ~ .btn, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .btn, .ck-content .node-preview-container .btn-group-vertical > .btn ~ .node-preview-backlink, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .node-preview-backlink, .ck-content .btn-group-vertical > .button ~ .btn, .ck-content .node-preview-container .btn-group-vertical > .button ~ .node-preview-backlink, .ck-content .btn-group-vertical > .btn ~ .button, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .button, .ck-content .btn-group-vertical > .button ~ .button, .ck-content .btn-group-vertical > button.link ~ .btn, .ck-content .node-preview-container .btn-group-vertical > button.link ~ .node-preview-backlink, .ck-content .btn-group-vertical > button.link ~ .button, .ck-content .btn-group-vertical > .btn ~ button.link, .ck-content .node-preview-container .btn-group-vertical > .node-preview-backlink ~ button.link, .ck-content .btn-group-vertical > .button ~ button.link, .ck-content .btn-group-vertical > button.link ~ button.link,
 .ck-content .btn-group-vertical > .btn-group:not(:first-child) > .btn,
-.ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn-group:not(:first-child) > input,
 .ck-content .node-preview-container .btn-group-vertical > .btn-group:not(:first-child) > .node-preview-backlink,
 .ck-content .btn-group-vertical > .btn-group:not(:first-child) > .button,
 .ck-content .btn-group-vertical > .btn-group:not(:first-child) > button.link {
@@ -5270,7 +5250,7 @@ a > .ck-content code {
 .ck-content .badge:empty {
   display: none;
 }
-.ck-content .btn .badge, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input .badge, .ck-content .node-preview-container .node-preview-backlink .badge, .ck-content .button .badge, .ck-content button.link .badge {
+.ck-content .btn .badge, .ck-content .node-preview-container .node-preview-backlink .badge, .ck-content .button .badge, .ck-content button.link .badge {
   position: relative;
   top: -1px;
 }
@@ -7346,7 +7326,7 @@ a > .ck-content code {
   background-color: currentcolor;
   opacity: 0.5;
 }
-.ck-content .placeholder.btn::before, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input.placeholder::before, .ck-content .node-preview-container .placeholder.node-preview-backlink::before, .ck-content .placeholder.button::before, .ck-content button.placeholder.link::before {
+.ck-content .placeholder.btn::before, .ck-content .node-preview-container .placeholder.node-preview-backlink::before, .ck-content .placeholder.button::before, .ck-content button.placeholder.link::before {
   display: inline-block;
   content: "";
 }
@@ -7824,7 +7804,7 @@ a > .ck-content code {
 .ck-content .d-block {
   display: block !important;
 }
-.ck-content .d-grid, .ck-content .bcbb-search-wrapper .view-site-search .form-actions {
+.ck-content .d-grid {
   display: grid !important;
 }
 .ck-content .d-inline-grid {
@@ -8328,7 +8308,7 @@ a > .ck-content code {
       -ms-flex-order: 6 !important;
           order: 6 !important;
 }
-.ck-content .m-0, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input {
+.ck-content .m-0 {
   margin: 0 !important;
 }
 .ck-content .m-1 {
@@ -8633,7 +8613,7 @@ a > .ck-content code {
 .ck-content .gap-1 {
   gap: 0.25rem !important;
 }
-.ck-content .gap-2, .ck-content .bcbb-search-wrapper .view-site-search .form-actions {
+.ck-content .gap-2 {
   gap: 0.5rem !important;
 }
 .ck-content .gap-3 {
@@ -10671,7 +10651,7 @@ a > .ck-content code {
   .ck-content .d-lg-table-cell {
     display: table-cell !important;
   }
-  .ck-content .d-lg-flex, .ck-content .bcbb-search-wrapper .view-site-search .form-actions {
+  .ck-content .d-lg-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -12723,10 +12703,10 @@ a > .ck-content code {
   color: #fff;
   text-decoration: none;
 }
-.ck-content .btn-light a, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input a {
+.ck-content .btn-light a {
   color: #000;
 }
-.ck-content .btn-light a:hover, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input a:hover {
+.ck-content .btn-light a:hover {
   color: #000;
   text-decoration: none;
 }
@@ -12793,19 +12773,19 @@ a > .ck-content code {
   color: #fff;
   text-decoration: none;
 }
-.ck-content .btn, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input, .ck-content .node-preview-container .node-preview-backlink, .ck-content button.link, .ck-content a.button,
+.ck-content .btn, .ck-content .node-preview-container .node-preview-backlink, .ck-content button.link, .ck-content a.button,
 .ck-content .button {
   margin: 0 0.5rem;
 }
-.ck-content .btn:first-child, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:first-child, .ck-content .node-preview-container .node-preview-backlink:first-child, .ck-content button.link:first-child,
+.ck-content .btn:first-child, .ck-content .node-preview-container .node-preview-backlink:first-child, .ck-content button.link:first-child,
 .ck-content .button:first-child {
   margin-left: 0;
 }
-.ck-content .btn:last-child, .ck-content .bcbb-search-wrapper .view-site-search .form-actions input:last-child, .ck-content .node-preview-container .node-preview-backlink:last-child, .ck-content button.link:last-child,
+.ck-content .btn:last-child, .ck-content .node-preview-container .node-preview-backlink:last-child, .ck-content button.link:last-child,
 .ck-content .button:last-child {
   margin-right: 0;
 }
-.ck-content .btn-group .btn, .ck-content .btn-group .bcbb-search-wrapper .view-site-search .form-actions input, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .btn-group input, .ck-content .btn-group .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .btn-group .node-preview-backlink, .ck-content .btn-group button.link,
+.ck-content .btn-group .btn, .ck-content .btn-group .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .btn-group .node-preview-backlink, .ck-content .btn-group button.link,
 .ck-content .btn-group .button {
   margin: 0;
 }
@@ -14525,7 +14505,7 @@ a > .ck-content code {
   font-size: 1.125em;
   font-weight: 600;
 }
-.ck-content .bc-gov-alertbanner h1 ~ p, .ck-content .bc-gov-alertbanner .h1 ~ p, .ck-content .bc-gov-alertbanner h2 ~ p, .ck-content .bc-gov-alertbanner .h2 ~ p, .ck-content .bc-gov-alertbanner h3 ~ p, .ck-content .bc-gov-alertbanner .h3 ~ p, .ck-content .bc-gov-alertbanner h4 ~ p, .ck-content .bc-gov-alertbanner .h4 ~ p, .ck-content .bc-gov-alertbanner h5 ~ p, .ck-content .bc-gov-alertbanner .h5 ~ p, .ck-content .bc-gov-alertbanner .bcbb-search-wrapper .vbo-info-list-wrapper h3 ~ p, .ck-content .bcbb-search-wrapper .vbo-info-list-wrapper .bc-gov-alertbanner h3 ~ p, .ck-content .bc-gov-alertbanner .bcbb-search-wrapper .vbo-info-list-wrapper .h3 ~ p, .ck-content .bcbb-search-wrapper .vbo-info-list-wrapper .bc-gov-alertbanner .h3 ~ p, .ck-content .bc-gov-alertbanner h6 ~ p, .ck-content .bc-gov-alertbanner .h6 ~ p, .ck-content .bc-gov-alertbanner .form-wrapper.accordion .accordion-item h2 ~ p, .ck-content .form-wrapper.accordion .accordion-item .bc-gov-alertbanner h2 ~ p, .ck-content .bc-gov-alertbanner .form-wrapper.accordion .accordion-item .h2 ~ p, .ck-content .form-wrapper.accordion .accordion-item .bc-gov-alertbanner .h2 ~ p {
+.ck-content .bc-gov-alertbanner h1 ~ p, .ck-content .bc-gov-alertbanner .h1 ~ p, .ck-content .bc-gov-alertbanner h2 ~ p, .ck-content .bc-gov-alertbanner .h2 ~ p, .ck-content .bc-gov-alertbanner h3 ~ p, .ck-content .bc-gov-alertbanner .h3 ~ p, .ck-content .bc-gov-alertbanner h4 ~ p, .ck-content .bc-gov-alertbanner .h4 ~ p, .ck-content .bc-gov-alertbanner h5 ~ p, .ck-content .bc-gov-alertbanner .h5 ~ p, .ck-content .bc-gov-alertbanner .bcbb-search-wrapper .vbo-info-list-wrapper h3 ~ p, .ck-content .bcbb-search-wrapper .vbo-info-list-wrapper .bc-gov-alertbanner h3 ~ p, .ck-content .bc-gov-alertbanner h6 ~ p, .ck-content .bc-gov-alertbanner .h6 ~ p, .ck-content .bc-gov-alertbanner .form-wrapper.accordion .accordion-item h2 ~ p, .ck-content .form-wrapper.accordion .accordion-item .bc-gov-alertbanner h2 ~ p, .ck-content .bc-gov-alertbanner .form-wrapper.accordion .accordion-item .h2 ~ p, .ck-content .form-wrapper.accordion .accordion-item .bc-gov-alertbanner .h2 ~ p {
   font-weight: normal;
 }
 .ck-content .bc-gov-alertbanner-error {
@@ -14743,7 +14723,7 @@ a > .ck-content code {
   padding-left: 2em;
   background-position: 0.5em center;
 }
-.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.btn, .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.button, .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions .node-preview-container input.node-preview-backlink, .ck-content .node-preview-container .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.node-preview-backlink, .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .view-site-search .form-actions input, .ck-content .bcbb-search-wrapper .view-site-search .search-bb-search-block .views-exposed-form .form--inline .form-actions input {
+.ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.btn, .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.button, .ck-content .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions .node-preview-container input.node-preview-backlink, .ck-content .node-preview-container .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.node-preview-backlink {
   border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
 }
 @media only screen and (min-width: 992px) {
@@ -14782,13 +14762,13 @@ a > .ck-content code {
   border-radius: var(--bs-border-radius) 0 0 var(--bs-border-radius);
   border-right: none;
 }
-.ck-content .block-bcbb-search form .btn, .ck-content .block-bcbb-search form button.link, .ck-content .block-bcbb-search form .button, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink, .ck-content .block-bcbb-search form .bcbb-search-wrapper .view-site-search .form-actions input, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .block-bcbb-search form input {
+.ck-content .block-bcbb-search form .btn, .ck-content .block-bcbb-search form button.link, .ck-content .block-bcbb-search form .button, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink {
   background-color: transparent;
   border-color: rgb(217, 217, 217);
   border-left: none;
   border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
 }
-.ck-content .block-bcbb-search form .btn:hover, .ck-content .block-bcbb-search form button.link:hover, .ck-content .block-bcbb-search form .button:hover, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink:hover, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink:hover, .ck-content .block-bcbb-search form .bcbb-search-wrapper .view-site-search .form-actions input:hover, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .block-bcbb-search form input:hover, .ck-content .block-bcbb-search form .btn:focus, .ck-content .block-bcbb-search form button.link:focus, .ck-content .block-bcbb-search form .button:focus, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink:focus, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink:focus, .ck-content .block-bcbb-search form .bcbb-search-wrapper .view-site-search .form-actions input:focus, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .block-bcbb-search form input:focus {
+.ck-content .block-bcbb-search form .btn:hover, .ck-content .block-bcbb-search form button.link:hover, .ck-content .block-bcbb-search form .button:hover, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink:hover, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink:hover, .ck-content .block-bcbb-search form .btn:focus, .ck-content .block-bcbb-search form button.link:focus, .ck-content .block-bcbb-search form .button:focus, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink:focus, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink:focus {
   background-color: rgb(217, 217, 217);
 }
 .ck-content input.bcbb-search-submit-icon {
@@ -15009,7 +14989,7 @@ a > .ck-content code {
   --bs-btn-disabled-bg: #300b0a;
   --bs-btn-disabled-border-color: #180605;
 }
-.ck-content .bcbb-theme .btn:only-child, .ck-content .bcbb-theme button.link:only-child, .ck-content .bcbb-theme .node-preview-container .node-preview-backlink:only-child, .ck-content .node-preview-container .bcbb-theme .node-preview-backlink:only-child, .ck-content .bcbb-theme .bcbb-search-wrapper .view-site-search .form-actions input:only-child, .ck-content .bcbb-search-wrapper .view-site-search .form-actions .bcbb-theme input:only-child,
+.ck-content .bcbb-theme .btn:only-child, .ck-content .bcbb-theme button.link:only-child, .ck-content .bcbb-theme .node-preview-container .node-preview-backlink:only-child, .ck-content .node-preview-container .bcbb-theme .node-preview-backlink:only-child,
 .ck-content .bcbb-theme .button:only-child {
   margin-left: 0;
   margin-right: 0;

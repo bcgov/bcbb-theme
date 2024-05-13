@@ -80,19 +80,6 @@
 
 .bcbb-search-wrapper {
   .view-site-search {
-    .form-actions {
-      @extend .d-grid;
-      @extend .gap-2;
-      @extend .d-lg-flex;
-      
-      input {
-        @extend .btn;
-        @extend .btn-light;
-        @extend .btn-sm;
-        @extend .m-0;
-      }
-    }
-    
     .form-type-checkbox {
       margin-top: .125em;
     }

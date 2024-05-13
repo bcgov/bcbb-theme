@@ -2797,7 +2797,7 @@ textarea.form-control-lg {
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
-.btn-check[disabled] + .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-check[disabled] + input, .node-preview-container .btn-check[disabled] + .node-preview-backlink, .btn-check[disabled] + .button, .btn-check[disabled] + button.link, .btn-check:disabled + .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-check:disabled + input, .node-preview-container .btn-check:disabled + .node-preview-backlink, .btn-check:disabled + .button, .btn-check:disabled + button.link {
+.btn-check[disabled] + .btn, .node-preview-container .btn-check[disabled] + .node-preview-backlink, .btn-check[disabled] + .button, .btn-check[disabled] + button.link, .btn-check:disabled + .btn, .node-preview-container .btn-check:disabled + .node-preview-backlink, .btn-check:disabled + .button, .btn-check:disabled + button.link {
   pointer-events: none;
   -webkit-filter: none;
           filter: none;
@@ -3070,11 +3070,11 @@ textarea.form-control-lg {
 .input-group > .form-floating:focus-within {
   z-index: 5;
 }
-.input-group .btn, .input-group .bcbb-search-wrapper .view-site-search .form-actions input, .bcbb-search-wrapper .view-site-search .form-actions .input-group input, .input-group .node-preview-container .node-preview-backlink, .node-preview-container .input-group .node-preview-backlink, .input-group .button, .input-group button.link {
+.input-group .btn, .input-group .node-preview-container .node-preview-backlink, .node-preview-container .input-group .node-preview-backlink, .input-group .button, .input-group button.link {
   position: relative;
   z-index: 2;
 }
-.input-group .btn:focus, .input-group .bcbb-search-wrapper .view-site-search .form-actions input:focus, .bcbb-search-wrapper .view-site-search .form-actions .input-group input:focus, .input-group .node-preview-container .node-preview-backlink:focus, .node-preview-container .input-group .node-preview-backlink:focus, .input-group .button:focus, .input-group button.link:focus {
+.input-group .btn:focus, .input-group .node-preview-container .node-preview-backlink:focus, .node-preview-container .input-group .node-preview-backlink:focus, .input-group .button:focus, .input-group button.link:focus {
   z-index: 5;
 }
 
@@ -3101,7 +3101,6 @@ textarea.form-control-lg {
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
 .input-group-lg > .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .input-group-lg > input,
 .node-preview-container .input-group-lg > .node-preview-backlink,
 .input-group-lg > .button,
 .input-group-lg > button.link {
@@ -3114,7 +3113,6 @@ textarea.form-control-lg {
 .input-group-sm > .form-select,
 .input-group-sm > .input-group-text,
 .input-group-sm > .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .input-group-sm > input,
 .node-preview-container .input-group-sm > .node-preview-backlink,
 .input-group-sm > .button,
 .input-group-sm > button.link {
@@ -3339,7 +3337,7 @@ textarea.form-control-lg {
   z-index: 4;
 }
 
-.btn, .bcbb-search-wrapper .view-site-search .form-actions input, .node-preview-container .node-preview-backlink, a.button, .button, button.link {
+.btn, .node-preview-container .node-preview-backlink, a.button, .button, button.link {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
   --bs-btn-font-family: ;
@@ -3379,22 +3377,22 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .btn, .bcbb-search-wrapper .view-site-search .form-actions input, .node-preview-container .node-preview-backlink, a.button, .button, button.link {
+  .btn, .node-preview-container .node-preview-backlink, a.button, .button, button.link {
     -webkit-transition: none;
     transition: none;
   }
 }
-.btn:hover, .bcbb-search-wrapper .view-site-search .form-actions input:hover, .node-preview-container .node-preview-backlink:hover, .button:hover, button.link:hover {
+.btn:hover, .node-preview-container .node-preview-backlink:hover, .button:hover, button.link:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
 }
-.btn-check + .btn:hover, .bcbb-search-wrapper .view-site-search .form-actions .btn-check + input:hover, .node-preview-container .btn-check + .node-preview-backlink:hover, .btn-check + .button:hover, .btn-check + button.link:hover {
+.btn-check + .btn:hover, .node-preview-container .btn-check + .node-preview-backlink:hover, .btn-check + .button:hover, .btn-check + button.link:hover {
   color: var(--bs-btn-color);
   background-color: var(--bs-btn-bg);
   border-color: var(--bs-btn-border-color);
 }
-.btn:focus-visible, .bcbb-search-wrapper .view-site-search .form-actions input:focus-visible, .node-preview-container .node-preview-backlink:focus-visible, .button:focus-visible, button.link:focus-visible {
+.btn:focus-visible, .node-preview-container .node-preview-backlink:focus-visible, .button:focus-visible, button.link:focus-visible {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
@@ -3402,26 +3400,26 @@ textarea.form-control-lg {
   -webkit-box-shadow: var(--bs-btn-focus-box-shadow);
           box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:focus-visible + .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-check:focus-visible + input, .node-preview-container .btn-check:focus-visible + .node-preview-backlink, .btn-check:focus-visible + .button, .btn-check:focus-visible + button.link {
+.btn-check:focus-visible + .btn, .node-preview-container .btn-check:focus-visible + .node-preview-backlink, .btn-check:focus-visible + .button, .btn-check:focus-visible + button.link {
   border-color: var(--bs-btn-hover-border-color);
   outline: 0;
   -webkit-box-shadow: var(--bs-btn-focus-box-shadow);
           box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:checked + .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-check:checked + input, .node-preview-container .btn-check:checked + .node-preview-backlink, .btn-check:checked + .button, .btn-check:checked + button.link, :not(.btn-check) + .btn:active, .bcbb-search-wrapper .view-site-search .form-actions :not(.btn-check) + input:active, .node-preview-container :not(.btn-check) + .node-preview-backlink:active, :not(.btn-check) + .button:active, :not(.btn-check) + button.link:active, .btn:first-child:active, .bcbb-search-wrapper .view-site-search .form-actions input:first-child:active, .node-preview-container .node-preview-backlink:first-child:active, .button:first-child:active, button.link:first-child:active, .btn.active, .bcbb-search-wrapper .view-site-search .form-actions input.active, .media-library-view--widget .view-header a.btn.is-active, .node-preview-container .active.node-preview-backlink, .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active, .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active, .active.button, .media-library-view--widget .view-header a.button.is-active, button.active.link, .btn.show, .bcbb-search-wrapper .view-site-search .form-actions input.show, .node-preview-container .show.node-preview-backlink, .show.button, button.show.link {
+.btn-check:checked + .btn, .node-preview-container .btn-check:checked + .node-preview-backlink, .btn-check:checked + .button, .btn-check:checked + button.link, :not(.btn-check) + .btn:active, .node-preview-container :not(.btn-check) + .node-preview-backlink:active, :not(.btn-check) + .button:active, :not(.btn-check) + button.link:active, .btn:first-child:active, .node-preview-container .node-preview-backlink:first-child:active, .button:first-child:active, button.link:first-child:active, .btn.active, .media-library-view--widget .view-header a.btn.is-active, .node-preview-container .active.node-preview-backlink, .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active, .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active, .active.button, .media-library-view--widget .view-header a.button.is-active, button.active.link, .btn.show, .node-preview-container .show.node-preview-backlink, .show.button, button.show.link {
   color: var(--bs-btn-active-color);
   background-color: var(--bs-btn-active-bg);
   border-color: var(--bs-btn-active-border-color);
 }
-.btn-check:checked + .btn:focus-visible, .bcbb-search-wrapper .view-site-search .form-actions .btn-check:checked + input:focus-visible, .node-preview-container .btn-check:checked + .node-preview-backlink:focus-visible, .btn-check:checked + .button:focus-visible, .btn-check:checked + button.link:focus-visible, :not(.btn-check) + .btn:active:focus-visible, .bcbb-search-wrapper .view-site-search .form-actions :not(.btn-check) + input:active:focus-visible, .node-preview-container :not(.btn-check) + .node-preview-backlink:active:focus-visible, :not(.btn-check) + .button:active:focus-visible, :not(.btn-check) + button.link:active:focus-visible, .btn:first-child:active:focus-visible, .bcbb-search-wrapper .view-site-search .form-actions input:first-child:active:focus-visible, .node-preview-container .node-preview-backlink:first-child:active:focus-visible, .button:first-child:active:focus-visible, button.link:first-child:active:focus-visible, .btn.active:focus-visible, .bcbb-search-wrapper .view-site-search .form-actions input.active:focus-visible, .media-library-view--widget .view-header a.btn.is-active:focus-visible, .node-preview-container .active.node-preview-backlink:focus-visible, .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active:focus-visible, .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active:focus-visible, .active.button:focus-visible, .media-library-view--widget .view-header a.button.is-active:focus-visible, button.active.link:focus-visible, .btn.show:focus-visible, .bcbb-search-wrapper .view-site-search .form-actions input.show:focus-visible, .node-preview-container .show.node-preview-backlink:focus-visible, .show.button:focus-visible, button.show.link:focus-visible {
+.btn-check:checked + .btn:focus-visible, .node-preview-container .btn-check:checked + .node-preview-backlink:focus-visible, .btn-check:checked + .button:focus-visible, .btn-check:checked + button.link:focus-visible, :not(.btn-check) + .btn:active:focus-visible, .node-preview-container :not(.btn-check) + .node-preview-backlink:active:focus-visible, :not(.btn-check) + .button:active:focus-visible, :not(.btn-check) + button.link:active:focus-visible, .btn:first-child:active:focus-visible, .node-preview-container .node-preview-backlink:first-child:active:focus-visible, .button:first-child:active:focus-visible, button.link:first-child:active:focus-visible, .btn.active:focus-visible, .media-library-view--widget .view-header a.btn.is-active:focus-visible, .node-preview-container .active.node-preview-backlink:focus-visible, .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active:focus-visible, .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active:focus-visible, .active.button:focus-visible, .media-library-view--widget .view-header a.button.is-active:focus-visible, button.active.link:focus-visible, .btn.show:focus-visible, .node-preview-container .show.node-preview-backlink:focus-visible, .show.button:focus-visible, button.show.link:focus-visible {
   -webkit-box-shadow: var(--bs-btn-focus-box-shadow);
           box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn-check:checked:focus-visible + .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-check:checked:focus-visible + input, .node-preview-container .btn-check:checked:focus-visible + .node-preview-backlink, .btn-check:checked:focus-visible + .button, .btn-check:checked:focus-visible + button.link {
+.btn-check:checked:focus-visible + .btn, .node-preview-container .btn-check:checked:focus-visible + .node-preview-backlink, .btn-check:checked:focus-visible + .button, .btn-check:checked:focus-visible + button.link {
   -webkit-box-shadow: var(--bs-btn-focus-box-shadow);
           box-shadow: var(--bs-btn-focus-box-shadow);
 }
-.btn:disabled, .bcbb-search-wrapper .view-site-search .form-actions input:disabled, .node-preview-container .node-preview-backlink:disabled, .button:disabled, button.link:disabled, .btn.disabled, .bcbb-search-wrapper .view-site-search .form-actions input.disabled, .node-preview-container .disabled.node-preview-backlink, .disabled.button, button.disabled.link, fieldset:disabled .btn, fieldset:disabled .bcbb-search-wrapper .view-site-search .form-actions input, .bcbb-search-wrapper .view-site-search .form-actions fieldset:disabled input, fieldset:disabled .node-preview-container .node-preview-backlink, .node-preview-container fieldset:disabled .node-preview-backlink, fieldset:disabled .button, fieldset:disabled button.link {
+.btn:disabled, .node-preview-container .node-preview-backlink:disabled, .button:disabled, button.link:disabled, .btn.disabled, .node-preview-container .disabled.node-preview-backlink, .disabled.button, button.disabled.link, fieldset:disabled .btn, fieldset:disabled .node-preview-container .node-preview-backlink, .node-preview-container fieldset:disabled .node-preview-backlink, fieldset:disabled .button, fieldset:disabled button.link {
   color: var(--bs-btn-disabled-color);
   pointer-events: none;
   background-color: var(--bs-btn-disabled-bg);
@@ -3531,7 +3529,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #a12622;
 }
 
-.btn-light, .bcbb-search-wrapper .view-site-search .form-actions input {
+.btn-light {
   --bs-btn-color: #000;
   --bs-btn-bg: #f8f9fa;
   --bs-btn-border-color: #f8f9fa;
@@ -3723,14 +3721,14 @@ textarea.form-control-lg {
   color: var(--bs-btn-hover-color);
 }
 
-.btn-lg, .btn-group-lg > .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-lg > input, .node-preview-container .btn-group-lg > .node-preview-backlink, .btn-group-lg > .button, .btn-group-lg > button.link {
+.btn-lg, .btn-group-lg > .btn, .node-preview-container .btn-group-lg > .node-preview-backlink, .btn-group-lg > .button, .btn-group-lg > button.link {
   --bs-btn-padding-y: 0.5rem;
   --bs-btn-padding-x: 1rem;
   --bs-btn-font-size: 1.25rem;
   --bs-btn-border-radius: var(--bs-border-radius-lg);
 }
 
-.btn-sm, .bcbb-search-wrapper .view-site-search .form-actions input, .btn-group-sm > .btn, .node-preview-container .btn-group-sm > .node-preview-backlink, .btn-group-sm > .button, .btn-group-sm > button.link {
+.btn-sm, .btn-group-sm > .btn, .node-preview-container .btn-group-sm > .node-preview-backlink, .btn-group-sm > .button, .btn-group-sm > button.link {
   --bs-btn-padding-y: 0.25rem;
   --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
@@ -4105,9 +4103,8 @@ textarea.form-control-lg {
   display: inline-flex;
   vertical-align: middle;
 }
-.btn-group > .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input, .node-preview-container .btn-group > .node-preview-backlink, .btn-group > .button, .btn-group > button.link,
+.btn-group > .btn, .node-preview-container .btn-group > .node-preview-backlink, .btn-group > .button, .btn-group > button.link,
 .btn-group-vertical > .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input,
 .node-preview-container .btn-group-vertical > .node-preview-backlink,
 .btn-group-vertical > .button,
 .btn-group-vertical > button.link {
@@ -4116,29 +4113,24 @@ textarea.form-control-lg {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
-.btn-group > .btn-check:checked + .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group > .btn-check:checked + input, .node-preview-container .btn-group > .btn-check:checked + .node-preview-backlink, .btn-group > .btn-check:checked + .button, .btn-group > .btn-check:checked + button.link,
+.btn-group > .btn-check:checked + .btn, .node-preview-container .btn-group > .btn-check:checked + .node-preview-backlink, .btn-group > .btn-check:checked + .button, .btn-group > .btn-check:checked + button.link,
 .btn-group > .btn-check:focus + .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > .btn-check:focus + input,
 .node-preview-container .btn-group > .btn-check:focus + .node-preview-backlink,
 .btn-group > .btn-check:focus + .button,
 .btn-group > .btn-check:focus + button.link,
 .btn-group > .btn:hover,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:hover,
 .node-preview-container .btn-group > .node-preview-backlink:hover,
 .btn-group > .button:hover,
 .btn-group > button.link:hover,
 .btn-group > .btn:focus,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:focus,
 .node-preview-container .btn-group > .node-preview-backlink:focus,
 .btn-group > .button:focus,
 .btn-group > button.link:focus,
 .btn-group > .btn:active,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:active,
 .node-preview-container .btn-group > .node-preview-backlink:active,
 .btn-group > .button:active,
 .btn-group > button.link:active,
 .btn-group > .btn.active,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > input.active,
 .media-library-view--widget .view-header .btn-group > a.btn.is-active,
 .node-preview-container .btn-group > .active.node-preview-backlink,
 .node-preview-container .media-library-view--widget .view-header .btn-group > a.node-preview-backlink.is-active,
@@ -4147,32 +4139,26 @@ textarea.form-control-lg {
 .media-library-view--widget .view-header .btn-group > a.button.is-active,
 .btn-group > button.active.link,
 .btn-group-vertical > .btn-check:checked + .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn-check:checked + input,
 .node-preview-container .btn-group-vertical > .btn-check:checked + .node-preview-backlink,
 .btn-group-vertical > .btn-check:checked + .button,
 .btn-group-vertical > .btn-check:checked + button.link,
 .btn-group-vertical > .btn-check:focus + .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn-check:focus + input,
 .node-preview-container .btn-group-vertical > .btn-check:focus + .node-preview-backlink,
 .btn-group-vertical > .btn-check:focus + .button,
 .btn-group-vertical > .btn-check:focus + button.link,
 .btn-group-vertical > .btn:hover,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:hover,
 .node-preview-container .btn-group-vertical > .node-preview-backlink:hover,
 .btn-group-vertical > .button:hover,
 .btn-group-vertical > button.link:hover,
 .btn-group-vertical > .btn:focus,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:focus,
 .node-preview-container .btn-group-vertical > .node-preview-backlink:focus,
 .btn-group-vertical > .button:focus,
 .btn-group-vertical > button.link:focus,
 .btn-group-vertical > .btn:active,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:active,
 .node-preview-container .btn-group-vertical > .node-preview-backlink:active,
 .btn-group-vertical > .button:active,
 .btn-group-vertical > button.link:active,
 .btn-group-vertical > .btn.active,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input.active,
 .media-library-view--widget .view-header .btn-group-vertical > a.btn.is-active,
 .node-preview-container .btn-group-vertical > .active.node-preview-backlink,
 .node-preview-container .media-library-view--widget .view-header .btn-group-vertical > a.node-preview-backlink.is-active,
@@ -4200,32 +4186,28 @@ textarea.form-control-lg {
 .btn-group {
   border-radius: var(--bs-border-radius);
 }
-.btn-group > :not(.btn-check:first-child) + .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group > :not(.btn-check:first-child) + input, .node-preview-container .btn-group > :not(.btn-check:first-child) + .node-preview-backlink, .btn-group > :not(.btn-check:first-child) + .button, .btn-group > :not(.btn-check:first-child) + button.link,
+.btn-group > :not(.btn-check:first-child) + .btn, .node-preview-container .btn-group > :not(.btn-check:first-child) + .node-preview-backlink, .btn-group > :not(.btn-check:first-child) + .button, .btn-group > :not(.btn-check:first-child) + button.link,
 .btn-group > .btn-group:not(:first-child) {
   margin-left: calc(var(--bs-border-width) * -1);
 }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:not(:last-child):not(.dropdown-toggle), .node-preview-container .btn-group > .node-preview-backlink:not(:last-child):not(.dropdown-toggle), .btn-group > .button:not(:last-child):not(.dropdown-toggle), .btn-group > button.link:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .node-preview-container .btn-group > .node-preview-backlink:not(:last-child):not(.dropdown-toggle), .btn-group > .button:not(:last-child):not(.dropdown-toggle), .btn-group > button.link:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn.dropdown-toggle-split:first-child,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > input.dropdown-toggle-split:first-child,
 .node-preview-container .btn-group > .dropdown-toggle-split.node-preview-backlink:first-child,
 .btn-group > .dropdown-toggle-split.button:first-child,
 .btn-group > button.dropdown-toggle-split.link:first-child,
 .btn-group > .btn-group:not(:last-child) > .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > .btn-group:not(:last-child) > input,
 .node-preview-container .btn-group > .btn-group:not(:last-child) > .node-preview-backlink,
 .btn-group > .btn-group:not(:last-child) > .button,
 .btn-group > .btn-group:not(:last-child) > button.link {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-group > .btn:nth-child(n+3), .bcbb-search-wrapper .view-site-search .form-actions .btn-group > input:nth-child(n+3), .node-preview-container .btn-group > .node-preview-backlink:nth-child(n+3), .btn-group > .button:nth-child(n+3), .btn-group > button.link:nth-child(n+3),
+.btn-group > .btn:nth-child(n+3), .node-preview-container .btn-group > .node-preview-backlink:nth-child(n+3), .btn-group > .button:nth-child(n+3), .btn-group > button.link:nth-child(n+3),
 .btn-group > :not(.btn-check) + .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > :not(.btn-check) + input,
 .node-preview-container .btn-group > :not(.btn-check) + .node-preview-backlink,
 .btn-group > :not(.btn-check) + .button,
 .btn-group > :not(.btn-check) + button.link,
 .btn-group > .btn-group:not(:first-child) > .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group > .btn-group:not(:first-child) > input,
 .node-preview-container .btn-group > .btn-group:not(:first-child) > .node-preview-backlink,
 .btn-group > .btn-group:not(:first-child) > .button,
 .btn-group > .btn-group:not(:first-child) > button.link {
@@ -4244,12 +4226,12 @@ textarea.form-control-lg {
   margin-right: 0;
 }
 
-.btn-sm + .dropdown-toggle-split, .bcbb-search-wrapper .view-site-search .form-actions input + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .node-preview-container .btn-group-sm > .node-preview-backlink + .dropdown-toggle-split, .btn-group-sm > .button + .dropdown-toggle-split, .btn-group-sm > button.link + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .node-preview-container .btn-group-sm > .node-preview-backlink + .dropdown-toggle-split, .btn-group-sm > .button + .dropdown-toggle-split, .btn-group-sm > button.link + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-lg > input + .dropdown-toggle-split, .node-preview-container .btn-group-lg > .node-preview-backlink + .dropdown-toggle-split, .btn-group-lg > .button + .dropdown-toggle-split, .btn-group-lg > button.link + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .node-preview-container .btn-group-lg > .node-preview-backlink + .dropdown-toggle-split, .btn-group-lg > .button + .dropdown-toggle-split, .btn-group-lg > button.link + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -4266,26 +4248,24 @@ textarea.form-control-lg {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.btn-group-vertical > .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input, .node-preview-container .btn-group-vertical > .node-preview-backlink, .btn-group-vertical > .button, .btn-group-vertical > button.link,
+.btn-group-vertical > .btn, .node-preview-container .btn-group-vertical > .node-preview-backlink, .btn-group-vertical > .button, .btn-group-vertical > button.link,
 .btn-group-vertical > .btn-group {
   width: 100%;
 }
-.btn-group-vertical > .btn:not(:first-child), .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:not(:first-child), .node-preview-container .btn-group-vertical > .node-preview-backlink:not(:first-child), .btn-group-vertical > .button:not(:first-child), .btn-group-vertical > button.link:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .node-preview-container .btn-group-vertical > .node-preview-backlink:not(:first-child), .btn-group-vertical > .button:not(:first-child), .btn-group-vertical > button.link:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: calc(var(--bs-border-width) * -1);
 }
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input:not(:last-child):not(.dropdown-toggle), .node-preview-container .btn-group-vertical > .node-preview-backlink:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .button:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > button.link:not(:last-child):not(.dropdown-toggle),
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .node-preview-container .btn-group-vertical > .node-preview-backlink:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .button:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > button.link:not(:last-child):not(.dropdown-toggle),
 .btn-group-vertical > .btn-group:not(:last-child) > .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn-group:not(:last-child) > input,
 .node-preview-container .btn-group-vertical > .btn-group:not(:last-child) > .node-preview-backlink,
 .btn-group-vertical > .btn-group:not(:last-child) > .button,
 .btn-group-vertical > .btn-group:not(:last-child) > button.link {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical > .btn ~ .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn ~ input, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ input, .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .btn, .node-preview-container .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .node-preview-backlink ~ input, .bcbb-search-wrapper .view-site-search .form-actions .node-preview-container .btn-group-vertical > .node-preview-backlink ~ input, .node-preview-container .btn-group-vertical > .btn ~ .node-preview-backlink, .node-preview-container .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ .node-preview-backlink, .bcbb-search-wrapper .view-site-search .form-actions .node-preview-container .btn-group-vertical > input ~ .node-preview-backlink, .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .node-preview-backlink, .btn-group-vertical > .button ~ .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .button ~ input, .node-preview-container .btn-group-vertical > .button ~ .node-preview-backlink, .btn-group-vertical > .btn ~ .button, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ .button, .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .button, .btn-group-vertical > .button ~ .button, .btn-group-vertical > button.link ~ .btn, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > button.link ~ input, .node-preview-container .btn-group-vertical > button.link ~ .node-preview-backlink, .btn-group-vertical > button.link ~ .button, .btn-group-vertical > .btn ~ button.link, .bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > input ~ button.link, .node-preview-container .btn-group-vertical > .node-preview-backlink ~ button.link, .btn-group-vertical > .button ~ button.link, .btn-group-vertical > button.link ~ button.link,
+.btn-group-vertical > .btn ~ .btn, .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .btn, .node-preview-container .btn-group-vertical > .btn ~ .node-preview-backlink, .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .node-preview-backlink, .btn-group-vertical > .button ~ .btn, .node-preview-container .btn-group-vertical > .button ~ .node-preview-backlink, .btn-group-vertical > .btn ~ .button, .node-preview-container .btn-group-vertical > .node-preview-backlink ~ .button, .btn-group-vertical > .button ~ .button, .btn-group-vertical > button.link ~ .btn, .node-preview-container .btn-group-vertical > button.link ~ .node-preview-backlink, .btn-group-vertical > button.link ~ .button, .btn-group-vertical > .btn ~ button.link, .node-preview-container .btn-group-vertical > .node-preview-backlink ~ button.link, .btn-group-vertical > .button ~ button.link, .btn-group-vertical > button.link ~ button.link,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn,
-.bcbb-search-wrapper .view-site-search .form-actions .btn-group-vertical > .btn-group:not(:first-child) > input,
 .node-preview-container .btn-group-vertical > .btn-group:not(:first-child) > .node-preview-backlink,
 .btn-group-vertical > .btn-group:not(:first-child) > .button,
 .btn-group-vertical > .btn-group:not(:first-child) > button.link {
@@ -5554,7 +5534,7 @@ textarea.form-control-lg {
   display: none;
 }
 
-.btn .badge, .bcbb-search-wrapper .view-site-search .form-actions input .badge, .node-preview-container .node-preview-backlink .badge, .button .badge, button.link .badge {
+.btn .badge, .node-preview-container .node-preview-backlink .badge, .button .badge, button.link .badge {
   position: relative;
   top: -1px;
 }
@@ -7739,7 +7719,7 @@ textarea.form-control-lg {
   background-color: currentcolor;
   opacity: 0.5;
 }
-.placeholder.btn::before, .bcbb-search-wrapper .view-site-search .form-actions input.placeholder::before, .node-preview-container .placeholder.node-preview-backlink::before, .placeholder.button::before, button.placeholder.link::before {
+.placeholder.btn::before, .node-preview-container .placeholder.node-preview-backlink::before, .placeholder.button::before, button.placeholder.link::before {
   display: inline-block;
   content: "";
 }
@@ -8295,7 +8275,7 @@ textarea.form-control-lg {
   display: block !important;
 }
 
-.d-grid, .bcbb-search-wrapper .view-site-search .form-actions {
+.d-grid {
   display: grid !important;
 }
 
@@ -8936,7 +8916,7 @@ textarea.form-control-lg {
           order: 6 !important;
 }
 
-.m-0, .bcbb-search-wrapper .view-site-search .form-actions input {
+.m-0 {
   margin: 0 !important;
 }
 
@@ -9334,7 +9314,7 @@ textarea.form-control-lg {
   gap: 0.25rem !important;
 }
 
-.gap-2, .bcbb-search-wrapper .view-site-search .form-actions {
+.gap-2 {
   gap: 0.5rem !important;
 }
 
@@ -11574,7 +11554,7 @@ textarea.form-control-lg {
   .d-lg-table-cell {
     display: table-cell !important;
   }
-  .d-lg-flex, .bcbb-search-wrapper .view-site-search .form-actions {
+  .d-lg-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -13637,10 +13617,10 @@ a.button.button--small {
   text-decoration: none;
 }
 
-.btn-light a, .bcbb-search-wrapper .view-site-search .form-actions input a {
+.btn-light a {
   color: #000;
 }
-.btn-light a:hover, .bcbb-search-wrapper .view-site-search .form-actions input a:hover {
+.btn-light a:hover {
   color: #000;
   text-decoration: none;
 }
@@ -13717,20 +13697,20 @@ a.button.button--small {
   text-decoration: none;
 }
 
-.btn, .bcbb-search-wrapper .view-site-search .form-actions input, .node-preview-container .node-preview-backlink, button.link,
+.btn, .node-preview-container .node-preview-backlink, button.link,
 .button, a.button {
   margin: 0 0.5rem;
 }
-.btn:first-child, .bcbb-search-wrapper .view-site-search .form-actions input:first-child, .node-preview-container .node-preview-backlink:first-child, button.link:first-child,
+.btn:first-child, .node-preview-container .node-preview-backlink:first-child, button.link:first-child,
 .button:first-child {
   margin-left: 0;
 }
-.btn:last-child, .bcbb-search-wrapper .view-site-search .form-actions input:last-child, .node-preview-container .node-preview-backlink:last-child, button.link:last-child,
+.btn:last-child, .node-preview-container .node-preview-backlink:last-child, button.link:last-child,
 .button:last-child {
   margin-right: 0;
 }
 
-.btn-group .btn, .btn-group .bcbb-search-wrapper .view-site-search .form-actions input, .bcbb-search-wrapper .view-site-search .form-actions .btn-group input, .btn-group .node-preview-container .node-preview-backlink, .node-preview-container .btn-group .node-preview-backlink, .btn-group button.link,
+.btn-group .btn, .btn-group .node-preview-container .node-preview-backlink, .node-preview-container .btn-group .node-preview-backlink, .btn-group button.link,
 .btn-group .button {
   margin: 0;
 }
@@ -15571,7 +15551,7 @@ h1.page-title::after, .page-title.h1::after {
   font-size: 1.125em;
   font-weight: 600;
 }
-.bc-gov-alertbanner h1 ~ p, .bc-gov-alertbanner .h1 ~ p, .bc-gov-alertbanner h2 ~ p, .bc-gov-alertbanner .h2 ~ p, .bc-gov-alertbanner h3 ~ p, .bc-gov-alertbanner .h3 ~ p, .bc-gov-alertbanner h4 ~ p, .bc-gov-alertbanner .h4 ~ p, .bc-gov-alertbanner h5 ~ p, .bc-gov-alertbanner .h5 ~ p, .bc-gov-alertbanner .bcbb-search-wrapper .vbo-info-list-wrapper h3 ~ p, .bcbb-search-wrapper .vbo-info-list-wrapper .bc-gov-alertbanner h3 ~ p, .bc-gov-alertbanner .bcbb-search-wrapper .vbo-info-list-wrapper .h3 ~ p, .bcbb-search-wrapper .vbo-info-list-wrapper .bc-gov-alertbanner .h3 ~ p, .bc-gov-alertbanner h6 ~ p, .bc-gov-alertbanner .h6 ~ p, .bc-gov-alertbanner .form-wrapper.accordion .accordion-item h2 ~ p, .form-wrapper.accordion .accordion-item .bc-gov-alertbanner h2 ~ p, .bc-gov-alertbanner .form-wrapper.accordion .accordion-item .h2 ~ p, .form-wrapper.accordion .accordion-item .bc-gov-alertbanner .h2 ~ p {
+.bc-gov-alertbanner h1 ~ p, .bc-gov-alertbanner .h1 ~ p, .bc-gov-alertbanner h2 ~ p, .bc-gov-alertbanner .h2 ~ p, .bc-gov-alertbanner h3 ~ p, .bc-gov-alertbanner .h3 ~ p, .bc-gov-alertbanner h4 ~ p, .bc-gov-alertbanner .h4 ~ p, .bc-gov-alertbanner h5 ~ p, .bc-gov-alertbanner .h5 ~ p, .bc-gov-alertbanner .bcbb-search-wrapper .vbo-info-list-wrapper h3 ~ p, .bcbb-search-wrapper .vbo-info-list-wrapper .bc-gov-alertbanner h3 ~ p, .bc-gov-alertbanner h6 ~ p, .bc-gov-alertbanner .h6 ~ p, .bc-gov-alertbanner .form-wrapper.accordion .accordion-item h2 ~ p, .form-wrapper.accordion .accordion-item .bc-gov-alertbanner h2 ~ p, .bc-gov-alertbanner .form-wrapper.accordion .accordion-item .h2 ~ p, .form-wrapper.accordion .accordion-item .bc-gov-alertbanner .h2 ~ p {
   font-weight: normal;
 }
 
@@ -15803,7 +15783,7 @@ h1.page-title::after, .page-title.h1::after {
   padding-left: 2em;
   background-position: 0.5em center;
 }
-.bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.btn, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.button, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions .node-preview-container input.node-preview-backlink, .node-preview-container .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.node-preview-backlink, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .view-site-search .form-actions input, .bcbb-search-wrapper .view-site-search .search-bb-search-block .views-exposed-form .form--inline .form-actions input {
+.bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.btn, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.button, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions .node-preview-container input.node-preview-backlink, .node-preview-container .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.node-preview-backlink {
   border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
 }
 
@@ -15847,13 +15827,13 @@ h1.page-title::after, .page-title.h1::after {
   border-radius: var(--bs-border-radius) 0 0 var(--bs-border-radius);
   border-right: none;
 }
-.block-bcbb-search form .btn, .block-bcbb-search form button.link, .block-bcbb-search form .button, .block-bcbb-search form .node-preview-container .node-preview-backlink, .node-preview-container .block-bcbb-search form .node-preview-backlink, .block-bcbb-search form .bcbb-search-wrapper .view-site-search .form-actions input, .bcbb-search-wrapper .view-site-search .form-actions .block-bcbb-search form input {
+.block-bcbb-search form .btn, .block-bcbb-search form button.link, .block-bcbb-search form .button, .block-bcbb-search form .node-preview-container .node-preview-backlink, .node-preview-container .block-bcbb-search form .node-preview-backlink {
   background-color: transparent;
   border-color: rgb(217, 217, 217);
   border-left: none;
   border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
 }
-.block-bcbb-search form .btn:hover, .block-bcbb-search form button.link:hover, .block-bcbb-search form .button:hover, .block-bcbb-search form .node-preview-container .node-preview-backlink:hover, .node-preview-container .block-bcbb-search form .node-preview-backlink:hover, .block-bcbb-search form .bcbb-search-wrapper .view-site-search .form-actions input:hover, .bcbb-search-wrapper .view-site-search .form-actions .block-bcbb-search form input:hover, .block-bcbb-search form .btn:focus, .block-bcbb-search form button.link:focus, .block-bcbb-search form .button:focus, .block-bcbb-search form .node-preview-container .node-preview-backlink:focus, .node-preview-container .block-bcbb-search form .node-preview-backlink:focus, .block-bcbb-search form .bcbb-search-wrapper .view-site-search .form-actions input:focus, .bcbb-search-wrapper .view-site-search .form-actions .block-bcbb-search form input:focus {
+.block-bcbb-search form .btn:hover, .block-bcbb-search form button.link:hover, .block-bcbb-search form .button:hover, .block-bcbb-search form .node-preview-container .node-preview-backlink:hover, .node-preview-container .block-bcbb-search form .node-preview-backlink:hover, .block-bcbb-search form .btn:focus, .block-bcbb-search form button.link:focus, .block-bcbb-search form .button:focus, .block-bcbb-search form .node-preview-container .node-preview-backlink:focus, .node-preview-container .block-bcbb-search form .node-preview-backlink:focus {
   background-color: rgb(217, 217, 217);
 }
 
@@ -16082,7 +16062,7 @@ form.toc-mobile select {
   --bs-btn-disabled-bg: #300b0a;
   --bs-btn-disabled-border-color: #180605;
 }
-.bcbb-theme .btn:only-child, .bcbb-theme button.link:only-child, .bcbb-theme .node-preview-container .node-preview-backlink:only-child, .node-preview-container .bcbb-theme .node-preview-backlink:only-child, .bcbb-theme .bcbb-search-wrapper .view-site-search .form-actions input:only-child, .bcbb-search-wrapper .view-site-search .form-actions .bcbb-theme input:only-child,
+.bcbb-theme .btn:only-child, .bcbb-theme button.link:only-child, .bcbb-theme .node-preview-container .node-preview-backlink:only-child, .node-preview-container .bcbb-theme .node-preview-backlink:only-child,
 .bcbb-theme .button:only-child {
   margin-left: 0;
   margin-right: 0;
