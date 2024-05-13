@@ -15836,6 +15836,9 @@ h1.page-title::after, .page-title.h1::after {
 .block-bcbb-search form {
   display: grid;
   grid-template-columns: 1fr auto;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 .block-bcbb-search form .bcbb-input-wrapper:has(input[type=hidden]) {
   display: none;

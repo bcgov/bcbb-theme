@@ -220,6 +220,7 @@
   form {
     display: grid;
     grid-template-columns: 1fr auto;
+    align-items: end;
     
     // hide all the hidden inputs so they don't mess with grid
     .bcbb-input-wrapper:has(input[type="hidden"]) {
