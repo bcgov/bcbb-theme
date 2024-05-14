@@ -16088,13 +16088,13 @@ form.toc-mobile select {
   color: var(--bs-gray-600);
 }
 
-html.bcbb-theme a img.site-logo {
-  height: 50px;
-  max-height: 70px;
+html.bcbb-theme a.site-logo img {
+  height: 30px;
+  max-height: 40px;
 }
 @media only screen and (min-width: 576px) {
-  html.bcbb-theme a img.site-logo {
-    height: 70px;
+  html.bcbb-theme a.site-logo img {
+    height: 40px;
   }
 }
 html.bcbb-theme nav.menu--main ul.navbar-nav a.nav-link, html.bcbb-theme nav.menu--main ul.navbar-nav .media-library-view--widget .view-header a, .media-library-view--widget .view-header html.bcbb-theme nav.menu--main ul.navbar-nav a {

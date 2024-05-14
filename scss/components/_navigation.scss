@@ -2,11 +2,11 @@
 html.bcbb-theme {
 
 //logo link to home in header
-  a img.site-logo {
-    height: 50px;
-    max-height: 70px;
+  a.site-logo img {
+    height: 30px;
+    max-height: 40px;
     @include responsive() {
-      height: 70px;
+      height: 40px;
     }
   }
 
