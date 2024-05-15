@@ -14769,7 +14769,7 @@ a > .ck-content code {
   border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
 }
 .ck-content .block-bcbb-search form .btn:hover, .ck-content .block-bcbb-search form button.link:hover, .ck-content .block-bcbb-search form .button:hover, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink:hover, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink:hover, .ck-content .block-bcbb-search form .btn:focus, .ck-content .block-bcbb-search form button.link:focus, .ck-content .block-bcbb-search form .button:focus, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink:focus, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink:focus {
-  background-color: rgb(217, 217, 217);
+  background-color: var(--bs-gray-200);
 }
 .ck-content input.bcbb-search-submit-icon {
   text-indent: -9999px;

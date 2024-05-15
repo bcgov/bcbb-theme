@@ -228,7 +228,7 @@
       
       &:hover,
       &:focus {
-        background-color: $colorInputBorder;
+        background-color: var(--bs-gray-200);
       }
     }
   }
