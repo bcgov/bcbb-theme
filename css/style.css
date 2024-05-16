@@ -14408,12 +14408,6 @@ code {
   text-transform: none;
   letter-spacing: normal;
 }
-.bcbb-theme .region-sidebar-first,
-.bcbb-theme .region-sidebar-second,
-.bcbb-theme .region-footer,
-.bcbb-theme .region-content {
-  padding: 0;
-}
 
 .bcbb-theme a.page-link,
 .bcbb-theme a.page-link:visited {

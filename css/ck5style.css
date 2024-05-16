@@ -13429,12 +13429,6 @@ a > .ck-content code {
   text-transform: none;
   letter-spacing: normal;
 }
-.ck-content .bcbb-theme .region-sidebar-first,
-.ck-content .bcbb-theme .region-sidebar-second,
-.ck-content .bcbb-theme .region-footer,
-.ck-content .bcbb-theme .region-content {
-  padding: 0;
-}
 .ck-content .bcbb-theme a.page-link,
 .ck-content .bcbb-theme a.page-link:visited {
   color: var(--bs-pagination-active-bg);
