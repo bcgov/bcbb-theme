@@ -36,7 +36,7 @@ html.bcbb-theme {
     display: block;
       @include responsive() {
         columns: 2;
-        gap: 4rem;   
+        gap: 4rem;
       }
       a.nav-link {
         color: var(--bs-gray-100);
@@ -57,7 +57,7 @@ html.bcbb-theme {
     border-top: 1px solid $colorBrand-secondary;
     margin: 1.5em 0 0;
     padding: 1.5em 0;
-  }  
+  }
   ul.bb-nav-book {
       padding: 0;
       list-style: none;
