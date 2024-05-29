@@ -14388,6 +14388,44 @@ em.placeholder {
   max-width: 100% !important;
 }
 
+details.card:not([open]) summary.card-header, .view-media-library .media-library-views-form .media-library-item--grid details.views-field-rendered-entity:not([open]) summary.card-header, .media-library-selection details.media-library-item.media-library-item--grid:not([open]) summary.card-header, details.card:not([open]) .view-media-library .media-library-views-form .media-library-item--grid summary.views-field-media-library-select-form, .view-media-library .media-library-views-form .media-library-item--grid details.card:not([open]) summary.views-field-media-library-select-form, .view-media-library .media-library-views-form .media-library-item--grid details.views-field-rendered-entity:not([open]) summary.views-field-media-library-select-form, .media-library-selection .view-media-library .media-library-views-form details.media-library-item.media-library-item--grid:not([open]) summary.views-field-media-library-select-form, .view-media-library .media-library-views-form .media-library-selection details.media-library-item.media-library-item--grid:not([open]) summary.views-field-media-library-select-form,
+details.card:not([open]) .view-media-library .media-library-views-form .media-library-item--grid summary.views-field-media-bulk-form,
+.view-media-library .media-library-views-form .media-library-item--grid details.card:not([open]) summary.views-field-media-bulk-form,
+.view-media-library .media-library-views-form .media-library-item--grid details.views-field-rendered-entity:not([open]) summary.views-field-media-bulk-form,
+.media-library-selection .view-media-library .media-library-views-form details.media-library-item.media-library-item--grid:not([open]) summary.views-field-media-bulk-form,
+.view-media-library .media-library-views-form .media-library-selection details.media-library-item.media-library-item--grid:not([open]) summary.views-field-media-bulk-form {
+  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
+  border-bottom: 0;
+}
+
+.accordion details {
+  overflow: unset;
+}
+.accordion details[open] .accordion-button {
+  color: var(--bs-accordion-active-color);
+  background-color: var(--bs-accordion-active-bg);
+}
+.accordion details[open] .accordion-button::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  -webkit-transform: var(--bs-accordion-btn-icon-transform);
+          transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion details:not([open]) {
+  border-bottom: 0;
+}
+.accordion details:not([open]) .accordion-button {
+  color: var(--bs-accordion-btn-color);
+  background-color: var(--bs-accordion-btn-bg);
+  border: unset;
+  border-bottom-right-radius: var(--bs-accordion-border-radius);
+  border-bottom-left-radius: var(--bs-accordion-border-radius);
+}
+.accordion details:not([open]) .accordion-button::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  -webkit-transform: unset;
+          transform: unset;
+}
+
 .alert-dismissible .close {
   color: #000;
 }
@@ -15777,7 +15815,11 @@ h1.page-title::after, .page-title.h1::after {
   padding-left: 2em;
   background-position: 0.5em center;
 }
-.bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.btn, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.button, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions .node-preview-container input.node-preview-backlink, .node-preview-container .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input.node-preview-backlink {
+.bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input[value=search].btn, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input[value=search].button, .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions .node-preview-container input[value=search].node-preview-backlink, .node-preview-container .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input[value=search].node-preview-backlink,
+.bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input[value=Search].btn,
+.bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input[value=Search].button,
+.bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions .node-preview-container input[value=Search].node-preview-backlink,
+.node-preview-container .bcbb-search-wrapper .search-bb-search-block .views-exposed-form .form--inline .form-actions input[value=Search].node-preview-backlink {
   border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
 }
 

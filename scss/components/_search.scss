@@ -161,7 +161,8 @@
           background-position: .5em center;
         }
         .form-actions {
-          input.btn {
+          input[value="search"].btn,
+          input[value="Search"].btn {
             border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
           }
         }
