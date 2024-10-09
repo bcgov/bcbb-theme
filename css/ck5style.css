@@ -11855,7 +11855,7 @@ a > .ck-content code {
   overflow-y: auto;
 }
 .ck-content .bcbb-theme input[type=checkbox] {
-  border-color: rgb(217, 217, 217);
+  border-color: rgb(192, 192, 192);
 }
 .ck-content .bcbb-theme .region-nav-branding,
 .ck-content .bcbb-theme .region-nav-additional {
@@ -13028,7 +13028,7 @@ a > .ck-content code {
 }
 .ck-content .block-bcbb-search form .btn, .ck-content .block-bcbb-search form button.link, .ck-content .block-bcbb-search form .button, .ck-content .block-bcbb-search form .node-preview-container .node-preview-backlink, .ck-content .node-preview-container .block-bcbb-search form .node-preview-backlink {
   background-color: transparent;
-  border-color: rgb(217, 217, 217);
+  border-color: rgb(192, 192, 192);
   border-left: none;
   border-radius: 0 var(--bs-btn-border-radius) var(--bs-btn-border-radius) 0;
 }
@@ -13334,7 +13334,7 @@ a > .ck-content code {
   margin-bottom: 1.5em;
 }
 .ck-content .bcbb-header {
-  border-bottom: 1px solid rgb(217, 217, 217);
+  border-bottom: 1px solid rgb(192, 192, 192);
 }
 .ck-content .bcbb-header .bcbb-header-branding.bcbb-header-search {
   display: grid;
